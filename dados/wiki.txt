@@ -1,0 +1,2083 @@
+{{short description|Football league}}
+{{Infobox football league season
+| image = 
+| competition = [[Campeonato Brasileiro Série A]]
+| season = [[2026 in Brazilian football|2026]]
+| dates = {{nowrap|28 January – 2 December 2026}}<ref name=GE/>
+| winners = <!--[[XXX]] (nth title)-->
+| continentalcup1 = [[2027 Copa Libertadores|Copa Libertadores]]
+| continentalcup1 qualifiers = 
+| continentalcup2 = [[2027 Copa Sudamericana|Copa Sudamericana]]
+| continentalcup2 qualifiers = 
+| relegated = 
+| matches = 309
+| total goals = 823
+| league topscorer = [[Kevin Viveros]] (21 goals)
+| biggest home win = [[CR Vasco da Gama|Vasco da Gama]] 5–0 [[Coritiba Foot Ball Club|Coritiba]]<br/>(19 September)
+| biggest away win = [[Associação Chapecoense de Futebol|Chapecoense]] 0–4 [[Clube Atlético Mineiro|Atlético-MG]]<br/>(2 April)<br/>Atlético-MG 0–4 [[CR Flamengo|Flamengo]]<br/>(26 April)<br/>Chapecoense 0–4 Flamengo<br/>(22 July)<br/>[[Esporte Clube Vitória|Vitória]] 0–4 [[SE Palmeiras|Palmeiras]]<br/>(29 July)<br/>[[Mirassol Futebol Clube|Mirassol]] 1–5 Flamengo<br/>(16 August)
+| highest scoring = [[Grêmio FBPA|Grêmio]] 5–3 [[Botafogo FR|Botafogo]]<br/>(4 February)
+| longest wins = 
+| longest unbeaten = 
+| longest winless = 
+| longest losses = 
+| highest attendance = 
+| lowest attendance = 
+| average attendance = 
+| prevseason = [[2025 Campeonato Brasileiro Série A|2025]]
+| nextseason = ''[[2027 Campeonato Brasileiro Série A|2027]]''
+| updated = 19 October 2026
+}}
+
+The '''2026 Campeonato Brasileiro Série A''' is the 70th season of the [[Campeonato Brasileiro Série A]], the top level of professional football in Brazil, and the 24th edition in a double round-robin since its establishment in 2003. The competition began on 28 January and will end on 2 December 2026,<ref name=GE>{{cite web|url=https://ge.globo.com/rj/futebol/noticia/2025/10/01/brasileirao-2026-sera-disputado-de-janeiro-a-dezembro-entenda-a-mudanca.ghtml|title=Brasileirão 2026 será disputado de janeiro a dezembro: entenda a mudança|trans-title=2026 ''Brasileirão'' will be played from January to December: understand the changes|publisher=[[Grupo Globo|ge]]|language=pt-BR|date=1 October 2025|accessdate=2 December 2025}}</ref> including a month-and-a-half long break for the [[2026 FIFA World Cup]].
+
+The top five teams as well as the [[2026 Copa do Brasil]] champions and runner-up will qualify for the [[Copa Libertadores|2027 Copa Libertadores]], a change from previous years when the top six teams and only the Copa do Brasil champions qualified.<ref>{{Cite web |date=2025-12-15 |title=Vice da Copa do Brasil 2026 terá vaga na fase preliminar da Libertadores |url=https://www.uol.com.br/esporte/futebol/ultimas-noticias/2025/12/15/vice-da-copa-do-brasil-2026-tera-vaga-na-fase-preliminar-da-libertadores.htm |access-date=2025-12-16 |website=UOL |language=pt-br}}</ref> Meanwhile, the next six best-placed teams not qualified for Copa Libertadores will qualify for the [[Copa Sudamericana|2027 Copa Sudamericana]], and the last four will be relegated to [[Campeonato Brasileiro Série B|Série B]] for 2027.
+
+[[CR Flamengo|Flamengo]] are the defending champions, having won their eighth title in the previous season. Officially named '''Brasileirão [[Betano (company)|Betano]] 2026''' for sponsorship reasons, the sponsorship ended due to the enactment of the [[Provisional Measure 1394/2026]] in September.<ref>{{cite web|url=https://www.terra.com.br/esportes/futebol/copa-do-brasil/perfis-do-brasileirao-e-copa-do-brasil-tiram-naming-rights-de-bets-nas-redes-sociais,5efae5b9e19b2614da580be34cffcf96au2quvl6.html|title=Perfis do Brasileirão e Copa do Brasil tiram naming rights de bets nas redes sociais|trans-title=''Brasileirão'' and Copa do Brasil social media accounts remove betting company naming rights|publisher=[[Terra (company)|Terra]]|language=pt-BR|date=1 October 2026|accessdate=6 October 2026}}</ref>
+
+==Teams==
+Twenty teams compete in the league: the top 16 teams from the previous season and four teams promoted from the [[2025 Campeonato Brasileiro Série B|Série B]].
+
+[[Coritiba Foot Ball Club|Coritiba]] became the first club to be promoted on 15 November 2025, after a 0–0 home draw against [[Athletic Club (MG)|Athletic-MG]].<ref>{{cite web|url=https://ge.globo.com/pr/futebol/times/coritiba/noticia/2025/11/15/coritiba-garante-acesso-antecipado-e-retorna-a-serie-a-dois-anos-depois-da-queda.ghtml|title=Coritiba garante acesso antecipado e retorna à Série A dois anos depois da queda|trans-title=Coritiba assure anticipated promotion and return to the Série A two years after the relegation|publisher=[[Grupo Globo|ge]]|language=pt-BR|date=15 November 2025|accessdate=2 December 2025}}</ref> [[Club Athletico Paranaense|Athletico Paranaense]], [[Associação Chapecoense de Futebol|Chapecoense]] and [[Clube do Remo|Remo]] all achieved promotion in the last round, on 23 November.<ref>{{cite web|url=https://ge.globo.com/pa/futebol/brasileirao-serie-b/noticia/2025/11/24/cronologia-do-acesso-ultima-rodada-da-serie-b-2025-tem-cinco-mudancas-no-g-4-ate-definicao.ghtml|title=Cronologia do acesso: última rodada da Série B 2025 tem cinco mudanças no G-4 até definição|trans-title=Promotion timeline: final round of the 2025 Série B sees five changes in the top four before the final standings are decided|publisher=[[Grupo Globo|ge]]|language=pt-BR|date=24 November 2025|accessdate=2 December 2025}}</ref> Athletico Paranaense and Coritiba returned to Série A after [[2024 Campeonato Brasileiro Série A|one]] and [[2023 Campeonato Brasileiro Série A|two]] seasons, respectively, Chapecoense returned to the top flight after a [[2021 Campeonato Brasileiro Série A|four]]-year absence, and Remo returned to the top flight after a [[1994 Campeonato Brasileiro Série A|32]]-year absence.<ref>{{cite web|url=https://www.cnnbrasil.com.br/esportes/futebol/serie-b-veja-os-times-que-subiram-para-a-serie-a-do-brasileirao-de-2026/ |title=Série B: veja os times que subiram para a Série A do Brasileirão de 2026 |trans-title=Série B: check the teams that promoted to the 2026 Brasileirão's Série A |publisher=[[CNN Brasil]] |language=pt-br |date=24 November 2025 |access-date=11 December 2025}}</ref>
+
+{{Location map+ |Brazil |width=500|float=right |caption=Location of teams in '''2026 Série A''' |places=
+{{location map~ |Brazil |lat=-25.4482067 |long=-49.2791753 |label=<div style="font-size:80%;position:relative;left:1px;top:1px">'''{{nowrap|[[Club Athletico Paranaense|Athletico Paranaense]]}}'''</div> |position=left|mark=Arrows 12x12 e.svg}}
+{{location map~ |Brazil |lat=-19.930161 |long=-44.015653 |label=<div style="font-size:80%;position:relative;right:1px;top:1px">'''{{nowrap|[[Clube Atlético Mineiro|Atlético Mineiro]]}}'''</div> |position=left|mark=Arrows 12x12 e.svg}}
+{{location map~ |Brazil |lat=-12.9789022 |long=-38.5063587 |label=<div style="font-size:80%;position:relative;right:1px;top:1px">'''[[Esporte Clube Bahia|Bahia]]'''</div> |position=left|mark=Arrows 12x12 e.svg}}
+{{location map~ |Brazil |lat=-27.1041935 |long=-52.6091058 |label=<div style="font-size:80%;position:relative;right:-2px;top:-5px">'''[[Associação Chapecoense de Futebol|Chapecoense]]'''</div> |position=left|mark=Arrows 12x12 se.svg}}
+{{location map~ |Brazil |lat=-25.4211191 |long=-49.2617217 |label=<div style="font-size:80%;position:relative;right:1px;top:1px">'''[[Coritiba Foot Ball Club|Coritiba]]'''</div> |position=right |mark=Arrows 12x12 w.svg}}
+{{location map~ |Brazil |lat=-19.865907 |long=-43.971069 |label=<div style="font-size:80%;position:relative;right:1px;top:1px">'''[[Cruzeiro EC|Cruzeiro]]'''</div> |position=right |mark=Arrows 12x12 w.svg}}
+{{location map~ |Brazil |lat=-29.9739843 |long=-51.1970725 |label=<div style="font-size:80%;position:relative;right:1px;top:1px">'''[[Grêmio FBPA|Grêmio]]'''</div> |position=right |mark=Arrows 12x12 w.svg}}
+{{location map~ |Brazil |lat=-30.0654803 |long=-51.2380358 |label=<div style="font-size:80%;position:relative;right:1px;top:1px">'''[[SC Internacional|Internacional]]'''</div> |position=left |mark=Arrows 12x12 e.svg}}
+{{location map~ |Brazil |lat=-20.82242 |long=-49.5085855 |label=<div style="font-size:80%;position:relative;left:1px;top:1px">'''[[Mirassol Futebol Clube|Mirassol]]'''</div> |position=left |mark=Arrows 12x12 e.svg}}
+{{location map~ |Brazil |lat=-22.9654139 |long=-46.5369361 |label=<div style="font-size:80%;position:relative;left:3px;top:-5px">'''{{nowrap|[[Red Bull Bragantino]]}}'''</div> |position=left |mark=Arrows 12x12 se.svg}}
+{{location map~ |Brazil |lat=-1.4451416 |long=-48.4661489 |label=<div style="font-size:80%;position:relative;right:0px;top:0px">'''[[Clube do Remo|Remo]]'''</div> |position=right |mark=Arrows 12x12 w.svg}}
+{{location map~ |Brazil |lat=-23.9510794 |long=-46.3388549 |label=<div style="font-size:80%;position:relative;right:1px;top:1px">'''[[Santos FC|Santos]]'''</div> |position=right |mark=Arrows 12x12 w.svg}}
+{{location map~ |Brazil |lat=-12.9196328 |long=-38.4289764 |label=<div style="font-size:80%;position:relative;right:1px;top:1px">'''[[Esporte Clube Vitória|Vitória]]'''</div> |position=right |mark=Arrows 12x12 w.svg}}
+{{location map~ |Brazil |lat=-23.6815314 |long=-46.8755015 |label=<div style="font-size:80%;position:relative;left:1px;top:1px">'''[[2026 Campeonato Paulista|<span style="color:black !important">São Paulo</span>]]'''</div> |position=left |mark=Arrows 12x12 e.svg}}
+{{location map~ |Brazil |lat=-22.9132525 |long=-43.7261847 |label=<div style="font-size:80%;position:relative;right:1px;top:1px">'''{{nowrap|[[2026 Campeonato Carioca|<span style="color:black !important">Rio de Janeiro</span>]]}}'''</div> |position=right |mark=Arrows 12x12 w.svg}}
+
+{{location map~ |Brazil |lat=4.0 |long=-74.25 |label={{nowrap|'''Rio de Janeiro teams:'''}}<br>[[Botafogo FR|Botafogo]]<br>[[CR Flamengo|Flamengo]]<br>[[Fluminense FC|Fluminense]]<br>[[CR Vasco da Gama|Vasco da Gama]]<br>'''São Paulo teams:'''<br>[[SE Palmeiras|Palmeiras]]<br>[[São Paulo FC|São Paulo]] <br>[[SC Corinthians Paulista|Corinthians]]|position=right |mark=TransparentPlaceholder.png |background = #F9F9F9 }}
+}}
+
+{{col-begin|width=auto}}
+{{col-break}}
+{| class="wikitable"
+|-
+! style="text-align:center;"|Pos.
+! width=300|Relegated from [[2025 Campeonato Brasileiro Série A|2025 Série A]]
+|- style="background: #FFBBBB;"
+|17th
+|'''[[Ceará Sporting Club|Ceará]]'''
+|- style="background: #FFBBBB;" 
+|18th
+|'''[[Fortaleza Esporte Clube|Fortaleza]]'''
+|- style="background: #FFBBBB;" 
+|19th
+|'''[[Esporte Clube Juventude|Juventude]]'''
+|- style="background: #FFBBBB;" 
+|20th
+|'''[[Sport Club do Recife|Sport]]'''
+|}
+{{col-break}}
+{| class="wikitable"
+|-
+! style="text-align:center;"|Pos.
+! width=300|Promoted from [[2025 Campeonato Brasileiro Série B|2025 Série B]]
+|- style="background: #BBF3BB;" 
+|1st
+|'''[[Coritiba Foot Ball Club|Coritiba]]'''
+|- style="background: #BBF3BB;" 
+|2nd
+|'''[[Club Athletico Paranaense|Athletico Paranaense]]'''
+|- style="background: #BBF3BB;" 
+|3rd
+|'''[[Associação Chapecoense de Futebol|Chapecoense]]'''
+|- style="background: #BBF3BB;" 
+|4th
+|'''[[Clube do Remo|Remo]]'''
+|}
+{{col-end}}
+
+===Number of teams by state===
+{| class="wikitable sortable" style="text-align:center"
+|-
+! {{Abbr|N.T.|Number of teams}}
+! [[States of Brazil|State]]
+! Team(s)
+|-
+|6
+|align=left|{{flag|São Paulo}} || [[SC Corinthians Paulista|Corinthians]], [[Mirassol Futebol Clube|Mirassol]], [[SE Palmeiras|Palmeiras]], [[Red Bull Bragantino]], [[Santos FC|Santos]] and [[São Paulo FC|São Paulo]]
+|-
+|4
+|align=left|{{flag|Rio de Janeiro}} || [[Botafogo FR|Botafogo]], [[CR Flamengo|Flamengo]], [[Fluminense FC|Fluminense]] and [[CR Vasco da Gama|Vasco da Gama]]
+|-
+|rowspan=4|2
+|align=left|{{flag|Bahia}} || [[Esporte Clube Bahia|Bahia]] and [[Esporte Clube Vitória|Vitória]]
+|-
+|align=left|{{flag|Minas Gerais}} || [[Clube Atlético Mineiro|Atlético Mineiro]] and [[Cruzeiro Esporte Clube|Cruzeiro]]
+|-
+|align=left|{{flag|Paraná}} || [[Club Athletico Paranaense|Athletico Paranaense]] and [[Coritiba Foot Ball Club|Coritiba]]
+|-
+|align=left|{{flag|Rio Grande do Sul}} || [[Grêmio FBPA|Grêmio]] and [[SC Internacional|Internacional]]
+|-
+|rowspan=2|1
+|align=left|{{flag|Pará}} || [[Clube do Remo|Remo]]
+|-
+|align=left|{{flag|Santa Catarina}} || [[Associação Chapecoense de Futebol|Chapecoense]]
+|}
+
+===Stadiums and locations===
+{| class="wikitable sortable" style="text-align: left;"
+|-
+! Team
+! Location
+! State
+! Stadium
+! Turf
+! Capacity
+|-
+|[[Club Athletico Paranaense|Athletico Paranaense]]
+|[[Curitiba]]
+|{{flag|Paraná}}
+|[[Arena da Baixada]]
+|[[Artificial turf|Artificial]]
+|align=center | 42,372
+|-
+|[[Clube Atlético Mineiro|Atlético Mineiro]]
+|[[Belo Horizonte]]
+|{{flag|Minas Gerais}}
+|[[Arena MRV]]
+|[[Artificial turf|Artificial]]
+|align=center | 44,892
+|-
+|[[Esporte Clube Bahia|Bahia]]
+|[[Salvador, Bahia|Salvador]]
+|{{flag|Bahia}}
+|[[Arena Fonte Nova|Casa de Apostas Arena Fonte Nova]]
+|[[Grass|Natural]]
+|align=center | 50,052
+|-
+|[[Botafogo FR|Botafogo]]
+|[[Rio de Janeiro]]
+|{{flag|Rio de Janeiro}}
+|[[Estádio Olímpico Nilton Santos|Olímpico Nilton Santos]]
+|[[Artificial turf|Artificial]]
+|align=center | 44,661
+|-
+|[[Associação Chapecoense de Futebol|Chapecoense]]
+|[[Chapecó]]
+|{{flag|Santa Catarina}}
+|[[Arena Condá]]
+|[[Artificial turf|Artificial]]
+|align=center | 20,089
+|-
+|[[SC Corinthians Paulista|Corinthians]]
+|[[São Paulo]]
+|{{flag|São Paulo}}
+|[[Arena Corinthians|Neo Química Arena]]
+|[[Hybrid grass|Hybrid]]
+|align=center | 47,252
+|-
+|[[Coritiba Foot Ball Club|Coritiba]]
+|[[Curitiba]]
+|{{flag|Paraná}}
+|[[Estádio Couto Pereira|Couto Pereira]]
+|[[Grass|Natural]]
+|align=center | 40,502
+|-
+|[[Cruzeiro EC|Cruzeiro]]
+|[[Belo Horizonte]]
+|{{flag|Minas Gerais}}
+|[[Mineirão]]
+|[[Grass|Natural]]
+|align=center | 66,658
+|-
+|[[CR Flamengo|Flamengo]]
+|rowspan="2"|[[Rio de Janeiro]]
+|rowspan="2"|{{flag|Rio de Janeiro}}
+|rowspan="2"|[[Maracanã Stadium|Maracanã]]
+|rowspan="2"|[[Hybrid grass|Hybrid]]
+|rowspan="2"align="center" | 78,838
+|-
+|[[Fluminense FC|Fluminense]]
+|-
+|[[Grêmio FBPA|Grêmio]]
+|rowspan="2"|[[Porto Alegre]]
+|rowspan="2"|{{flag|Rio Grande do Sul}}
+|[[Arena do Grêmio]]
+|[[Hybrid grass|Hybrid]]
+|align=center | 60,540
+|-
+|[[SC Internacional|Internacional]]
+|[[Estádio Beira-Rio|Beira-Rio]]
+|[[Grass|Natural]]
+|align=center | 49,055
+|-
+|[[Mirassol Futebol Clube|Mirassol]]
+|[[Mirassol]]
+|rowspan="3"|{{flag|São Paulo}}
+|[[Estádio Municipal José Maria de Campos Maia|Campos Maia]]
+|[[Grass|Natural]]
+|align=center | 14,534
+|-
+|[[SE Palmeiras|Palmeiras]]
+|[[São Paulo]]
+|[[Nubank Parque]]
+|[[Artificial turf|Artificial]]
+|align=center | 43,713
+|-
+|[[Red Bull Bragantino]]
+|[[Bragança Paulista]]
+|[[Estádio Cícero de Souza Marques|Cícero de Souza Marques]]
+|[[Grass|Natural]]
+|align=center | 12,000
+|-
+|[[Clube do Remo|Remo]]
+|[[Belém]]
+|{{flag|Pará}}
+|[[Mangueirão]] 
+|[[Grass|Natural]]
+|align="center" | 53,645
+|-
+|[[Santos FC|Santos]]
+|[[Santos, São Paulo|Santos]]
+|rowspan="2"|{{flag|São Paulo}}
+|[[Estádio Urbano Caldeira|Vila Belmiro]]
+|[[Grass|Natural]]
+|align=center | 16,068 
+|-
+|[[São Paulo FC|São Paulo]]
+|[[São Paulo]]
+|[[Estádio do Morumbi|MorumBIS]]
+|[[Grass|Natural]]
+|align=center | 66,671
+|-
+|[[CR Vasco da Gama|Vasco da Gama]]
+|[[Rio de Janeiro]]
+|{{flag|Rio de Janeiro}}
+|[[Estádio São Januário|São Januário]]
+|[[Grass|Natural]]
+|align=center | 24,584
+|-
+|[[Esporte Clube Vitória|Vitória]]
+|[[Salvador, Bahia|Salvador]]
+|{{flag|Bahia}}
+|[[Barradão]]
+|[[Grass|Natural]]
+|align=center | 30,793
+|}
+{{clear}}
+
+==Personnel and kits==
+{| class="wikitable sortable"
+|-
+! rowspan="1" |Team
+! rowspan="1" |Head coach
+! rowspan="1" |Captain
+! rowspan="1" |Kit manufacturer
+! rowspan="1" |Main sponsor
+! rowspan="1" |Other sponsors
+|-
+| Athletico Paranaense
+| {{flagicon|BRA}} [[Odair Hellmann]]
+| {{flagicon|BRA}} [[Santos (footballer, born 1990)|Santos]]
+| [[Umbro]]
+| Viva Sorte Bet
+|{{collapsible list|{{smalldiv|
+* '''Front:''' Copacol
+* '''Back:''' Banco Inter
+* '''Sleeves:''' ''None''
+* '''Shorts:''' ''None''
+* '''Socks:''' ''None''
+* '''Number:''' ''None''
+}}
+}}
+|-
+| Atlético Mineiro
+| {{flagicon|ARG}} [[Eduardo Domínguez]]
+| {{flagicon|BRA}} [[Everson (footballer, born 1990)|Everson]]
+| [[Nike, Inc.|Nike]]<ref name=":0">{{cite web |last1=Nunes |first1=Rivelle |title=Galo e Nike anunciam parceria inédita a partir de 2026 |url=https://atletico.com.br/galo-e-nike-anunciam-parceria-inedita-a-partir-de-2026/ |website=Clube Atlético Mineiro |access-date=11 December 2025 |language=pt-BR |date=30 November 2025}}</ref>
+| H2Bet<ref name=":1">{{cite web|url=https://www.cnnbrasil.com.br/esportes/futebol/atletico-mineiro/h2bet-e-o-novo-patrocinador-master-do-atletico-mg/|title=H2Bet é o novo patrocinador máster do Atlético-MG|trans-title=H2Bet is the new main sponsor of Atlético-MG|publisher=[[CNN Brasil]]|language=pt-BR|date=18 December 2024|accessdate=7 February 2025}}</ref>
+|{{collapsible list|{{smalldiv|
+* '''Front:''' Multimarcas Consórcios, Vilma Alimentos
+* '''Back:''' [[Banco BMG|Galo BMG]], Supermercados BH
+* '''Sleeves:''' [[Gerdau]]
+* '''Shorts:''' Auto Truck, ABC da Construção
+* '''Socks:''' ''None''
+* '''Number:''' Mundiale
+}}
+}}
+|-
+| Bahia
+| {{flagicon|BRA}} [[Rogério Ceni]]
+| {{flagicon|BRA}} [[Éverton Ribeiro]]
+| [[Puma (brand)|Puma]]<ref>{{Cite web |last=Buzato |first=Juliano |date=2025-03-29 |title=PUMA lança novas camisas do EC Bahia para 2025-2026 » Mantos do Futebol |url=https://mantosdofutebol.com.br/2025/03/camisas-ec-bahia-2025-2026-puma/ |access-date=2025-03-30 |website=Mantos do Futebol |language=pt-BR}}</ref>
+| Viva Sorte Bet<ref>{{cite web|url=https://ge.globo.com/ba/futebol/times/bahia/noticia/2025/01/23/bahia-anuncia-novo-patrocinador-master.ghtml|title=Bahia anuncia novo patrocinador máster|trans-title=Bahia announce new main sponsor|publisher=[[Grupo Globo|ge]]|language=pt-BR|date=23 January 2025|accessdate=7 February 2025}}</ref>
+|{{collapsible list|{{smalldiv|
+* '''Front:''' Atacadão Dos Pisos, Viva Sorte Bet
+* '''Back:''' ''None''
+* '''Sleeves:''' Canaã Alimentos
+* '''Shorts:''' ITS Brasil, Axi
+* '''Socks:''' UniCesumar
+* '''Number:''' ''None''
+}}
+}}
+|-
+| Botafogo
+| {{flagicon|BRA}} [[Tite (football manager)|Tite]]
+| {{flagicon|BRA}} [[Alex Telles]]
+| [[Mizuno]]<ref>{{Cite web |last=Viana |first=Marco |date=2026-05-22 |title=Mizuno apresenta novas camisas do Botafogo |url=https://grandesnomesdapropaganda.com.br/lancamentos-de-mercado/mizuno-apresenta-novas-camisas-do-botafogo/ |access-date=2026-05-25 |website=Grandes nomes da propaganda |language=pt-BR}}</ref>
+| Vbet<ref>{{cite web|url=https://www.botafogo.com.br/noticias/bem-vinda|title=Bem-vinda|trans-title=Welcome|publisher=Botafogo FR|language=pt-BR|date=6 January 2025|accessdate=7 February 2025}}</ref>
+|{{collapsible list|{{smalldiv|
+* '''Front:''' ''None''
+* '''Back:''' ''None''
+* '''Sleeves:''' [[Centrum (multivitamin)|Centrum]]
+* '''Shorts:''' ''None''
+* '''Socks:''' LifeFit
+* '''Number:''' ''None''
+}}
+}}
+|-
+| Chapecoense
+| {{flagicon|BRA}} [[Rafael Lacerda]]
+| {{flagicon|BRA}} [[Eduardo Doma]]
+| [[Kappa (brand)|Kappa]]
+| Aurora
+|{{collapsible list|{{smalldiv|
+* '''Front:''' Sicoob, ZeroUm
+* '''Back:''' Grupo Bugio, [[Unimed (organization)|Unimed]]
+* '''Sleeves:''' ZeroUm 
+* '''Shorts:''' Dalla Cervejaria, Agropecuárias Alfa
+* '''Socks:''' ''None''
+* '''Number:''' ''None''
+}}
+}}
+|-
+| Corinthians
+| {{flagicon|NED}} [[Clarence Seedorf]]
+| {{flagicon|ARG}} [[Rodrigo Garro]]
+| [[Nike, Inc.|Nike]]<ref>{{cite web | url= http://www.espn.com.br/blogs/varalespn/750060_corinthians-renova-com-a-nike-ate-2029-e-fatura-bolada-em-luvas | title= Corinthians renova com a Nike até 2029 e fatura 'bolada' em luvas | date= 13 December 2017 | access-date= 27 February 2020 | publisher= ESPN Brasil |language=pt-BR}}</ref>
+| Esportes da Sorte<ref>{{Cite web |title=Esportes da Sorte é o novo patrocinador máster do Corinthians |url=https://www.corinthians.com.br/noticias/esportes-da-sorte-e-o-novo-patrocinador-master-do-corinthians1 |date=25 July 2024 |access-date=16 August 2024 |website=corinthians.com.br |language=pt-br}}</ref>
+|{{collapsible list|{{smalldiv|
+* '''Front:''' Appgas
+* '''Back:''' EZZE Seguros, AREA Material Elétrico
+* '''Sleeves:''' [[Banco BMG]]
+* '''Shorts:''' UniCesumar
+* '''Socks:''' KSK Consórcio
+* '''Number:''' ''None''
+}}
+}}
+|-
+| Coritiba
+| {{flagicon|BRA}} [[Fernando Seabra]]
+| {{flagicon|COL}} [[Sebastián Gómez (Colombian footballer)|Sebastián Gómez]]
+| [[Diadora]]
+|
+|{{collapsible list|{{smalldiv|
+* '''Front:''' ''None''
+* '''Back:''' Neodent
+* '''Sleeves:''' Vale Bônus
+* '''Shorts:''' UniCesumar
+* '''Socks:''' ''None''
+* '''Number:''' ''None''
+}}
+}}
+|-
+| Cruzeiro
+| {{flagicon|POR }} [[Artur Jorge (footballer, born 1972)|Artur Jorge]]
+| {{flagicon|BRA}} [[Lucas Silva (footballer, born 1993)|Lucas Silva]]
+| [[Adidas]]
+| [[Betfair]]<ref>{{cite web | url= https://ge.globo.com/futebol/times/cruzeiro/noticia/2023/01/28/cruzeiro-estreia-camisa-e-revela-novo-patrocinador-do-clube.ghtml | title= Com a presença de Ronaldo, Cruzeiro estreia camisa e revela novo patrocinador do clube | date= 28 January 2023 | access-date= 15 March 2023 | publisher= ge.globo |language=pt-BR}}</ref>
+|{{collapsible list|{{smalldiv|
+* '''Front:''' CIMED, [[Perdigão S.A.|Perdigão Na Brasa]]
+* '''Back:''' Vilma Alimentos, Supermercados BH
+* '''Sleeves:''' [[Surf (detergent)|Surf]]
+* '''Shorts:''' [[Betfair]]
+* '''Socks:''' Kodilar Alimentos
+* '''Number:''' MM Aluguel de Carros
+}}
+}}
+|-
+| Flamengo
+| {{flagicon|POR}} [[Leonardo Jardim]]
+| {{flagicon|BRA}} [[Bruno Henrique (footballer, born 1990)|Bruno Henrique]]
+| [[Adidas]]<ref>{{cite web | url= http://www.sambafoot.com/en/news/40523_flamengo_approve____150_million_adidas_kit_deal.html | title= Flamengo approve €150 million Adidas kit deal | date= 20 December 2012 | access-date= 27 February 2020 | publisher= sambafoot.com}}</ref>
+| [[Betano (company)|Betano]]<ref>{{Cite web |url=https://ge.globo.com/futebol/times/flamengo/noticia/2025/08/18/flamengo-acerta-com-casa-de-apostas-e-tera-o-maior-patrocinio-do-futebol-brasileiro.ghtml |title=Flamengo anuncia maior patrocínio do futebol brasileiro |publisher=ge.globo |language=pt-br |date=18 August 2025 |access-date=18 August 2025}}</ref><ref>{{Cite web |url=https://www.flamengo.com.br/noticias/institucional/nota-oficial---novo-parceiro-master |title=Nota Oficial - Novo parceiro master |publisher=Flamengo.com.br |language=pt-br |date=18 August 2025 |access-date=18 August 2025}}</ref>
+|{{collapsible list|{{smalldiv|
+* '''Front:''' [[Banco de Brasília|BRB]], Ademicon
+* '''Back:''' Hapvida, Assist Card
+* '''Sleeves:''' [[Shopee]]
+* '''Shorts:''' [[GAC Group]], WAP, [[Zé Delivery]]
+* '''Socks:''' ''None''
+* '''Number:''' [[Texaco]]
+}}
+}}
+|-
+| Fluminense
+| {{flagicon|BRA}} [[Marcão (footballer, born 1972)|Marcão]] (caretaker)
+| {{flagicon|BRA}} [[Samuel Xavier]]
+| [[Puma (brand)|Puma]]<ref>{{cite web |title=Fluminense troca de fornecedor de material esportivo em acerto até 2030 |url=https://www.cnnbrasil.com.br/esportes/futebol/fluminense/fluminense-troca-de-fornecedor-de-material-esportivo-em-acerto-ate-2030/ |website=CNN Brasil |access-date=12 December 2025 |language=pt-BR |date=25 November 2025}}</ref>
+| Superbet<ref>{{Cite web |date=2024-04-01 |title=Superbet substituirá Betano como patrocinadora máster do Fluminense |url=https://maquinadoesporte.com.br/futebol/superbet-substituira-betano-como-patrocinadora-master-do-fluminense/ |access-date=2024-04-04 |website=Máquina do Esporte |language=pt-BR}}</ref>
+|{{collapsible list|{{smalldiv|
+* '''Front:''' Frescatto
+* '''Back:''' Universidade Iguaçu
+* '''Sleeves:''' Zinzane
+* '''Shorts:''' ''None''
+* '''Socks:''' ''None''
+* '''Number:''' Predialnet
+}}
+}}
+|-
+| Grêmio
+| {{flagicon|BRA}} [[Renato Gaúcho]]
+| {{flagicon|ARG}} [[Walter Kannemann]]
+| [[New Balance]]<ref>{{cite web |title=Grêmio anuncia a New Balance como nova fornecedora de material esportivo |url=https://gremio.net/noticias/detalhes/29730/gremio-anuncia-a-new-balance-como-nova-fornecedora-de-material-esportivo- |website=Grêmio FBPA |access-date=11 December 2025 |language=pt-br}}</ref>
+| 
+|{{collapsible list|{{smalldiv|
+* '''Front:''' Tintas Coral
+* '''Back:''' [[Banrisul]], [[Unimed (organization)|Unimed]]
+* '''Sleeves:''' [[Havan (department store)|Havan]]
+* '''Shorts:''' ''None''
+* '''Socks:''' ''None''
+* '''Number:''' Marquespan
+}}
+}}
+|-
+| Internacional
+| {{flagicon|BRA}} [[Eduardo Baptista]]
+| {{flagicon|BRA}} [[Alan Patrick (footballer, born 1991)|Alan Patrick]]
+| [[Adidas]]<ref>{{cite web | url= https://ge.globo.com/rs/futebol/times/internacional/noticia/inter-muda-formato-em-contrato-com-nova-fornecedora-veja-detalhes.ghtml | title= Inter muda formato em contrato com nova fornecedora; veja detalhes | date= 2 January 2020 | access-date= 10 December 2021 | publisher= ge |language=pt-BR}}</ref>
+|
+|{{collapsible list|{{smalldiv|
+* '''Front:''' ''None''
+* '''Back:''' [[Banrisul]], [[Unimed (organization)|Unimed]]
+* '''Sleeves:''' [[Banrisul|Vero Banrisul]]
+* '''Shorts:''' [[Zé Delivery]]
+* '''Socks:''' ''None''
+* '''Number:''' Marquespan
+}}
+}}
+|-
+| Mirassol
+| {{flagicon|BRA}} [[Rafael Guanaes]]
+| {{flagicon|BRA}} [[Reinaldo (footballer, born 1989)|Reinaldo]]
+| [[Athleta (association football brand)|Athleta]]
+| Guaraná Poty
+|{{collapsible list|{{smalldiv|
+* '''Front:''' Ruiz Coffees, Ecori, Bet7K, Cozimax
+* '''Back:''' Rede Sol Supermercados, Pacaembu Construtora, Indústrias Santa Maria, DS Tecnologia Automotiva, Ecori
+* '''Sleeves:''' Kodilar Alimentos
+* '''Shorts:''' RedeSol Supermercados, Bet7K, Lumavi
+* '''Socks:''' Lumavi
+* '''Number:''' Mtech
+}}
+}}
+|-
+| Palmeiras
+| {{flagicon|POR}} [[Abel Ferreira]]
+| {{flagicon|PAR}} [[Gustavo Gómez]]
+| [[Puma (brand)|Puma]]<ref>{{cite web | url= https://www.sportspromedia.com/news/palmeiras-puma-kit-deal | title= Palmeiras ink kit supply deal with Puma | date= 23 March 2018 | access-date= 27 February 2020 | publisher= sportspromedia.com}}</ref>
+| [[Sportingbet]]
+|{{collapsible list|{{smalldiv|
+* '''Front:''' [[SE Palmeiras|Avanti]]
+* '''Back:''' Grupo Fictor
+* '''Sleeves:''' Sil
+* '''Shorts:''' UNIASSELVI
+* '''Socks:''' ''None''
+* '''Number:''' Sportingbet
+}}
+}}
+|-
+| Red Bull Bragantino
+| {{flagicon|BRA}} [[Vagner Mancini]]
+| {{flagicon|BRA}} [[Cleiton (footballer, born 1997)|Cleiton]]
+| [[Puma (brand)|Puma]]<ref>{{cite web|url=https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/times/bragantino/noticia/2024/12/20/bragantino-fecha-acordo-com-nova-fornecedora-de-material-esportivo.ghtml|title=Bragantino fecha acordo com nova fornecedora de material esportivo|trans-title=Bragantino sign deal with new kit supplier|publisher=[[Grupo Globo|ge]]|language=pt-BR|date=20 December 2024|accessdate=20 December 2024}}</ref>
+| [[Red Bull]]
+|{{collapsible list|{{smalldiv|
+* '''Front:''' ''None''
+* '''Back:''' [[Red Bull]], Asaas, Betfast
+* '''Sleeves:''' Betfast
+* '''Shorts:''' ''None''
+* '''Socks:''' ''None''
+* '''Number:''' ''None''
+}}
+}}
+|-
+| Remo
+| {{flagicon|BRA}} [[Thiago Carpini]]
+| {{flagicon|BRA}} [[Marllon]]
+| Volt Sport
+| ObaBet
+|{{collapsible list|{{smalldiv|
+* '''Front:''' [[Pará|Governo do Pará]], [[Banpará]], GAV Resorts, Arroz Zilmar
+* '''Back:''' [[Banpará]], Revemar, Inviolável, Mirella
+* '''Sleeves:''' ObaBet
+* '''Shorts:''' [[Clube do Remo|Remo TV]]
+* '''Socks:''' ''None''
+* '''Number:''' ''None''
+}}
+}}
+|-
+| Santos
+| {{flagicon|BRA}} [[Cuca (footballer, born 1963)|Cuca]]
+| {{flagicon|BRA}} [[Neymar]]
+| [[Umbro]]
+| 
+|{{collapsible list|{{smalldiv|
+* '''Front:''' Canção Alimentos, Farmácias Nissei
+* '''Back:''' Placo
+* '''Sleeves:''' Kicaldo
+* '''Shorts:''' Next10 Nutrition, UNIASSELVI
+* '''Socks:''' Pague Safe
+* '''Number:''' Loovi Seguros
+}}
+}}
+|-
+| São Paulo
+| {{flagicon|BRA}} [[Dorival Júnior]]
+| {{flagicon|ARG}} [[Jonathan Calleri]]
+| [[New Balance]]<ref>{{cite web |last1=Costa |first1=Andre da Silva |title=São Paulo terá uniforme da New Balance a partir do Paulistão e jogará a Copinha com marca própria |url=https://www.gazetaesportiva.com/times/sao-paulo/sao-paulo-tera-uniforme-da-new-balance-a-partir-do-paulistao-e-jogara-a-copinha-com-marca-propria/ |website=Gazeta Esportiva |access-date=14 December 2023 |language=pt-BR |date=13 December 2023}}</ref>
+| Superbet<ref>{{Cite web |date=2023-12-19 |title=São Paulo fecha acordo com casa de apostas e receberá R$ 156 milhões em três anos |url=https://ge.globo.com/futebol/times/sao-paulo/noticia/2023/12/19/sao-paulo-fecha-acordo-com-casa-de-apostas-e-recebera-r-156-milhoes-em-tres-anos.ghtml |access-date=2024-04-04 |website=ge |language=pt-br}}</ref>
+|{{collapsible list|{{smalldiv|
+* '''Front:''' Ademicon, Elgin
+* '''Back:''' Superbet, Blue Plano de Saúde
+* '''Sleeves:''' ''None''
+* '''Shorts:''' ABC da Construção
+* '''Socks:''' ''None''
+* '''Number:''' [[eFootball]]
+}}
+}}
+|-
+| Vasco da Gama
+| {{flagicon|POR}} [[Pedro Emanuel]]
+| {{flagicon|BRA}} [[Thiago Mendes]]
+| [[Nike, Inc.|Nike]]<ref>{{cite web |title=Vasco anuncia nova fornecedora de material esportivo; veja detalhes |url=https://ge.globo.com/futebol/times/vasco/noticia/2025/12/09/nike-anuncia-acordo-com-o-vasco-e-assina-contrato-por-sete-anos.ghtml |website=ge |access-date=11 December 2025 |language=pt-BR |date=9 December 2025}}</ref>
+| [[Betfair]]<ref>{{Cite web |title=Vasco e Betfair fecham o maior patrocínio master da história do clube « Vasco da Gama |url=https://vasco.com.br/uncategorized/vasco-e-betfair-fecham-o-maior-patrocinio-master-da-historia-do-clube/ |access-date=2024-05-09 |language=pt-BR |archive-url=https://web.archive.org/web/20240510000044/https://vasco.com.br/uncategorized/vasco-e-betfair-fecham-o-maior-patrocinio-master-da-historia-do-clube/ |archive-date=2024-05-10 |url-status=dead}}</ref>
+|{{collapsible list|{{smalldiv|
+* '''Front:''' Viva Sorte
+* '''Back:''' [[Banco BMG]], [[Betfair]]
+* '''Sleeves:''' [[Zé Delivery]]
+* '''Shorts:''' Viva Sorte, Intermac Assistance
+* '''Socks:''' Consórcio Tradição
+* '''Number:''' R10 Score
+}}
+}}
+|-
+| Vitória
+| {{flagicon|BRA}} [[Jair Ventura]]
+| {{flagicon|BRA}} [[Gabriel Baralhas]]
+| Volt Sport
+| Bet7K<ref>{{cite web|url=https://www.band.uol.com.br/band-vale/noticias/7k-bet-e-nova-patrocinadora-master-do-esporte-clube-vitoria-202501151203|title=7k Bet é Nova Patrocinadora Master do Esporte Clube Vitória|trans-title=7K Bet is the new main sponsor of Esporte Clube Vitória|publisher=[[Rede Bandeirantes|Band]]|language=pt-BR|date=15 January 2025|accessdate=7 February 2025}}</ref>
+|{{collapsible list|{{smalldiv|
+* '''Front:''' Viva Sorte, Fatal Model, Atacadão Pisos
+* '''Back:''' ''None''
+* '''Sleeves:''' ''None''
+* '''Shorts:''' ITS Brasil
+* '''Socks:''' ''None''
+* '''Number:''' Grupo SBS
+}}
+}}
+|}
+
+;Notes
+{{notelist}}
+
+===Coaching changes===
+{| class="wikitable sortable"
+|-
+!Team
+!Outgoing head coach
+!Manner of departure
+!Date of vacancy
+!Position in table
+!Incoming head coach
+!Date of appointment
+!Ref
+|-
+|Coritiba
+|{{flagicon|BRA}} [[Mozart (footballer)|Mozart]]
+|rowspan=2|End of contract
+|28 November 2025
+|rowspan=6|''Pre-season''
+|{{flagicon|BRA}} [[Fernando Seabra]]
+|8 December 2025
+|<ref>{{cite web|url=https://coritiba.com.br/noticias/1231216|title=Comunicado|trans-title=Announcement|publisher=Coritiba FBC|language=pt-BR|date=28 November 2025|accessdate=2 December 2025}}</ref><ref>{{cite web|url=https://coritiba.com.br/noticias/1240833|title=Fernando Seabra é o novo técnico do Coritiba|trans-title=Fernando Seabra is the new head coach of Coritiba|publisher=Coritiba FBC|language=pt-BR|date=8 December 2025|accessdate=10 December 2025}}</ref>
+|-
+|Remo
+|{{flagicon|BRA}} [[Guto Ferreira]]
+|2 December 2025
+|{{flagicon|COL}} [[Juan Carlos Osorio]]
+|17 December 2025
+|<ref>{{cite web|date=5 December 2025|title=Guto Ferreira e Remo não entram em acordo, e Cuca é o favorito para o cargo; saiba detalhes|trans-title=Guto Ferreira and Remo do not reach an agreement, and Cuca is the favorite for the role; know the details|url=https://www.oliberal.com/esportes/remo/guto-ferreira-e-remo-nao-entram-em-acordo-e-cuca-e-o-favorito-para-o-cargo-saiba-detalhes-1.1058737 |access-date=8 December 2025|website=O Liberal |language=pt-BR}}</ref><ref>{{cite web|url=https://ge.globo.com/pa/futebol/times/remo/noticia/2025/12/18/remo-anuncia-contratacao-do-tecnico-juan-carlos-osorio-ex-sao-paulo-e-athletico-pr.ghtml|title=Técnico de Copa do Mundo: Remo anuncia contratação de Juan Carlos Osório, ex-São Paulo e Athletico-PR|publisher=ge.globo|language=pt-BR|date=18 December 2025|accessdate=18 December 2025}}</ref>
+|-
+|Internacional
+|{{flagicon|BRA}} [[Abel Braga]]
+|Moved to director role
+|8 December 2025
+|{{flagicon|URU}} [[Paulo Pezzolano]]
+|18 December 2025
+|<ref>{{cite web|url=https://www.tnh1.com.br/variedades/adeus-abel-treinador-da-adeus-ao-futebol-brasileiro/|title=Adeus, Abel: treinador dá adeus ao futebol brasileiro|trans-title=Goodbye, Abel: head coach bids farewell to Brazilian football|publisher=TNH 1|language=pt-BR|date=8 December 2025|accessdate=10 December 2025}}</ref><ref>{{cite web|url=https://ge.globo.com/rs/futebol/times/internacional/noticia/2025/12/18/inter-anuncia-o-tecnico-paulo-pezzolano-confira-tempo-de-contrato.ghtml|title=Inter anuncia Paulo Pezzolano para comandar o time em 2026|publisher=ge.globo|language=pt-BR|date=18 December 2025|accessdate=18 December 2025}}</ref>
+|-
+|Grêmio
+|{{flagicon|BRA}} [[Mano Menezes]]
+|End of contract
+|9 December 2025
+|{{flagicon|POR}} [[Luís Castro (footballer, born 1961)|Luís Castro]]
+|12 December 2025
+|<ref>{{cite web|url=https://gremio.net/noticias/detalhes/29773/comunicado---mano-menezes|title=Comunicado - Mano Menezes|trans-title=Announcement - Mano Menezes|publisher=Grêmio FBPA|language=pt-BR|date=9 December 2025|accessdate=10 December 2025}}</ref><ref>{{cite web|url=https://gremio.net/noticias/detalhes/29796/luis-castro-e-o-novo-tecnico-do-gremio|title=Luís Castro é o novo técnico do Grêmio|trans-title=Luís Castro is the new head coach of Grêmio|publisher=Grêmio FBPA|language=pt-BR|date=12 December 2025|accessdate=13 December 2025}}</ref>
+|-
+|Cruzeiro
+|{{flagicon|POR}} [[Leonardo Jardim]]
+|rowspan=2|Resigned
+|15 December 2025
+|{{flagicon|BRA}} [[Tite (football manager)|Tite]]
+|16 December 2025
+|<ref>{{cite web|url=https://www.cruzeiro.com.br/noticias/comunicado-oficial-leonardo-jardim-deixa-o-comando-tecnico-do-cruzeiro|title=COMUNICADO OFICIAL: Leonardo Jardim deixa o comando técnico do Cruzeiro|trans-title=OFFICIAL STATEMENT: Leonardo Jardim leaves the technical command of Cruzeiro|publisher=Cruzeiro EC|language=pt-BR|date=15 December 2025|accessdate=15 December 2025}}</ref><ref>{{cite web|url=https://www.cruzeiro.com.br/noticias/multicampeao-tite-e-o-novo-tecnico-do-cruzeiro|title=Multicampeão, Tite é o novo técnico do Cruzeiro!|trans-title=Multi-champion, Tite is the new head coach of Cruzeiro!|publisher=Cruzeiro EC|language=pt-BR|date=16 December 2025|accessdate=16 December 2025}}</ref>
+|-
+|Botafogo
+|{{flagicon|ITA}} [[Davide Ancelotti]]
+|17 December 2025
+|{{flagicon|ARG}} [[Martín Anselmi]]
+|22 December 2025
+|<ref>{{cite web|url=https://ge.globo.com/futebol/times/botafogo/noticia/2025/12/17/botafogo-anuncia-a-saida-de-davide-ancelotti.ghtml|title=Botafogo anuncia a saída de Davide Ancelotti|trans-title=Botafogo announce the departure of Davide Ancelotti|publisher=[[Grupo Globo|ge]]|language=pt-br|date=17 December 2025|access-date=17 December 2025}}</ref><ref>{{cite web|url=https://ge.globo.com/futebol/times/botafogo/noticia/2025/12/22/botafogo-anuncia-a-contratacao-do-tecnico-martin-anselmi.ghtml|title=Botafogo anuncia a contratação do técnico Martín Anselmi|trans-title=Botafogo announces the signing of coach Martín Anselmi|publisher=[[Grupo Globo|ge]]|language=pt-br|date=22 December 2025|access-date=22 December 2025}}</ref>
+|-
+|Atlético Mineiro
+|{{flagicon|ARG}} [[Jorge Sampaoli]]
+|Mutual agreement
+|12 February 2026
+|14th
+|{{flagicon|BRA}} [[Lucas Gonçalves]] (caretaker)
+|12 February 2026
+|<ref>{{cite web|url=https://atletico.com.br/jorge-sampaoli-nao-e-mais-o-treinador-do-galo/|title=Jorge Sampaoli não é mais o treinador do Galo|trans-title=Jorge Sampaoli is no longer the head coach of ''Galo''|publisher=Clube Atlético Mineiro|language=pt-br|date=12 February 2026|access-date=12 February 2026}}</ref>
+|-
+|Vasco da Gama
+|{{flagicon|BRA}} [[Fernando Diniz]]
+|Sacked
+|22 February 2026
+|17th
+|{{flagicon|BRA}} [[Bruno Lazaroni]] (caretaker)
+|22 February 2026
+|<ref>{{cite web|url=https://ge.globo.com/futebol/times/vasco/noticia/2026/02/22/fernando-diniz-e-demitido-do-vasco.ghtml|title=Fernando Diniz é demitido do Vasco|trans-title=Fernando Diniz is sacked from Vasco|publisher=[[Grupo Globo|ge]]|language=pt-br|date=22 February 2026|access-date=23 February 2026}}</ref>
+|-
+|Atlético Mineiro
+|{{flagicon|BRA}} [[Lucas Gonçalves]]
+|End of caretaker spell
+|25 February 2026
+|17th
+|{{flagicon|ARG}} [[Eduardo Domínguez]]
+|24 February 2026
+|<ref>{{Cite web |title=Eduardo Domínguez é o novo técnico do Galo! |trans-title=Eduardo Domínguez is the new head coach of ''Galo''! |url=https://atletico.com.br/eduardo-dominguez-e-o-novo-tecnico-do-galo/ |date=24 February 2026 |access-date=24 February 2026 |website=Clube Atlético Mineiro |language=pt-BR}}</ref>
+|-
+|Remo
+|{{flagicon|COL}} [[Juan Carlos Osorio]]
+|rowspan="2"|Sacked
+|1 March 2026
+|16th
+|{{flagicon|BRA}} [[Flávio Garcia]] (caretaker)
+|1 March 2026
+|<ref>{{cite web|url=https://www.clubedoremo.com.br/ler-noticia.php?id=3749|title=Comunicado|trans-title=Announcement|publisher=Clube do Remo|language=pt-BR|date=1 March 2026|accessdate=2 March 2026}}</ref>
+|-
+|Flamengo
+|{{flagicon|BRA}} [[Filipe Luís]]
+|rowspan="2"|3 March 2026
+|11th
+|{{flagicon|POR}} [[Leonardo Jardim]]
+|4 March 2026
+|<ref>{{cite web|url=https://www.flamengo.com.br/noticias/futebol/nota-oficial-filipeluis|title=Nota Oficial|trans-title=Official note|publisher=CR Flamengo|language=pt-BR|date=3 March 2026|accessdate=3 March 2026}}</ref><ref>{{cite web|url=https://ge.globo.com/futebol/times/flamengo/noticia/2026/03/04/flamengo-anuncia-a-contratacao-do-tecnico-leonardo-jardim.ghtml|title=Flamengo anuncia a contratação do técnico Leonardo Jardim|trans-title=Flamengo announce the signing of head coach Leonardo Jardim|publisher=[[Grupo Globo|ge]]|language=pt-BR|date=4 March 2026|access-date=4 March 2026}}</ref>
+|-
+|Vasco da Gama
+|{{flagicon|BRA}} [[Bruno Lazaroni]]
+|rowspan="2"|End of caretaker spell
+|20th
+|{{flagicon|BRA}} [[Renato Gaúcho]]
+|3 March 2026
+|<ref>{{cite web|url=https://vasco.com.br/vasco/renato-gaucho-e-o-novo-tecnico-do-vasco-da-gama/|title=Renato Gaúcho é o novo técnico do Vasco da Gama|trans-title=Renato Gaúcho is the new head coach of Vasco da Gama|publisher=CR Vasco da Gama|language=pt-BR|date=3 March 2026|accessdate=6 March 2026}}</ref>
+|-
+|Remo
+|{{flagicon|BRA}} [[Flávio Garcia]]
+|5 March 2026
+|16th
+|{{flagicon|BRA}} [[Léo Condé]]
+|5 March 2026
+|<ref>{{cite web|url=https://www.terra.com.br/esportes/remo/remo-anuncia-leo-conde-como-novo-treinador,4533c8368eb0a3a1af9e79671cb21b5fcaos9qte.html|title=Remo anuncia Léo Condé como novo treinador|trans-title=Remo announce Léo Condé as new head coach|publisher=[[Terra (company)|Terra]]|language=pt-BR|date=5 March 2026|accessdate=6 March 2026}}</ref>
+|-
+|São Paulo
+|{{flagicon|ARG}} [[Hernán Crespo]]
+|rowspan="3"|Sacked
+|9 March 2026
+|2nd
+|{{flagicon|BRA}} [[Roger Machado (footballer)|Roger Machado]]
+|10 March 2026
+|<ref>{{cite web|url=https://www.saopaulofc.net/sao-paulo-comunica-saida-de-hernan-crespo/|title=São Paulo comunica saída de Hernán Crespo|trans-title=São Paulo announce the departure of Hernán Crespo|publisher=São Paulo FC|language=pt-BR|date=9 March 2026|accessdate=9 March 2026}}</ref><ref>{{cite web|url=https://www.saopaulofc.net/roger-machado-e-o-novo-tecnico-do-sao-paulo/|title=Roger Machado é o novo técnico do São Paulo|trans-title=Roger Machado is the new head coach of São Paulo|publisher=São Paulo FC|language=pt-BR|date=10 March 2026|access-date=10 March 2026}}</ref>
+|-
+|Cruzeiro
+|{{flagicon|BRA}} [[Tite (football manager)|Tite]]
+|15 March 2026
+|19th
+|{{flagicon|BRA}} [[Wesley Carvalho]] (caretaker)
+|15 March 2026
+|<ref>{{cite web|url=https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/03/15/cruzeiro-demite-tite.ghtml|title=Cruzeiro demite Tite após empate no Mineirão com Vasco|trans-title=Cruzeiro sack Tite after draw at the Mineirão with Vasco|publisher=[[Grupo Globo|ge]]|language=pt-BR|date=15 March 2026|accessdate=16 March 2026}}</ref><ref>{{cite web|url=https://noataque.com.br/futebol/time/cruzeiro/noticia/2026/03/15/cruzeiro-anuncia-substituto-de-tite-ate-chegada-de-novo-tecnico/|title=Cruzeiro anuncia substituto de Tite até chegada de novo técnico|trans-title=Cruzeiro announce Tite's replacement until the arrival of the new head coach|publisher=No Ataque|language=pt-BR|date=15 March 2026|accessdate=16 March 2026}}</ref>
+|-
+|Santos
+|{{flagicon|ARG}} [[Juan Pablo Vojvoda]]
+|19 March 2026
+|16th
+|{{flagicon|BRA}} [[Cuca (footballer, born 1963)|Cuca]]
+|19 March 2026
+|<ref>{{cite web|url=https://www.santosfc.com.br/nota-oficial-91/|title=Nota oficial|trans-title=Official note|publisher=Santos FC|language=pt-BR|date=19 March 2026|accessdate=19 March 2026}}</ref><ref>{{cite web|url=https://www.santosfc.com.br/cuca-e-o-novo-treinador-do-santos-fc/|title=Cuca é o novo treinador do Santos FC|trans-title=Cuca is the new head coach of Santos FC|publisher=Santos FC|language=pt-BR|date=19 March 2026|accessdate=19 March 2026}}</ref>
+|-
+|Cruzeiro
+|{{flagicon|BRA}} [[Wesley Carvalho]]
+|End of caretaker spell
+|rowspan="2"|22 March 2026
+|20th
+|{{flagicon|POR}} [[Artur Jorge (footballer, born 1972)|Artur Jorge]]
+|rowspan="2"|22 March 2026
+|<ref>{{Cite web |title=Artur Jorge é o novo técnico do Cruzeiro |trans-title=Artur Jorge is the new head coach of Cruzeiro |url=https://www.cruzeiro.com.br/noticias/artur-jorge-e-o-novo-tecnico-do-cruzeiro |publisher=Cruzeiro EC |language=pt-BR |date=22 March 2026 |access-date=22 March 2026}}</ref>
+|-
+|rowspan="2"|Botafogo
+|{{flagicon|ARG}} [[Martín Anselmi]]
+|Sacked
+|15th
+|{{flagicon|BRA}} [[Rodrigo Bellão]] (caretaker)
+|<ref>{{Cite web |title=Nota Oficial |trans-title=Official note |url=https://www.botafogo.com.br/noticias/nota-oficial-20260322 |publisher=Botafogo FR |access-date=22 March 2026 |date=22 March 2026 |language=pt-BR}}</ref>
+|-
+|{{flagicon|BRA}} [[Rodrigo Bellão]]
+|End of caretaker spell
+|2 April 2026
+|12th
+|{{flagicon|POR}} [[Franclim Carvalho]]
+|2 April 2026
+|<ref>{{cite web|url=https://www.cnnbrasil.com.br/esportes/futebol/botafogo/botafogo-anuncia-franclim-carvalho-como-novo-tecnico/|title=Botafogo anuncia Franclim Carvalho como novo técnico|trans-title=Botafogo announce Franclim Carvalho as new head coach|publisher=[[CNN Brasil]]|language=pt-BR|date=2 April 2026|accessdate=2 April 2026}}</ref>
+|-
+|rowspan="2"|Chapecoense
+|{{flagicon|BRA}} [[Gilmar Dal Pozzo]]
+|Sacked
+|3 April 2026
+|18th
+|{{flagicon|BRA}} [[Celso Rodrigues]] (caretaker)
+|4 April 2026
+|<ref>{{cite web|url=https://ge.globo.com/sc/futebol/times/chapecoense/noticia/2026/04/03/chapecoense-anuncia-demissao-de-gilmar-dal-pozzo.ghtml|title=Chapecoense anuncia a demissão do técnico Gilmar Dal Pozzo|trans-title=Chapecoense announce the dismissal of head coach Gilmar Dal Pozzo|publisher=[[Grupo Globo|ge]]|language=pt-BR|date=3 April 2026|accessdate=4 April 2026}}</ref>
+|-
+|{{flagicon|BRA}} [[Celso Rodrigues]]
+|End of caretaker spell
+|rowspan="2"|5 April 2026
+|17th
+|{{flagicon|BRA}} [[Fábio Matias]]
+|5 April 2026
+|<ref>{{cite web|url=https://www.metropoles.com/esportes/fabio-matias-e-anunciado-na-chapecoense-apos-demissao-na-portuguesa-sp|title=Fábio Matias é anunciado na Chapecoense após demissão na Portuguesa-SP|trans-title=Fábio Matias is announced at Chapecoense after dismissal at Portuguesa-SP|publisher=[[Metrópoles]]|language=pt-BR|date=5 April 2026|accessdate=6 April 2026}}</ref>
+|-
+|Corinthians
+|{{flagicon|BRA}} [[Dorival Júnior]]
+|rowspan=3|Sacked
+|16th
+|{{flagicon|BRA}} [[Fernando Diniz]]
+|6 April 2026
+||<ref>{{cite web|url=https://www.corinthians.com.br/noticias/nota-oficial-05-04-2026|title=Nota oficial|trans-title=Official note|publisher=SC Corinthians Paulista|language=pt-BR|date=5 April 2026|accessdate=6 April 2026}}</ref><ref>{{cite web|url=https://ge.globo.com/futebol/times/corinthians/noticia/2026/04/06/corinthians-acerta-a-contratacao-de-fernando-diniz.ghtml|title=Corinthians acerta a contratação de Fernando Diniz|trans-title=Corinthians sign Fernando Diniz|publisher=[[Grupo Globo|ge]]|language=pt-BR|date=6 April 2026|accessdate=6 April 2026}}</ref>
+|-
+|São Paulo
+|{{flagicon|BRA}} [[Roger Machado (footballer)|Roger Machado]]
+|13 May 2026
+|4th
+|{{flagicon|BRA}} [[Dorival Júnior]]
+|15 May 2026
+|<ref>{{cite web |last=Sayed |first=Anuar |date=13 May 2026 |title=Nota oficial: Roger Machado |trans-title=Official note: Roger Machado |url=https://www.saopaulofc.net/nota-oficial-roger-machado/ |access-date=14 May 2026 |website=São Paulo FC |language=pt-BR}}</ref><ref>{{cite web|url=https://www.saopaulofc.net/dorival-junior-esta-de-volta-ao-sao-paulo/|title=Dorival Júnior está de volta ao São Paulo|trans-title=Dorival Júnior is back at São Paulo|website=São Paulo FC |date=15 May 2026|accessdate=15 May 2026}}</ref>
+|-
+|Chapecoense
+|{{flagicon|BRA}} [[Fábio Matias]]
+|25 May 2026
+|20th
+|{{flagicon|BRA}} [[Rafael Lacerda]]{{efn-lr|[[Celso Rodrigues]] was the caretaker head coach in the 18th round match against Palmeiras on 31 May.}}
+|26 May 2026
+|<ref>{{cite web|url=https://chapecoense.com/2026/05/25/comunicado-25-de-maio-de-2026/|title=Comunicado {{!}} 25 de maio de 2026|trans-title=Announcement {{!}} 25 May 2026|publisher=Associação Chapecoense de Futebol|language=pt-BR|date=25 May 2026|accessdate=26 May 2026}}</ref><ref>{{cite web|url=https://chapecoense.com/2026/05/30/fechado-com-a-chape-rafael-lacerda-e-o-novo-tecnico-da-chapecoense/|title=Fechado com a Chape: Rafael Lacerda é o novo técnico da Chapecoense|trans-title=Signed with ''Chape'': Rafael Lacerda is the new head coach of Chapecoense|publisher=Associação Chapecoense de Futebol|language=pt-BR|date=30 May 2026|accessdate=30 May 2026}}</ref>
+|-
+|Vasco
+|{{flagicon|BRA}} [[Renato Gaúcho]]
+|Mutual agreement
+|18 June 2026
+|17th
+|{{flagicon|POR}} [[Pedro Emanuel]]
+|10 July 2026
+|<ref>{{cite web|url=https://vasco.com.br/vasco/nota-oficial-31/|title=Nota oficial|trans-title=Official note|publisher=CR Vasco da Gama|language=pt-BR|date=18 June 2026|accessdate=21 June 2026}}</ref><ref>{{cite web|url=https://vasco.com.br/vasco/pedro-emanuel-e-o-novo-tecnico-do-vasco-da-gama/|title=Pedro Emanuel é o novo técnico do Vasco da Gama|trans-title=Pedro Emanuel is the new head coach of Vasco da Gama|date=10 July 2026|access-date=11 July 2026|website=CR Vasco da Gama|language=pt-br}}</ref>
+|-
+|Fluminense
+|{{flagicon|ARG}} [[Luis Zubeldía]]
+|rowspan="4"|Sacked
+|13 August 2026
+|4th
+|{{flagicon|BRA}} [[Marcão (footballer, born 1972)|Marcão]] (caretaker)
+|13 August 2026
+|<ref>{{cite web|url=https://www.fluminense.com.br/noticia/nota-oficial-luis-zubeldia|title=Nota oficial – Luis Zubeldía|trans-title=Official note – Luis Zubeldía|publisher=Fluminense FC|language=pt-BR|date=13 August 2026|accessdate=13 August 2026}}</ref>
+|-
+|Botafogo
+|{{flagicon|POR}} [[Franclim Carvalho]]
+|18 August 2026
+|11th
+|{{flagicon|BRA}} [[Rodrigo Bellão]] (caretaker)
+|18 August 2026
+|<ref>{{cite web|url=https://botafogo.com.br/noticias/nota-oficial-20260818|title=Nota oficial|trans-title=Official note|publisher=Botafogo FR|language=pt-BR|date=18 August 2026|accessdate=19 August 2026}}</ref>
+|-
+|Grêmio
+|{{flagicon|POR}} [[Luís Castro (footballer, born 1961)|Luís Castro]]
+|13 September 2026
+|16th
+|{{flagicon|BRA}} [[Renato Gaúcho]]
+|14 September 2026
+|<ref>{{cite web|url=https://portal.gremio.net/noticias/comunicado---departamento-de-futebol-13-09-2026|title=Comunicado - Departamento de Futebol|trans-title=Announcement - Football department|publisher=Grêmio FBPA|language=pt-BR|date=13 September 2026|accessdate=13 September 2026}}</ref><ref>{{cite web|url=https://portal.gremio.net/noticias/renato-portaluppi-e-o-novo-tecnico-do-gremio-14-09-2026|title=Renato Portaluppi é o novo técnico do Grêmio|trans-title=Renato Portaluppi is the new head coach of Grêmio|publisher=Grêmio FBPA|language=pt-BR|date=14 September 2026|accessdate=14 September 2026}}</ref>
+|-
+|Remo
+|{{flagicon|BRA}} [[Léo Condé]]
+|15 September 2026
+|19th
+|{{flagicon|BRA}} [[Thiago Carpini]]
+|rowspan="2"|16 September 2026
+|<ref>{{cite web|url=https://clubedoremo.com.br/noticias/nota-oficial-2|title=Nota oficial|trans-title=Official note|publisher=Clube do Remo|language=pt-BR|date=15 September 2026|accessdate=16 September 2026}}</ref><ref>{{cite web|url=https://clubedoremo.com.br/noticias/thiago-carpini-e-o-novo-tecnico-do-clube-do-remo|title=Thiago Carpini é o novo técnico do Clube do Remo|trans-title=Thiago Carpini is the new head coach of Clube do Remo|publisher=Clube do Remo|language=pt-BR|date=16 September 2026|accessdate=16 September 2026}}</ref>
+|-
+|Botafogo
+|{{flagicon|BRA}} [[Rodrigo Bellão]]
+|End of caretaker spell
+|16 September 2026
+|14th
+|{{flagicon|BRA}} [[Tite (football manager)|Tite]]
+|<ref>{{cite web|url=https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/16/botafogo-anuncia-a-contratacao-de-tite.ghtml|title=Botafogo anuncia a contratação de Tite|trans-title=Botafogo announce the signing of Tite|publisher=[[Grupo Globo|ge]]|language=pt-BR|date=16 September 2026|accessdate=16 September 2026}}</ref>
+|-
+|Internacional
+|{{flagicon|URU}} [[Paulo Pezzolano]]
+|rowspan=2|Sacked
+|20 September 2026
+|18th
+|{{flagicon|BRA}} [[Eduardo Baptista]]
+|23 September 2026
+|<ref>{{cite web|url=https://internacional.com.br/noticias/masculino/nota-oficial-paulo-pezzolano|title=Nota oficial: Paulo Pezzolano|trans-title=Official note: Paulo Pezzolano|publisher=SC Internacional|language=pt-BR|date=20 September 2026|accessdate=21 September 2026}}</ref><ref>{{cite web|url=https://internacional.com.br/noticias/c/eduardo-baptista-e-o-novo-tecnico-do-internacional|title=Eduardo Baptista é o novo técnico do Internacional|trans-title=Eduardo Baptista is the new head coach of Internacional|publisher=SC Internacional|language=pt-BR|date=23 September 2026|accessdate=23 September 2026}}</ref>
+|-
+|rowspan="2"|Corinthians
+|{{flagicon|BRA}} [[Fernando Diniz]]
+|7 October 2026
+|rowspan="2"|16th
+|{{flagicon|BRA}} [[William Batista (football manager)|William Batista]] (caretaker)
+|8 October 2026
+|<ref>{{cite web|url=https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/07/corinthians-demite-o-tecnico-fernando-diniz.ghtml|title=Corinthians demite o técnico Fernando Diniz|trans-title=Corinthians sack head coach Fernando Diniz|publisher=[[Grupo Globo|ge]]|language=pt-BR|date=7 October 2026|access-date=8 October 2026}}</ref><ref>{{cite web|url=https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/09/tecnico-do-sub-20-vai-dirigir-o-corinthians-no-derbi-diretoria-conversa-com-carille-e-vojvoda.ghtml|title=Técnico do sub-20 vai dirigir o Corinthians no Dérbi; diretoria conversa com Carille e Vojvoda|trans-title=U-20 head coach to manage Corinthians in the ''Dérbi''; board in talks with Carille and Vojvoda|publisher=[[Grupo Globo|ge]]|language=pt-BR|date=9 October 2026|access-date=9 October 2026}}</ref>
+|-
+|{{flagicon|BRA}} [[William Batista (football manager)|William Batista]]
+|End of caretaker spell
+|11 October 2026
+|{{flagicon|NED}} [[Clarence Seedorf]]{{efn-lr|[[Leonardo Porto|Léo Porto]] was the caretaker head coach in the 31st round match against Vitória on 19 October, as Seedorf was not registered on time.}}
+|11 October 2026
+|<ref>{{cite web|url=https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/11/corinthians-contrata-seedorf-como-novo-tecnico.ghtml|title=Corinthians contrata Seedorf como novo técnico|trans-title=Corinthians sign Seedorf as their new head coach|publisher=[[Grupo Globo|ge]]|language=pt-BR|date=11 October 2026|access-date=11 October 2026}}</ref>
+|}
+;Notes
+{{notelist-lr}}
+
+==Foreign players==
+The clubs can have a maximum of nine foreign players in their Campeonato Brasileiro squads per match, but there is no limit of foreigners in the clubs' squads.
+
+* Players marked in '''bold''' indicate they are registered during mid-season transfer window.
+* Players marked in ''italics'' indicate they had left their respective clubs during mid-season transfer window.
+
+{| class="wikitable sortable" style="font-size: 80%"
+|-
+! style="width:10%"| Club
+! style="width:6%"| Player 1
+! style="width:6%"| Player 2
+! style="width:6%"| Player 3
+! style="width:6%"| Player 4
+! style="width:6%"| Player 5
+! style="width:6%"| Player 6
+! style="width:6%"| Player 7
+! style="width:6%"| Player 8
+! style="width:6%"| Player 9
+! style="width:6%"| Player 10
+! style="width:6%"| Player 11
+! style="width:6%"| Player 12
+! style="width:6%"| Player 13
+! style="width:12%"| Former players
+|-
+| Athletico Paranaense
+| {{flagicon|ARG}} [[Bruno Zapelli]]
+| {{flagicon|ARG}} [[Gastón Benavídez]]
+| {{flagicon|ARG}} [[Lucas Esquivel]]
+| {{flagicon|COL}} [[Alejandro García (footballer, born 2001)|Alejandro García]]
+| {{flagicon|COL}} [[Carlos Terán]]
+| {{flagicon|COL}} '''[[Jorge Rivaldo]]'''
+| {{flagicon|COL}} [[Juan Felipe Aguirre]]
+| {{flagicon|COL}} [[Juan Portilla]]
+| {{flagicon|COL}} '''[[Kerwin Vargas]]'''
+| {{flagicon|COL}} [[Kevin Viveros]]
+| {{flagicon|COL}} [[Stiven Mendoza]]
+| {{flagicon|UKR}} [[Maksym Voronov]]
+| {{flagicon|URU}} [[Gonzalo Mastriani]]
+|
+|-
+| Atlético Mineiro
+| {{flagicon|ARG}} [[Tomás Cuello]]
+| {{flagicon|COL}} '''[[Kevin Castaño]]'''
+| {{flagicon|COL}} [[Mateo Casierra]]
+| {{flagicon|ECU}} [[Alan Franco (footballer, born 1998)|Alan Franco]]
+| {{flagicon|ECU}} [[Alan Minda]]
+| {{flagicon|ECU}} [[Ángelo Preciado]]
+| {{flagicon|GUI}} [[Mamady Cissé]]
+| {{flagicon|URU}} '''[[Thiago Borbas]]'''
+|
+|
+|
+|
+|
+| {{flagicon|PAR}} ''[[Júnior Alonso]]''<br/>{{flagicon|CHI}} ''[[Iván Román]]''
+|-
+| Bahia
+| {{flagicon|ARG}} '''[[Alejo Véliz (footballer)|Alejo Véliz]]'''
+| {{flagicon|ARG}} '''[[Guido Herrera]]'''
+| {{flagicon|ARG}} '''[[Lautaro López (footballer)|Lautaro López]]'''
+| {{flagicon|ARG}} [[Mateo Sanabria]]
+| {{flagicon|ARG}} [[Román Gómez (footballer)|Román Gómez]]
+| {{flagicon|ESP}} '''[[Marco Moreno]]'''
+| {{flagicon|URU}} [[Cristian Olivera]]
+| {{flagicon|URU}} [[Michel Araújo]]
+| {{flagicon|URU}} [[Nicolás Acevedo]]
+|
+|
+|
+|
+| {{flagicon|ARG}} ''[[Santiago Ramos Mingo]]''
+|-
+| Botafogo
+| {{flagicon|ANG}} '''[[Domingos Andrade]]'''
+| {{flagicon|ARG}} [[Álvaro Montoro]]
+| {{flagicon|ARG}} [[Cristian Medina]]
+| {{flagicon|COL}} [[Jhoan Hernández]]
+| {{flagicon|COL}} [[Jordan Barrera]]
+| {{flagicon|ECU}} [[Cristhian Loor]]
+| {{flagicon|MAR}} '''[[Hakim Ziyech]]'''
+| {{flagicon|PAN}} [[Kadir Barría]]
+| {{flagicon|URU}} [[Lucas Villalba (footballer, born 2001)|Lucas Villalba]]
+| {{flagicon|URU}} [[Mateo Ponte]]
+| {{flagicon|VEN}} [[Nahuel Ferraresi]]
+|
+|
+| {{flagicon|ARG}} ''[[Alexander Barboza]]''<br/>{{flagicon|ESP}} ''[[Chris Ramos]]''<br/>{{flagicon|ANG}} ''[[Bastos (footballer, born 1991)|Bastos]]''<br/>{{flagicon|ARG}} ''[[Joaquín Correa]]''<br/> {{flagicon|URU}} ''[[Santiago Rodríguez (footballer, born 2000)|Santiago Rodríguez]]''
+|-
+| Chapecoense
+| {{flagicon|COD}} [[Yannick Bolasie]]
+| {{flagicon|COL}} '''[[Dylan Borrero]]'''
+| {{flagicon|URU}} '''[[Franco Rossi (footballer)|Franco Rossi]]'''
+| {{flagicon|URU}} [[Kevin Ramírez (footballer, born 1994)|Kevin Ramírez]]
+|
+|
+|
+|
+|
+|
+|
+|
+|
+| {{flagicon|PAR}} ''[[Walter Clar]]''
+|-
+| Corinthians
+| {{flagicon|ARG}} [[Rodrigo Garro]]
+| {{flagicon|ENG}} [[Jesse Lingard]]
+| {{flagicon|MAR}} [[Zakaria Labyad]]
+| {{flagicon|NED}} [[Memphis Depay]]
+| {{flagicon|PER}} [[André Carrillo]]
+| {{flagicon|URU}} [[Pedro Milans]]
+|
+|
+|
+|
+|
+|
+|
+| 
+|-
+| Coritiba
+| {{flagicon|COL}} Alejandro Ararat
+| {{flagicon|COL}} [[Sebastián Gómez (Colombian footballer)|Sebastián Gómez]]
+| {{flagicon|POR}} [[Josué Pesqueira]]
+| {{flagicon|URU}} '''[[Brian Ocampo]]'''
+| {{flagicon|URU}} [[Joaquín Lavega]]
+| 
+|
+| 
+| 
+| 
+| 
+|
+|
+|
+|-
+| Cruzeiro 
+| {{flagicon|ARG}} '''[[Gabriel Rojas (footballer, born 1997)|Gabriel Rojas]]'''
+| {{flagicon|ARG}} [[Lucas Romero]]
+| {{flagicon|ARG}} [[Lucas Villalba]]
+| {{flagicon|COL}} [[Luis Sinisterra]]
+| {{flagicon|COL}} [[Néiser Villarreal]]
+| {{flagicon|ECU}} [[Keny Arroyo]]
+| {{flagicon|PAR}} '''[[Fabrizio Peralta]]'''
+| {{flagicon|URU}} '''[[Luciano Rodríguez]]'''
+| {{flagicon|URU}} '''[[Matías Viña]]'''
+|
+|
+|
+|
+| 
+|-
+| Flamengo
+| {{flagicon|ARG}} [[Agustín Rossi (footballer)|Agustín Rossi]]
+| {{flagicon|ARG}} '''[[Joaquín Freitas]]'''
+| {{flagicon|CHI}} [[Erick Pulgar]]
+| {{flagicon|COL}} [[Jorge Carrascal]]
+| {{flagicon|ECU}} '''[[Anthony Valencia]]'''
+| {{flagicon|ECU}} [[Gonzalo Plata]]
+| {{flagicon|ESP}} [[Saúl (footballer, born 1994)|Saúl]]
+| {{flagicon|URU}} [[Giorgian de Arrascaeta]]
+| {{flagicon|URU}} [[Guillermo Varela]]
+| {{flagicon|URU}} [[Nicolás de la Cruz]]
+|
+|
+|
+|
+|-
+| Fluminense
+| {{flagicon|ARG}} [[Germán Cano]]
+| {{flagicon|ARG}} [[Juan Pablo Freytes]]
+| {{flagicon|ARG}} [[Luciano Acosta]]
+| {{flagicon|ARG}} [[Rodrigo Castillo (footballer, born 1999)|Rodrigo Castillo]] 
+| {{flagicon|COL}} [[Julián Millán]]
+| {{flagicon|COL}} [[Kevin Serna]]
+| {{flagicon|URU}} [[Agustín Canobbio]]
+| {{flagicon|VEN}} [[Jefferson Savarino]]
+| {{flagicon|VEN}} [[Yeferson Soteldo]]
+|
+|
+|
+|
+| {{flagicon|URU}} ''[[Facundo Bernal]]''<br/>{{flagicon|URU}} ''[[David Terans]]''
+|-
+| Grêmio
+| {{flagicon|ARG}} [[Cristian Pavon]]
+| {{flagicon|ARG}} [[Juan Nardoni]]
+| {{flagicon|CPV}} '''[[Jovane Cabral]]'''
+| {{flagicon|COL}} [[José Enamorado]]
+| {{flagicon|CRO}} '''[[Filip Krovinović]]'''
+| {{flagicon|DEN}} [[Martin Braithwaite]]
+| {{flagicon|GHA}} [[Francis Amuzu]]
+| {{flagicon|PAR}} [[Fabián Balbuena]]
+| {{flagicon|PAR}} [[Mathías Villasanti]]
+| {{flagicon|PER}} [[Erick Noriega]]
+|
+|
+|
+| {{flagicon|ARG}} ''[[Leonel Pérez (footballer)|Leonel Pérez]]''<br/>{{flagicon|COL}} ''[[Miguel Monsalve]]''
+|-
+| Internacional
+| {{flagicon|ARG}} [[Alexandro Bernabei]]
+| {{flagicon|ARG}} [[Braian Aguirre]]
+| {{flagicon|ARG}} [[Gabriel Mercado]]
+| {{flagicon|ARG}} [[Rodrigo Villagra]]
+| {{flagicon|CHI}} '''[[Guillermo Maripán]]'''
+| {{flagicon|COL}} [[Johan Carbonero]]
+| {{flagicon|ECU}} [[Félix Torres (footballer, born 1997)|Félix Torres]]
+| {{flagicon|GHA}} [[Benjamin Arhin]]
+| {{flagicon|PAR}} '''[[Antonio Sanabria]]'''
+| {{flagicon|URU}} [[Sergio Rochet]]
+|
+|
+|
+| {{flagicon|COL}} ''[[Rafael Santos Borré]]''<br/>{{flagicon|URU}} ''[[Alan Rodríguez (Uruguayan footballer)|Alan Rodríguez]]''
+|-
+| Mirassol
+| 
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+| {{flagicon|ARG}} ''[[Lucas Mugni]]''<br/>{{flagicon|PAR}} ''[[Antonio Galeano]]''
+|-
+| Palmeiras
+| {{flagicon|ARG}} [[Agustín Giay]]
+| {{flagicon|ARG}} '''[[Alexander Barboza]]'''
+| {{flagicon|ARG}} [[José Manuel López (footballer)|José Manuel López]]
+| {{flagicon|CMR}} Miguel Bilong
+| {{flagicon|COL}} [[Jhon Arias (footballer)|Jhon Arias]]
+| {{flagicon|PAR}} [[Gustavo Gómez]]
+| {{flagicon|PAR}} [[Ramón Sosa]]
+| {{flagicon|URU}} [[Emiliano Martínez (footballer, born 1999)|Emiliano Martínez]]
+| {{flagicon|URU}} [[Joaquín Piquerez]]
+|
+| 
+|
+|
+|
+|-
+| Red Bull Bragantino
+| {{flagicon|ARG}} [[José María Herrera]]
+| {{flagicon|COL}} [[Henry Mosquera]]
+| {{flagicon|ECU}} [[José Hurtado (footballer)|Andrés Hurtado]]
+| {{flagicon|PAR}} [[Isidro Pitta]]
+| {{flagicon|URU}} [[Agustín Sant'Anna]]
+| {{flagicon|URU}} [[Guzmán Rodríguez]]
+| {{flagicon|URU}} [[Ignacio Sosa]]
+|
+|
+|
+|
+|
+|
+|
+|-
+| Remo
+| {{flagicon|CMR}} [[Duplexe Tchamba]]
+| {{flagicon|PAR}} '''[[Antonio Galeano]]'''
+| {{flagicon|URU}} [[Cristian Tassano]]
+| {{flagicon|URU}} [[Franco Catarozzi]]
+| {{flagicon|URU}} [[Nicolás Ferreira (footballer)|Nicolás Ferreira]]
+|
+|
+|
+|
+|
+| 
+|
+|
+| {{flagicon|GRE}} ''[[Panagiotis Tachtsidis]]''<br/>{{flagicon|GNB}} ''[[João Pedro (footballer, born 13 November 1996)|João Pedro]]''<br/>{{flagicon|URU}} ''[[Diego Hernández (Uruguayan footballer)|Diego Hernández]]''<br/>{{flagicon|COL}} ''[[Víctor Cantillo]]''<br/>{{flagicon|ARG}} ''[[Braian Cufré]]''<br/>{{flagicon|ARG}} ''[[Rafael Monti]]''
+|-
+| Santos
+| {{flagicon|ARG}} [[Álvaro Barreal]]
+| {{flagicon|ARG}} [[Benjamín Rollheiser]]
+| {{flagicon|ARG}} [[Gonzalo Escobar (footballer)|Gonzalo Escobar]]
+| {{flagicon|BOL}} [[Miguel Terceros]]
+| {{flagicon|URU}} [[Christian Oliva]]
+| {{flagicon|PAR}} '''[[Gustavo Caballero]]'''
+| {{flagicon|VEN}} [[Nicola Profeta]]
+|
+|
+|
+|
+|
+|
+| {{flagicon|VEN}} ''[[Tomás Rincón]]''<br/>{{flagicon|ARG}} ''[[Lautaro Díaz]]''<br/>{{flagicon|ARG}} ''[[Adonis Frías]]''
+|-
+| São Paulo
+| {{flagicon|ARG}} [[Enzo Díaz (footballer, born 1995)|Enzo Díaz]]
+| {{flagicon|ARG}} [[Jonathan Calleri]]
+| {{flagicon|ECU}} [[Robert Arboleda]]
+| {{flagicon|PAR}} [[Damián Bobadilla]]
+| {{flagicon|POR}} '''[[Aurélio Buta]]'''
+| {{flagicon|POR}} [[Cédric Soares]]
+| {{flagicon|POR}} '''[[Domingos Duarte]]'''
+|
+|
+|
+|
+|
+|
+| {{flagicon|ARG}} ''[[Alan Franco (footballer, born 1996)|Alan Franco]]''<br/>{{flagicon|CHI}} ''[[Gonzalo Tapia]]''
+|-
+| Vasco da Gama
+| {{flagicon|ANG}} '''[[Loide Augusto]]'''
+| {{flagicon|ARG}} '''[[Alan Lescano]]'''
+| {{flagicon|ARG}} [[Claudio Spinelli]]
+| {{flagicon|ARG}} '''[[Facundo Colidio]]'''
+| {{flagicon|ARG}} '''[[Santiago Sosa]]'''
+| {{flagicon|COL}} [[Andrés Gómez (footballer)|Andrés Gómez]]
+| {{flagicon|COL}} [[Carlos Cuesta (footballer)|Carlos Cuesta]]
+| {{flagicon|COL}} [[Johan Rojas (footballer)|Johan Rojas]]
+| {{flagicon|COL}} [[Marino Hinestroza]]
+| {{flagicon|POR}} [[Nuno Moreira]]
+| {{flagicon|URU}} [[Alan Saldivia]]
+| {{flagicon|URU}} [[José Luis Rodríguez (footballer, born 1997)|Puma Rodríguez]]
+|
+|
+|-
+| Vitória
+| {{flagicon|ARG}} [[Diego Tarzia]]
+| {{flagicon|ARG}} '''[[Emanuel Brítez]]'''
+| {{flagicon|ARG}} [[Emmanuel Martínez (footballer, born 1994)|Emmanuel Martínez]]
+| {{flagicon|ARG}} '''[[Tomás Pochettino]]'''
+| {{flagicon|ECU}} [[Kike Saverio]]
+| {{flagicon|POR}} [[Rúben Ismael]]
+|
+|
+|
+|
+|
+|
+|
+| {{flagicon|URU}} ''[[Renzo López]]''<br/>{{flagicon|ESP}} ''[[Aitor Cantalapiedra]]''
+|}
+
+=== Dual nationality ===
+Players who are [[Brazilian nationality law|Brazilian]] nationals but also hold [[dual citizenship]] or represent another [[FIFA]] nation in international football are not regarded as foreign players and do not take up a foreign player slot.
+
+{{Div col|colwidth=20em}}
+* {{flagicon|URU}} [[Lucas Monzón (Uruguayan footballer)|Lucas Monzón]] (Botafogo)
+* {{flagicon|ESP}} [[Miguel Carvalho (footballer, born 2005)|Miguel Carvalho]] (Chapecoense)
+* {{flagicon|JPN}} [[Kaique Kenji]] (Cruzeiro)
+* {{flagicon|BEL}} [[Wanderson (footballer, born 7 October 1994)|Wanderson]] (Cruzeiro)
+* {{flagicon|ITA}} [[Jorginho (footballer, born December 1991)|Jorginho]] (Flamengo)
+* {{flagicon|MEX}} [[Matheus Reis (footballer, born 2007)|Matheus Reis]] (Fluminense)
+* {{flagicon|ARG}} [[Walter Kannemann]] (Grêmio)
+* {{flagicon|SWE}} [[Niclas Eliasson]] (Internacional)
+* {{flagicon|KOR}} [[Chico (footballer, born 1993)|Chico Kim]] (Mirassol)
+* {{flagicon|PAR}} [[Maurício (footballer, born 2001)|Maurício]] (Palmeiras)
+* {{flagicon|ITA}} [[Rafael Tolói]] (São Paulo)
+* {{flagicon|PAR}} [[Carlos Coronel]] (São Paulo)
+* {{flagicon|ITA}} [[Lucas Piton]] (Vasco da Gama)
+{{div col end}}
+
+==Standings==
+===League table===
+<onlyinclude>{{#invoke:Sports table|main|style=WDL
+|update=19 October 2026
+|source=[https://www.cbf.com.br/futebol-brasileiro/tabelas/campeonato-brasileiro/serie-a/2026 CBF]
+|show_limit=5
+
+<!--Update team positions here-->
+|team_order=FLA, PAL, CAP, CRU, FLU, CAM, BAH, SAN, SPA, RBB, BOT, CTB, VIT, MIR, VAS, COR, INT, GRE, REM, CHA
+
+<!--Team definitions (wikilinks in table)-->
+|name_CAP=[[Club Athletico Paranaense|Athletico Paranaense]]
+|name_CAM=[[Clube Atlético Mineiro|Atlético Mineiro]]
+|name_BAH=[[Esporte Clube Bahia|Bahia]]
+|name_BOT=[[Botafogo FR|Botafogo]]
+|name_CHA=[[Associação Chapecoense de Futebol|Chapecoense]]
+|name_COR=[[SC Corinthians Paulista|Corinthians]]
+|name_CTB=[[Coritiba Foot Ball Club|Coritiba]]
+|name_CRU=[[Cruzeiro EC|Cruzeiro]]
+|name_FLA=[[CR Flamengo|Flamengo]]
+|name_FLU=[[Fluminense FC|Fluminense]]
+|name_GRE=[[Grêmio FBPA|Grêmio]]
+|name_INT=[[SC Internacional|Internacional]]
+|name_MIR=[[Mirassol Futebol Clube|Mirassol]]
+|name_PAL=[[SE Palmeiras|Palmeiras]]
+|name_RBB=[[Red Bull Bragantino]]
+|name_REM=[[Clube do Remo|Remo]]
+|name_SAN=[[Santos FC|Santos]]
+|name_SPA=[[São Paulo FC|São Paulo]]
+|name_VAS=[[CR Vasco da Gama|Vasco da Gama]]
+|name_VIT=[[Esporte Clube Vitória|Vitória]]
+
+<!--Update team qualifications here (defined below)-->
+|result1=LIBG |result2=LIBG |result3=LIBG |result4=LIBG |result5=LIB2
+|result6=CSA |result7=CSA |result8=CSA |result9=CSA |result10=CSA |result11=CSA 
+|result17=REL |result18=REL |result19=REL |result20=REL
+
+<!--Notes here-->
+
+<!--Update team results here and then (if needed positions above). Don't forget to update the date above (update parameter)-->
+|win_CAP=15|draw_CAP=8 |loss_CAP=8 |gf_CAP=49|ga_CAP=37
+|win_CAM=14|draw_CAM=8 |loss_CAM=9 |gf_CAM=42|ga_CAM=35
+|win_BAH=13|draw_BAH=10|loss_BAH=8 |gf_BAH=44|ga_BAH=39
+|win_BOT=10|draw_BOT=9 |loss_BOT=12|gf_BOT=44|ga_BOT=48
+|win_CHA=3 |draw_CHA=9 |loss_CHA=18|gf_CHA=30|ga_CHA=62
+|win_COR=8 |draw_COR=9 |loss_COR=14|gf_COR=32|ga_COR=39
+|win_CTB=10|draw_CTB=9 |loss_CTB=12|gf_CTB=38|ga_CTB=49
+|win_CRU=15|draw_CRU=6 |loss_CRU=10|gf_CRU=50|ga_CRU=46
+|win_FLA=20|draw_FLA=7 |loss_FLA=4 |gf_FLA=61|ga_FLA=25|status_FLA=X
+|win_FLU=14|draw_FLU=9 |loss_FLU=8 |gf_FLU=49|ga_FLU=39
+|win_GRE=7 |draw_GRE=10|loss_GRE=14|gf_GRE=34|ga_GRE=44
+|win_INT=7 |draw_INT=11|loss_INT=13|gf_INT=33|ga_INT=40
+|win_MIR=9 |draw_MIR=9 |loss_MIR=13|gf_MIR=36|ga_MIR=44
+|win_PAL=19|draw_PAL=9 |loss_PAL=3 |gf_PAL=54|ga_PAL=22|status_PAL=X
+|win_RBB=11|draw_RBB=8 |loss_RBB=12|gf_RBB=39|ga_RBB=36
+|win_REM=5 |draw_REM=11|loss_REM=15|gf_REM=34|ga_REM=49
+|win_SAN=12|draw_SAN=9 |loss_SAN=10|gf_SAN=48|ga_SAN=46
+|win_SPA=12|draw_SPA=6 |loss_SPA=13|gf_SPA=36|ga_SPA=35
+|win_VAS=9 |draw_VAS=8 |loss_VAS=13|gf_VAS=36|ga_VAS=43
+|win_VIT=10|draw_VIT=7 |loss_VIT=14|gf_VIT=34|ga_VIT=45
+
+<!---Competition rules-->
+|class_rules=1) points; 2) wins; 3) goal difference; 4) goals scored; 5) head-to-head results (only between two teams); 6) fewest red cards; 7) fewest yellow cards; 8) drawing of lots.<ref>{{cite web|url=https://stcbfsiteprdimgbrs.blob.core.windows.net/img-site/cdn/REC_Brasileiro_SA_rie_A_2026_v15_12_2025_final_02692c1077.pdf |title=Regulamento Específico da Competição Brasileiro Série A 2026 |publisher=CBF |language=pt-br |date=15 December 2025}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_LIBG=green1 |text_LIBG=Qualification for [[2027 Copa Libertadores#Group stage|Copa Libertadores group stage]]
+<!--|col_LIB-CB1=green1 |text_LIB-CB1=Qualification for [[2027 Copa Libertadores#Group stage|Copa Libertadores group stage]]
+|col_LIB-CB2=green1 |text_LIB-CB2=Qualification for [[2027 Copa Libertadores#Second stage|Copa Libertadores second stage]]-->
+|col_LIB2=green2 |text_LIB2={{nowrap|Qualification for [[2027 Copa Libertadores#Second stage|Copa Libertadores second stage]]}}
+|col_CSA=blue1 |text_CSA=Qualification for [[2027 Copa Sudamericana#Group stage|Copa Sudamericana group stage]]
+|col_REL=red1 |text_REL=Relegation to [[2027 Campeonato Brasileiro Série B|Campeonato Brasileiro Série B]]
+|status_text_X=Assured of Copa Sudamericana, but may still qualify for Copa Libertadores
+<!--|note_res_LIB-CB1=XXX qualified for the Copa Libertadores group stage by winning the [[2026 Copa do Brasil]].
+|note_res_LIB-CB2=XXX qualified for the Copa Libertadores second stage as 2026 Copa do Brasil runners-up.-->
+}}</onlyinclude>
+
+== Results ==
+{{#invoke:Sports results|main
+|update=19 October 2026
+|source=[https://www.cbf.com.br/futebol-brasileiro/tabelas/campeonato-brasileiro/serie-a/2026 CBF]
+|matches_style=FBR
+
+|team1=CAP |team2=CAM |team3=BAH |team4=BOT |team5=CHA |team6=COR |team7=CTB |team8=CRU |team9=FLA |team10=FLU |team11=GRE |team12=INT |team13=MIR |team14=PAL |team15=RBB |team16=REM |team17=SAN |team18=SPA |team19=VAS |team20=VIT
+
+|name_CAP={{nowrap|[[Club Athletico Paranaense|Athletico Paranaense]]}}
+|name_CAM=[[Clube Atlético Mineiro|Atlético Mineiro]]
+|name_BAH=[[Esporte Clube Bahia|Bahia]]
+|name_BOT=[[Botafogo FR|Botafogo]]
+|name_CHA=[[Associação Chapecoense de Futebol|Chapecoense]]
+|name_COR=[[SC Corinthians Paulista|Corinthians]]
+|name_CTB=[[Coritiba Foot Ball Club|Coritiba]]
+|name_CRU=[[Cruzeiro EC|Cruzeiro]]
+|name_FLA=[[CR Flamengo|Flamengo]]
+|name_FLU=[[Fluminense FC|Fluminense]]
+|name_GRE=[[Grêmio FBPA|Grêmio]]
+|name_INT=[[SC Internacional|Internacional]]
+|name_MIR=[[Mirassol Futebol Clube|Mirassol]]
+|name_PAL=[[SE Palmeiras|Palmeiras]]
+|name_RBB=[[Red Bull Bragantino]]
+|name_REM=[[Clube do Remo|Remo]]
+|name_SAN=[[Santos FC|Santos]]
+|name_SPA=[[São Paulo FC|São Paulo]]
+|name_VAS=[[CR Vasco da Gama|Vasco da Gama]]
+|name_VIT=[[Esporte Clube Vitória|Vitória]]
+
+|match_CAP_CAM=2–2
+|match_CAP_BAH=2–1
+|match_CAP_BOT=4–1
+|match_CAP_CHA=2–0
+|match_CAP_COR=0–1
+|match_CAP_CTB=2–0
+|match_CAP_CRU=2–1
+|match_CAP_FLA=1–1
+|match_CAP_FLU=3–3
+|match_CAP_GRE=0–0
+|match_CAP_INT=2–0
+|match_CAP_MIR=1–0
+|match_CAP_PAL=0–2
+|match_CAP_RBB=1–1
+|match_CAP_REM=
+|match_CAP_SAN=2–1
+|match_CAP_SPA=
+|match_CAP_VAS=
+|match_CAP_VIT=3–1
+
+|match_CAM_CAP=2–1
+|match_CAM_BAH=1–1
+|match_CAM_BOT=1–1
+|match_CAM_CHA=1–1
+|match_CAM_COR=
+|match_CAM_CTB=1–0
+|match_CAM_CRU=[[Clássico Mineiro|a]]
+|match_CAM_FLA=[[Clube de Regatas do Flamengo–Clube Atlético Mineiro rivalry|0–4]]
+|match_CAM_FLU=3–1
+|match_CAM_GRE=3–0
+|match_CAM_INT=1–0
+|match_CAM_MIR=3–1
+|match_CAM_PAL=2–2
+|match_CAM_RBB=1–0
+|match_CAM_REM=3–3
+|match_CAM_SAN=2–1
+|match_CAM_SPA=1–0
+|match_CAM_VAS=
+|match_CAM_VIT=2–1
+
+|match_BAH_CAP=3–0
+|match_BAH_CAM=
+|match_BAH_BOT=2–1
+|match_BAH_CHA=2–0
+|match_BAH_COR=1–1
+|match_BAH_CTB=
+|match_BAH_CRU=1–2
+|match_BAH_FLA=0–3
+|match_BAH_FLU=1–1
+|match_BAH_GRE=1–1
+|match_BAH_INT=3–2
+|match_BAH_MIR=1–0
+|match_BAH_PAL=1–2
+|match_BAH_RBB=2–0
+|match_BAH_REM=2–1
+|match_BAH_SAN=2–2
+|match_BAH_SPA=
+|match_BAH_VAS=0–0
+|match_BAH_VIT=1–1
+
+|match_BOT_CAP=2–3
+|match_BOT_CAM=
+|match_BOT_BAH=
+|match_BOT_CHA=1–0
+|match_BOT_COR=3–1
+|match_BOT_CTB=2–2
+|match_BOT_CRU=4–0
+|match_BOT_FLA=0–3
+|match_BOT_FLU=[[Clássico Vovô|1–1]]
+|match_BOT_GRE=3–2
+|match_BOT_INT=2–2
+|match_BOT_MIR=3–2
+|match_BOT_PAL=0–0
+|match_BOT_RBB=1–1
+|match_BOT_REM=1–2
+|match_BOT_SAN=2–1
+|match_BOT_SPA=
+|match_BOT_VAS=1–2
+|match_BOT_VIT=0–0
+
+|match_CHA_CAP=1–4
+|match_CHA_CAM=0–4
+|match_CHA_BAH=3–3
+|match_CHA_BOT=1–4
+|match_CHA_COR=0–0
+|match_CHA_CTB=3–3
+|match_CHA_CRU=
+|match_CHA_FLA=0–4
+|match_CHA_FLU=
+|match_CHA_GRE=1–1
+|match_CHA_INT=1–2
+|match_CHA_MIR=
+|match_CHA_PAL=
+|match_CHA_RBB=1–2
+|match_CHA_REM=2–3
+|match_CHA_SAN=4–2
+|match_CHA_SPA=1–0
+|match_CHA_VAS=
+|match_CHA_VIT=1–1
+
+|match_COR_CAP=0–0
+|match_COR_CAM=1–0
+|match_COR_BAH=1–2
+|match_COR_BOT=
+|match_COR_CHA=1–2
+|match_COR_CTB=0–2
+|match_COR_CRU=1–2
+|match_COR_FLA=1–1
+|match_COR_FLU=1–3
+|match_COR_GRE=
+|match_COR_INT=0–1
+|match_COR_MIR=
+|match_COR_PAL=[[Derby Paulista|0–0]]
+|match_COR_RBB=2–0
+|match_COR_REM=3–0
+|match_COR_SAN=[[Clássico Alvinegro|0–1]]
+|match_COR_SPA=[[Clássico Majestoso|3–2]]
+|match_COR_VAS=1–0
+|match_COR_VIT=1–1
+
+|match_CTB_CAP=3–3
+|match_CTB_CAM=2–0
+|match_CTB_BAH=3–2
+|match_CTB_BOT=1–1
+|match_CTB_CHA=2–1
+|match_CTB_COR=2–1
+|match_CTB_CRU=0–1
+|match_CTB_FLA=
+|match_CTB_FLU=1–1
+|match_CTB_GRE=
+|match_CTB_INT=2–2
+|match_CTB_MIR=1–2
+|match_CTB_PAL=1–3
+|match_CTB_RBB=0–1
+|match_CTB_REM=1–0
+|match_CTB_SAN=
+|match_CTB_SPA=0–1
+|match_CTB_VAS=1–1
+|match_CTB_VIT=
+
+|match_CRU_CAP=3–1
+|match_CRU_CAM=[[Clássico Mineiro|1–3]]
+|match_CRU_BAH=
+|match_CRU_BOT=0–1
+|match_CRU_CHA=2–1
+|match_CRU_COR=1–1
+|match_CRU_CTB=1–2
+|match_CRU_FLA=2–1
+|match_CRU_FLU=1–1
+|match_CRU_GRE=2–0
+|match_CRU_INT=
+|match_CRU_MIR=3–1
+|match_CRU_PAL=
+|match_CRU_RBB=2–1
+|match_CRU_REM=
+|match_CRU_SAN=0–0
+|match_CRU_SPA=2–0
+|match_CRU_VAS=3–3
+|match_CRU_VIT=3–0
+
+|match_FLA_CAP=
+|match_FLA_CAM=[[Clube de Regatas do Flamengo–Clube Atlético Mineiro rivalry|a]]
+|match_FLA_BAH=2–0
+|match_FLA_BOT=3–0
+|match_FLA_CHA=
+|match_FLA_COR=2–1
+|match_FLA_CTB=3–0
+|match_FLA_CRU=2–0
+|match_FLA_FLU=[[Fla–Flu|1–0]]
+|match_FLA_GRE=
+|match_FLA_INT=1–1
+|match_FLA_MIR=2–0
+|match_FLA_PAL=0–3
+|match_FLA_RBB=2–1
+|match_FLA_REM=3–0
+|match_FLA_SAN=3–1
+|match_FLA_SPA=1–1
+|match_FLA_VAS=[[Clássico dos Milhões|2–2]]
+|match_FLA_VIT=2–0
+
+|match_FLU_CAP=3–2
+|match_FLU_CAM=1–0
+|match_FLU_BAH=0–0
+|match_FLU_BOT=[[Clássico Vovô|1–0]]
+|match_FLU_CHA=2–1
+|match_FLU_COR=3–1
+|match_FLU_CTB=4–0
+|match_FLU_CRU=
+|match_FLU_FLA=[[Fla–Flu|1–2]]
+|match_FLU_GRE=2–1
+|match_FLU_INT=
+|match_FLU_MIR=
+|match_FLU_PAL=3–2
+|match_FLU_RBB=1–1
+|match_FLU_REM=2–1
+|match_FLU_SAN=1–2
+|match_FLU_SPA=2–1
+|match_FLU_VAS=1–0
+|match_FLU_VIT=2–2
+
+|match_GRE_CAP=
+|match_GRE_CAM=2–1
+|match_GRE_BAH=
+|match_GRE_BOT=5–3
+|match_GRE_CHA=3–1
+|match_GRE_COR=1–3
+|match_GRE_CTB=1–0
+|match_GRE_CRU=2–4
+|match_GRE_FLA=0–1
+|match_GRE_FLU=1–1
+|match_GRE_INT=[[Grenal|1–1]]
+|match_GRE_MIR=
+|match_GRE_PAL=0–0
+|match_GRE_RBB=1–1
+|match_GRE_REM=0–0
+|match_GRE_SAN=3–2
+|match_GRE_SPA=2–1
+|match_GRE_VAS=1–2
+|match_GRE_VIT=2–0
+
+|match_INT_CAP=0–1
+|match_INT_CAM=0–0
+|match_INT_BAH=0–1
+|match_INT_BOT=
+|match_INT_CHA=2–0
+|match_INT_COR=2–1
+|match_INT_CTB=
+|match_INT_CRU=1–2
+|match_INT_FLA=1–1
+|match_INT_FLU=2–0
+|match_INT_GRE=[[Grenal|0–0]]
+|match_INT_MIR=1–2
+|match_INT_PAL=1–3
+|match_INT_RBB=
+|match_INT_REM=1–1
+|match_INT_SAN=2–3
+|match_INT_SPA=1–1
+|match_INT_VAS=4–1
+|match_INT_VIT=
+
+|match_MIR_CAP=
+|match_MIR_CAM=
+|match_MIR_BAH=1–2
+|match_MIR_BOT=2–0
+|match_MIR_CHA=1–1
+|match_MIR_COR=2–1
+|match_MIR_CTB=0–1
+|match_MIR_CRU=2–2
+|match_MIR_FLA=1–5
+|match_MIR_FLU=1–0
+|match_MIR_GRE=2–1
+|match_MIR_INT=2–0
+|match_MIR_PAL=1–1
+|match_MIR_RBB=0–1
+|match_MIR_REM=2–1
+|match_MIR_SAN=2–2
+|match_MIR_SPA=
+|match_MIR_VAS=2–1
+|match_MIR_VIT=2–2
+
+|match_PAL_CAP=1–0
+|match_PAL_CAM=1–2
+|match_PAL_BAH=1–0
+|match_PAL_BOT=2–1
+|match_PAL_CHA=1–0
+|match_PAL_COR=[[Derby Paulista|4–1]]
+|match_PAL_CTB=
+|match_PAL_CRU=1–1
+|match_PAL_FLA=
+|match_PAL_FLU=2–1
+|match_PAL_GRE=2–1
+|match_PAL_INT=0–0
+|match_PAL_MIR=1–0
+|match_PAL_RBB=
+|match_PAL_REM=
+|match_PAL_SAN=[[Clássico da Saudade|1–1]]
+|match_PAL_SPA=[[Choque-Rei|2–0]]
+|match_PAL_VAS=4–1
+|match_PAL_VIT=5–1
+
+|match_RBB_CAP=1–1
+|match_RBB_CAM=1–0
+|match_RBB_BAH=2–3
+|match_RBB_BOT=1–2
+|match_RBB_CHA=
+|match_RBB_COR=0–2
+|match_RBB_CTB=0–0
+|match_RBB_CRU=4–2
+|match_RBB_FLA=3–0
+|match_RBB_FLU=
+|match_RBB_GRE=1–0
+|match_RBB_INT=3–1
+|match_RBB_MIR=1–1
+|match_RBB_PAL=0–1
+|match_RBB_REM=4–2
+|match_RBB_SAN=
+|match_RBB_SPA=1–2
+|match_RBB_VAS=
+|match_RBB_VIT=2–0
+
+|match_REM_CAP=1–2
+|match_REM_CAM=2–2
+|match_REM_BAH=4–1
+|match_REM_BOT=
+|match_REM_CHA=
+|match_REM_COR=
+|match_REM_CTB=2–3
+|match_REM_CRU=0–1
+|match_REM_FLA=0–1
+|match_REM_FLU=0–2
+|match_REM_GRE=1–1
+|match_REM_INT=1–1
+|match_REM_MIR=2–2
+|match_REM_PAL=1–1
+|match_REM_RBB=1–1
+|match_REM_SAN=1–2
+|match_REM_SPA=1–0
+|match_REM_VAS=1–1
+|match_REM_VIT=2–0
+
+|match_SAN_CAP=0–2
+|match_SAN_CAM=1–0
+|match_SAN_BAH=
+|match_SAN_BOT=
+|match_SAN_CHA=2–2
+|match_SAN_COR=[[Clássico Alvinegro|1–1]]
+|match_SAN_CTB=0–3
+|match_SAN_CRU=2–1
+|match_SAN_FLA=2–2
+|match_SAN_FLU=2–3
+|match_SAN_GRE=
+|match_SAN_INT=1–2
+|match_SAN_MIR=1–1
+|match_SAN_PAL=[[Clássico da Saudade|a]]
+|match_SAN_RBB=2–0
+|match_SAN_REM=2–0
+|match_SAN_SPA=[[San-São|1–1]]
+|match_SAN_VAS=2–1
+|match_SAN_VIT=3–1
+
+|match_SPA_CAP=1–2
+|match_SPA_CAM=2–0
+|match_SPA_BAH=2–2
+|match_SPA_BOT=1–1
+|match_SPA_CHA=2–0
+|match_SPA_COR=[[Clássico Majestoso|a]]
+|match_SPA_CTB=1–1
+|match_SPA_CRU=4–1
+|match_SPA_FLA=2–1
+|match_SPA_FLU=
+|match_SPA_GRE=2–0
+|match_SPA_INT=1–0
+|match_SPA_MIR=1–0
+|match_SPA_PAL=[[Choque-Rei|0–1]]
+|match_SPA_RBB=2–1
+|match_SPA_REM=
+|match_SPA_SAN=[[San-São|1–2]]
+|match_SPA_VAS=1–0
+|match_SPA_VIT=2–1
+
+|match_VAS_CAP=1–0
+|match_VAS_CAM=0–1
+|match_VAS_BAH=0–1
+|match_VAS_BOT=1–2
+|match_VAS_CHA=1–1
+|match_VAS_COR=
+|match_VAS_CTB=5–0
+|match_VAS_CRU=3–1
+|match_VAS_FLA=[[Clássico dos Milhões|a]]
+|match_VAS_FLU=3–2
+|match_VAS_GRE=2–1
+|match_VAS_INT=
+|match_VAS_MIR=1–1
+|match_VAS_PAL=2–1
+|match_VAS_RBB=0–3
+|match_VAS_REM=0–0
+|match_VAS_SAN=0–3
+|match_VAS_SPA=2–1
+|match_VAS_VIT=
+
+|match_VIT_CAP=
+|match_VIT_CAM=2–0
+|match_VIT_BAH=0–2
+|match_VIT_BOT=1–0
+|match_VIT_CHA=4–0
+|match_VIT_COR=0–0
+|match_VIT_CTB=4–1
+|match_VIT_CRU=1–3
+|match_VIT_FLA=1–2
+|match_VIT_FLU=
+|match_VIT_GRE=1–0
+|match_VIT_INT=2–0
+|match_VIT_MIR=1–0
+|match_VIT_PAL=0–4
+|match_VIT_RBB=
+|match_VIT_REM=2–0
+|match_VIT_SAN=
+|match_VIT_SPA=2–0
+|match_VIT_VAS=1–0
+}}
+
+==Season statistics==
+{{updated|19 October 2026}}
+===Top scorers===
+{| class="wikitable" style="text-align:center"
+|-
+!Rank
+!Player
+!Club
+!Goals
+|-
+|1
+| align="left" |{{flagicon|COL}} [[Kevin Viveros]]
+| align="left" |Athletico Paranaense
+|'''21'''
+|-
+|2
+| align="left" |{{flagicon|BRA}} [[Pedro (footballer, born 1997)|Pedro]]
+| align="left" |Flamengo
+|'''16'''
+|-
+|3
+| align="left" |{{flagicon|BRA}} [[Gabriel Barbosa]]
+| align="left" |Santos
+|'''15'''
+|-
+|rowspan="2"|4
+| align="left" |{{flagicon|BRA}} [[Kaio Jorge]]
+| align="left" |Cruzeiro
+|rowspan="2"|'''11'''
+|-
+| align="left" |{{flagicon|BRA}} [[Carlos Vinícius]]
+| align="left" |Grêmio
+|-
+|rowspan="4"|6
+| align="left" |{{flagicon|BRA}} [[Danilo (footballer, born 2001)|Danilo Santos]]
+| align="left" |Botafogo
+|rowspan="4"|'''10'''
+|-
+| align="left" |{{flagicon|ARG}} [[Jonathan Calleri]]
+| align="left" |São Paulo
+|-
+| align="left" |{{flagicon|BRA}} [[Luciano Juba]]
+| align="left" |Bahia
+|-
+| align="left" |{{flagicon|BRA}} [[Renê (footballer, born 2003)|Renê]]
+| align="left" |Vitória
+|-
+|rowspan="5"|10
+| align="left" |{{flagicon|BRA}} [[Samuel Lino]]
+| align="left" |Flamengo
+|rowspan="5"|'''9'''
+|-
+| align="left" |{{flagicon|BRA}} [[Matheus Pereira (footballer, born 1996)|Matheus Pereira]]
+| align="left" |Cruzeiro
+|-
+| align="left" |{{flagicon|ARG}} [[José Manuel López (footballer)|José Manuel López]]
+| align="left" |Palmeiras
+|-
+| align="left" |{{flagicon|BRA}} [[John Kennedy (footballer, born 2002)|John Kennedy]]
+| align="left" |Fluminense
+|-
+| align="left" |{{flagicon|BRA}} [[Luciano (footballer, born 1993)|Luciano]]
+| align="left" |São Paulo
+<!-- |-
+|rowspan="5"|15
+| align="left" |{{flagicon|BRA}} [[Neymar]]
+| align="left" |Santos
+|rowspan="5"|'''8'''
+|-
+| align="left" |{{flagicon|BRA}} [[Breno Lopes (footballer, born 1996)|Breno Lopes]]
+| align="left" |Coritiba
+|-
+| align="left" |{{flagicon|BRA}} [[Jajá Silva|Jajá]]
+| align="left" |Remo
+|-
+| align="left" |{{flagicon|PAR}} [[Maurício (footballer, born 2001)|Maurício]]
+| align="left" |Palmeiras
+|-
+| align="left" |{{flagicon|BRA}} [[Pedro Rocha (footballer, born 1994)|Pedro Rocha]]
+| align="left" |Coritiba
+|-
+|rowspan="4"|20
+| align="left" |{{flagicon|BRA}} [[Hulk (footballer)|Hulk]]
+| align="left" |Atlético Mineiro / Fluminense
+|rowspan="4"|'''7'''
+|-
+| align="left" |{{flagicon|COL}} [[Johan Carbonero]]
+| align="left" |Internacional
+|-
+| align="left" |{{flagicon|BRA}} [[Arthur Cabral]]
+| align="left" |Botafogo
+|-
+| align="left" |{{flagicon|BRA}} [[Carlos Eduardo (footballer, born 1989)|Eduardo]]
+| align="left" |Mirassol
+ -->|}
+<small>Source: [https://www.soccerway.com/brazil/serie-a-betano/standings/hdLUdQGi/top-scorers/ Soccerway]</small>
+
+=== Hat-tricks ===
+{{main|List of Campeonato Brasileiro Série A hat-tricks}}
+{|class="wikitable"
+|-
+!Player
+!For
+!Against
+!Result
+!Date 
+!Ref.
+|-
+| {{flagicon|BRA}} [[Carlos Vinícius]]
+| Grêmio
+| Botafogo
+| align="center"|5–3 (H)
+| 4 February 2026
+| align="center"|<ref>{{Cite web |url=https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/04-02-2026/gremio-botafogo.ghtml |title=Grêmio vira sobre o Botafogo e vence em jogo de oito gols |trans-title=Grêmio come from behind to beat Botafogo in an eight-goal match |publisher=[[Grupo Globo|ge]] |language=pt-br |date=4 February 2026 |access-date=5 February 2026}}</ref>
+|-
+| {{flagicon|BRA}} [[Ferreira (footballer, born 1997)|Ferreira]]
+| São Paulo
+| Cruzeiro
+| align="center"|4–1 (H)
+| 4 April 2026
+| align="center"|<ref>{{Cite web |url=https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/04-04-2026/sao-paulo-cruzeiro.ghtml |title=Com hat-trick de Ferreira, São Paulo goleia o Cruzeiro e assume a vice-liderança do Brasileirão |trans-title=With a hat-trick by Ferreira, São Paulo thrash Cruzeiro and take second place of the ''Brasileirão'' |publisher=[[Grupo Globo|ge]] |language=pt-br |date=4 April 2026 |access-date=4 April 2026}}</ref>
+|-
+| {{flagicon|BRA}} [[Arthur Cabral]]
+| Botafogo
+| Corinthians
+| align="center"|3–1 (H)
+| 17 May 2026
+| align="center"|<ref>{{Cite web |url=https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/17-05-2026/botafogo-corinthians.ghtml |title=Com três de Arthur Cabral, Botafogo vence Corinthians, que termina rodada no Z4 do Brasileirão |trans-title=With three goals by Arthur Cabral, Botafogo defeat Corinthians, who end the round in the ''Brasileirão''′s relegation zone |publisher=[[Grupo Globo|ge]] |language=pt-br |date=17 May 2026 |access-date=17 May 2026}}</ref>
+|-
+| {{flagicon|VEN}} [[Jefferson Savarino]]
+| Fluminense
+| Coritiba
+| align="center"|4–0 (H)
+| 8 October 2026
+| align="center"|<ref>{{Cite web |url=https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/08-10-2026/fluminense-coritiba.ghtml |title=Savarino marca três vezes, e Fluminense goleia o Coritiba e vai a terceiro no Brasileirão |trans-title=Savarino scores thrice and Fluminense thrash Coritiba to move into third place in the ''Brasileirão'' |publisher=[[Grupo Globo|ge]] |language=pt-br |date=8 October 2026 |access-date=8 October 2026}}</ref>
+|-
+| {{flagicon|BRA}} [[Kaio Jorge]]
+| Cruzeiro
+| Grêmio
+| align="center"|4–2 (A)
+| 18 October 2026
+| align="center"|<ref>{{Cite web |url=https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/18-10-2026/gremio-cruzeiro.ghtml |title=Com hat-trick de Kaio Jorge, Cruzeiro vira e afunda o Grêmio no Z-4 |trans-title=With a hat-trick by Kaio Jorge, Cruzeiro come from behind and sink Grêmio into the relegation zone |publisher=[[Grupo Globo|ge]] |language=pt-br |date=18 October 2026 |access-date=18 October 2026}}</ref>
+|}
+
+===Top assists===
+{| class="wikitable" style="text-align:center"
+|-
+!Rank
+!Player
+!Club
+!Assists
+|-
+|1
+| align="left" |{{flagicon|POR}} [[Josué Pesqueira]]
+| align="left" |Coritiba
+|'''11'''
+|-
+|2
+| align="left" |{{flagicon|BRA}} [[Andreas Pereira]]
+| align="left" |Palmeiras
+|'''10'''
+|-
+|rowspan="2"|3
+| align="left" |{{flagicon|BRA}} [[Samuel Lino]]
+| align="left" |Flamengo
+|rowspan="2"|'''8'''
+|-
+| align="left" |{{flagicon|COL}} [[Jorge Carrascal]]
+| align="left" |Flamengo
+|-
+|rowspan="4"|6
+| align="left" |{{flagicon|BRA}} [[Pedro (footballer, born 1997)|Pedro]]
+| align="left" |Flamengo
+|rowspan="4"|'''6'''
+|-
+| align="left" |{{flagicon|BRA}} [[Matheus Pereira (footballer, born 1996)|Matheus Pereira]]
+| align="left" |Cruzeiro
+|-
+| align="left" |{{flagicon|BRA}} [[Erick (footballer, born December 1997)|Erick]]
+| align="left" |Vitória
+|-
+| align="left" |{{flagicon|ARG}} [[Rodrigo Garro]]
+| align="left" |Corinthians
+|-
+|rowspan="10"|9
+| align="left" |{{flagicon|ARG}} [[José Manuel López (footballer)|José Manuel López]]
+| align="left" |Palmeiras
+|rowspan="10"|'''5'''
+|-
+| align="left" |{{flagicon|BRA}} [[Hulk (footballer)|Hulk]]
+| align="left" |Atlético Mineiro / Fluminense
+|-
+| align="left" |{{flagicon|ARG}} [[Luciano Acosta]]
+| align="left" |Fluminense
+|-
+| align="left" |{{flagicon|BRA}} [[Igor Formiga]]
+| align="left" |Mirassol
+|-
+| align="left" |{{flagicon|ARG}} [[Lucas Esquivel]]
+| align="left" |Athletico Paranaense
+|-
+| align="left" |{{flagicon|BRA}} [[João Cruz (footballer, born 2006)|João Cruz]]
+| align="left" |Athletico Paranaense
+|-
+| align="left" |{{flagicon|ARG}} [[Gastón Benavídez]]
+| align="left" |Athletico Paranaense
+|-
+| align="left" |{{flagicon|BRA}} [[Giovanni Augusto]]
+| align="left" |Chapecoense
+|-
+| align="left" |{{flagicon|ARG}} [[Álvaro Montoro]]
+| align="left" |Botafogo
+|-
+| align="left" |{{flagicon|BRA}} [[Alesson]]
+| align="left" |Mirassol
+<!-- |-
+|rowspan="13"|18
+| align="left" |{{flagicon|COL}} [[Johan Carbonero]]
+| align="left" |Internacional
+|rowspan="13"|'''4'''
+|-
+| align="left" |{{flagicon|BRA}} [[Alex Telles]]
+| align="left" |Botafogo
+|-
+| align="left" |{{flagicon|URU}} [[Giorgian de Arrascaeta]]
+| align="left" |Flamengo
+|-
+| align="left" |{{flagicon|ARG}} [[Cristian Pavon]]
+| align="left" |Grêmio
+|-
+| align="left" |{{flagicon|URU}} [[José Luis Rodríguez (footballer, born 1997)|Puma Rodríguez]]
+| align="left" |Vasco da Gama
+|-
+| align="left" |{{flagicon|BRA}} [[Cuiabano]]
+| align="left" |Vasco da Gama
+|-
+| align="left" |{{flagicon|BRA}} [[Reinaldo (footballer, born 1989)|Reinaldo]]
+| align="left" |Mirassol
+|-
+| align="left" |{{flagicon|BRA}} [[Rodrigo Nestor]]
+| align="left" |Bahia
+|-
+| align="left" |{{flagicon|BRA}} [[Éverton Ribeiro]]
+| align="left" |Bahia
+|-
+| align="left" |{{flagicon|BRA}} [[Fagner (footballer, born 1989)|Fagner]]
+| align="left" |Cruzeiro
+|-
+| align="left" |{{flagicon|COL}} [[Henry Mosquera]]
+| align="left" |Red Bull Bragantino
+|-
+| align="left" |{{flagicon|URU}} [[Joaquín Piquerez]]
+| align="left" |Palmeiras
+ -->|}
+<small>Source: [https://www.soccerway.com/brazil/serie-a-betano/standings/hdLUdQGi/top-scorers/ Soccerway]</small>
+
+===Clean sheets===
+{| class="wikitable" style="text-align:center"
+|-
+!Rank
+!Player
+!Club
+!Clean<br />sheets
+|-
+|1
+| align="left" |{{flagicon|ARG}} [[Agustín Rossi (footballer)|Agustín Rossi]]
+| align="left" |Flamengo
+|'''14'''
+|-
+|2
+| align="left" |{{flagicon|BRA}} [[Carlos Miguel (footballer, born 1998)|Carlos Miguel]]
+| align="left" |Palmeiras
+|'''13'''
+|-
+|3
+| align="left" |{{flagicon|BRA}} [[Lucas Arcanjo]]
+| align="left" |Vitória
+|'''10'''
+|-
+|4
+| align="left" |{{flagicon|BRA}} [[Hugo Souza]]
+| align="left" |Corinthians
+|'''9'''
+|-
+|5
+| align="left" |{{flagicon|BRA}} [[Ronaldo (footballer, born August 1996)|Ronaldo]]
+| align="left" |Bahia
+|'''8'''
+|-
+|rowspan="2"|6
+| align="left" |{{flagicon|BRA}} [[Santos (footballer, born 1990)|Santos]]
+| align="left" |Athletico Paranaense
+|rowspan="2"|'''7'''
+|-
+| align="left" |{{flagicon|BRA}} [[Rafael (footballer, born 1989)|Rafael]]
+| align="left" |São Paulo
+|-
+|rowspan="6"|8
+| align="left" |{{flagicon|BRA}} [[Everson (footballer, born 1990)|Everson]]
+| align="left" |Atlético Mineiro
+|rowspan="6"|'''6'''
+|-
+| align="left" |{{flagicon|BRA}} [[Pedro Rangel (footballer)|Pedro Rangel]]
+| align="left" |Coritiba
+|-
+| align="left" |{{flagicon|BRA}} [[Matheus Cunha (footballer, born 2001)|Matheus Cunha]]
+| align="left" |Cruzeiro / Internacional
+|-
+| align="left" |{{flagicon|BRA}} [[Fábio (footballer, born 1980)|Fábio]]
+| align="left" |Fluminense
+|-
+| align="left" |{{flagicon|BRA}} [[Weverton (footballer, born 1987)|Weverton]]
+| align="left" |Grêmio
+|-
+| align="left" |{{flagicon|BRA}} [[Tiago Volpi]]
+| align="left" |Red Bull Bragantino
+<!-- |-
+|14
+| align="left" |{{flagicon|BRA}} [[Gabriel Brazão]]
+| align="left" |Santos
+|'''5'''
+ -->|}
+<small>Source: [https://fbref.com/en/comps/24/keepers/Serie-A-Stats#all_stats_keeper FBref.com]</small>
+
+==See also==
+* [[2026 Campeonato Brasileiro Série B]]
+* [[2026 Campeonato Brasileiro Série C]]
+* [[2026 Campeonato Brasileiro Série D]]
+
+==References==
+{{Reflist}}
+
+{{Campeonato Brasileiro Série A}}
+{{2026 in Brazilian football}}
+{{2026 in South American football (CONMEBOL)}}
+
+{{DEFAULTSORT:2026 Campeonato Brasileiro Serie A}}
+[[Category:2026 in Brazilian football]]
+[[Category:2026 in South American football leagues|Brazil]]
+[[Category:Campeonato Brasileiro Série A seasons]]
+[[Category:2026 in Brazilian football leagues|1]]
+[[Category:Current association football seasons|Bra]]
