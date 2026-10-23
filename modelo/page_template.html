@@ -234,16 +234,14 @@ td.sc.wait { font-family: var(--font-body); font-weight: 400; font-size: 13px; c
 .cut-row .b { height: 10px; background: var(--surface-2); border: 1px solid var(--line); border-radius: 2px; overflow: hidden; }
 .cut-row .b i { display: block; height: 100%; background: var(--bar-a); }
 .cut-row.head { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 600; }
-/* modo sem classificação: esconde a tabela e as chances de vitória para não influenciar quem simula */
+/* modo sem classificação: esconde a tabela e as chances de cada time (queda, título, Libertadores) para não influenciar quem simula */
 .toggle { display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 6px 14px 6px 8px; font-size: 14px; font-weight: 600; }
 .toggle .sw { width: 30px; height: 18px; border-radius: 999px; background: var(--line); position: relative; flex: none; transition: background .15s; }
 .toggle .sw::after { content: ""; position: absolute; top: 2px; left: 2px; width: 14px; height: 14px; border-radius: 50%; background: var(--surface); transition: transform .15s; }
 .toggle[aria-pressed="true"] .sw { background: var(--accent); }
 .toggle[aria-pressed="true"] .sw::after { transform: translateX(12px); }
-.blind .side, .blind .probs, .blind .wp, .blind .exp { display: none; }
+.blind .side, .blind .effect, .blind .chance { display: none; }
 .blind .main { grid-template-columns: minmax(0, 1fr); }
-.blind .game { grid-template-columns: 116px minmax(0, 1fr) 118px; }
-@media (max-width: 720px) { .blind .game { grid-template-columns: minmax(0, 1fr) auto; } .blind .imp { grid-column: 1 / -1; justify-self: start; display: flex; gap: 8px; align-items: center; } }
 /* rodadas uma por vez, com setas e deslize */
 .round-head .go { flex: none; width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font-size: 20px; line-height: 1; display: grid; place-items: center; }
 .round-head .go:disabled { opacity: .35; cursor: default; }
@@ -289,7 +287,7 @@ td.sc.wait { font-family: var(--font-body); font-weight: 400; font-size: 13px; c
       <button type="button" role="tab" id="tab-sim" aria-selected="true" aria-controls="view-sim">Simulador</button>
       <button type="button" role="tab" id="tab-res" aria-selected="false" aria-controls="view-res">Simulações realizadas</button>
     </div>
-    <button class="toggle" id="blind" type="button" aria-pressed="false" title="Esconde a classificação e as chances de vitória de cada jogo, para simular sem influência"><span class="sw" aria-hidden="true"></span>Esconder classificação</button>
+    <button class="toggle" id="blind" type="button" aria-pressed="false" title="Esconde a classificação e as chances de queda, título e Libertadores de cada time, para simular sem influência"><span class="sw" aria-hidden="true"></span>Esconder classificação</button>
     <div class="seg-wrap">
       <span>Acompanhar</span>
       <div class="seg" id="metric" role="group" aria-label="Chance acompanhada">
@@ -838,29 +836,29 @@ onmessage = e => {
           <input id="tp-${g.id}-a" type="number" inputmode="numeric" min="0" max="20" aria-label="Gols ${TEAMS[g.a].n}" value="${v.a ?? ''}">
           <span class="tp-t">${nm(g.a)}</span>
         </div><span class="loc">${g.h === t ? 'em casa' : 'fora'}</span></td>
-        <td class="num wp" id="tp-${g.id}-p"></td><td class="wp" id="tp-${g.id}-s"></td><td class="num" id="tp-${g.id}-c"></td>
+        <td class="num" id="tp-${g.id}-p"></td><td id="tp-${g.id}-s"></td><td class="num chance" id="tp-${g.id}-c"></td>
       </tr>`;
     }).join('');
     $('team-name').textContent = TEAMS[t].n;
     $('team-body').innerHTML = `
-      <div class="sum">
+      <div class="sum chance">
         <div id="ts-z4"><span>Rebaixamento</span><b>…</b></div>
         <div id="ts-title"><span>Título</span><b>…</b></div>
         <div id="ts-lib"><span>Libertadores</span><b>…</b></div>
         <div><span>Pontos esperados</span><b id="ts-esp">…</b></div>
       </div>
-      <div class="sum exp">
+      <div class="sum">
         <div><span>Vitórias esperadas</span><b id="ts-v">…</b></div>
         <div><span>Empates esperados</span><b id="ts-e">…</b></div>
         <div><span>Derrotas esperadas</span><b id="ts-d">…</b></div>
       </div>
-      <div class="exp">
+      <div>
         <div class="vedbar" role="img" aria-label="Divisão esperada dos jogos restantes"><i id="tb-v"></i><i id="tb-e"></i><i id="tb-d"></i></div>
         <div class="vedleg"><span><i style="background:var(--bar-h)"></i>Vitórias <span id="tl-v"></span></span><span><i style="background:var(--bar-d)"></i>Empates <span id="tl-e"></span></span><span><i style="background:var(--z4)"></i>Derrotas <span id="tl-d"></span></span></div>
       </div>
       <p class="tp-hint">Digite os placares aqui ou na lista principal: os dois ficam sincronizados e a simulação recomeça.</p>
       <div class="tscroll"><table class="tg">
-        <thead><tr><th class="l">Rodada</th><th class="l">Jogo</th><th class="wp">Vence / Empata / Perde</th><th class="wp">Situação</th><th>${METRICS[metric].cond} V / E / D</th></tr></thead>
+        <thead><tr><th class="l">Rodada</th><th class="l">Jogo</th><th>Vence / Empata / Perde</th><th>Situação</th><th class="chance">${METRICS[metric].cond} V / E / D</th></tr></thead>
         <tbody>${rows}</tbody>
       </table></div>`;
     updateTeam(t);
