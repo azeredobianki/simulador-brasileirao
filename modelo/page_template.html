@@ -3,6 +3,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Simulador do Z4</title>
+<meta name="color-scheme" content="light dark">
+<script>/* tema escolhido no botão vale antes de pintar a página; sem escolha, segue o sistema */
+try { const t = JSON.parse(localStorage.getItem('z4sim-tema')); if (t === 'dark' || t === 'light') document.documentElement.dataset.theme = t; } catch (e) {}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap">
@@ -29,21 +32,23 @@
   --bar-a: #34495e;
   --font-display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
   --font-body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --z4-ink: #ffffff;
   --r: 10px;
+  color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #0e1411; --surface: #161f1a; --surface-2: #1b2620; --ink: #e5ece7; --muted: #94a39a; --line: #2a3830;
     --accent: #4cc08a; --accent-ink: #08130d; --accent-soft: #183a2a; --z4: #ff6f61; --z4-soft: #3a1d1a;
     --amber: #f0b440; --amber-soft: #3a2c10; --mid: #b5c46a; --mid-soft: #2b3218;
-    --bar-h: #4cc08a; --bar-d: #5d6b63; --bar-a: #8fb3d6; color-scheme: dark;
+    --bar-h: #4cc08a; --bar-d: #5d6b63; --bar-a: #8fb3d6; --z4-ink: #1d0a07; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0e1411; --surface: #161f1a; --surface-2: #1b2620; --ink: #e5ece7; --muted: #94a39a; --line: #2a3830;
   --accent: #4cc08a; --accent-ink: #08130d; --accent-soft: #183a2a; --z4: #ff6f61; --z4-soft: #3a1d1a;
   --amber: #f0b440; --amber-soft: #3a2c10; --mid: #b5c46a; --mid-soft: #2b3218;
-  --bar-h: #4cc08a; --bar-d: #5d6b63; --bar-a: #8fb3d6; color-scheme: dark;
+  --bar-h: #4cc08a; --bar-d: #5d6b63; --bar-a: #8fb3d6; --z4-ink: #1d0a07; color-scheme: dark;
 }
 * { box-sizing: border-box; }
 body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.45; }
@@ -67,7 +72,7 @@ h1 span { color: var(--z4); }
 .actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 .btn { border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 8px; padding: 6px 12px; font-size: 14px; }
 .btn:hover { border-color: var(--muted); }
-.btn.danger { background: var(--z4); border-color: var(--z4); color: #fff; }
+.btn.danger { background: var(--z4); border-color: var(--z4); color: var(--z4-ink); }
 .confirm { display: flex; gap: 8px; align-items: center; font-size: 14px; }
 
 .legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--muted); padding-block: 12px; }
@@ -136,7 +141,7 @@ td.pts { font-family: var(--font-display); font-weight: 700; font-size: 17px; }
 .pnums { display: flex; justify-content: space-between; font-variant-numeric: tabular-nums; }
 .imp { justify-self: end; display: grid; justify-items: end; gap: 1px; }
 .chip { font-family: var(--font-display); font-weight: 700; font-size: 15px; padding: 2px 9px; border-radius: 999px; white-space: nowrap; }
-.chip.l4 { background: var(--z4); color: #fff; }
+.chip.l4 { background: var(--z4); color: var(--z4-ink); }
 .chip.l3 { background: var(--amber-soft); color: var(--amber); }
 .chip.l2 { background: var(--mid-soft); color: var(--mid); }
 .chip.l1 { background: var(--surface-2); color: var(--muted); border: 1px solid var(--line); }
@@ -158,6 +163,7 @@ td.pts { font-family: var(--font-display); font-weight: 700; font-size: 17px; }
 .tlink:hover { text-decoration-color: var(--accent); color: var(--accent); }
 dialog#team { width: min(720px, calc(100% - 32px)); max-height: calc(100% - 48px); border: 1px solid var(--line); border-radius: var(--r); background: var(--surface); color: var(--ink); padding: 0; overflow: auto; }
 dialog#team::backdrop { background: rgba(10, 18, 14, .55); }
+:root[data-theme="dark"] dialog#team::backdrop { background: rgba(0, 0, 0, .7); }
 .dlg-head { display: flex; justify-content: space-between; align-items: start; gap: 12px; padding: 16px 18px 10px; border-bottom: 2px solid var(--ink); position: sticky; top: 0; background: var(--surface); z-index: 1; }
 .dlg-head h2 { font-size: 32px; text-transform: uppercase; font-weight: 700; line-height: 1; }
 .dlg-head .sub { font-size: 13px; color: var(--muted); margin-top: 4px; }
@@ -192,7 +198,7 @@ dialog#team::backdrop { background: rgba(10, 18, 14, .55); }
 .tag.az { background: var(--z4-soft); color: var(--z4); }
 .tag.res-v { background: var(--accent); color: var(--accent-ink); }
 .tag.res-e { background: var(--bar-d); color: #fff; }
-.tag.res-d { background: var(--z4); color: #fff; }
+.tag.res-d { background: var(--z4); color: var(--z4-ink); }
 .note { font-size: 13px; color: var(--muted); max-width: 70ch; margin-top: 24px; border-top: 1px solid var(--line); padding-top: 14px; }
 @media (prefers-reduced-motion: reduce) { .progress i { transition: none; } }
 /* abas, seletor de métrica e página de simulações realizadas */
@@ -290,6 +296,7 @@ html { overflow-anchor: none; } /* a página faz a própria ancoragem enquanto r
       <button type="button" role="tab" id="tab-res" aria-selected="false" aria-controls="view-res">Simulações realizadas</button>
     </div>
     <button class="toggle" id="blind" type="button" aria-pressed="false" title="Esconde a classificação e as chances de queda, título e Libertadores de cada time, para simular sem influência"><span class="sw" aria-hidden="true"></span>Esconder classificação</button>
+    <button class="toggle" id="theme" type="button" aria-pressed="false" title="Alterna entre tema claro e escuro; sem escolha, a página segue o tema do sistema"><span class="sw" aria-hidden="true"></span>Modo escuro</button>
     <div class="seg-wrap">
       <span>Acompanhar</span>
       <div class="seg" id="metric" role="group" aria-label="Chance acompanhada">
@@ -620,6 +627,17 @@ onmessage = e => {
     if (openTeam != null) updateTeam(openTeam);
   }
   $('blind').onclick = () => setBlind(!blind);
+
+  // modo escuro: segue o sistema até a pessoa escolher no botão; a escolha fica salva neste navegador
+  const darkMq = matchMedia('(prefers-color-scheme: dark)');
+  const isDark = () => (document.documentElement.dataset.theme || (darkMq.matches ? 'dark' : 'light')) === 'dark';
+  const syncTheme = () => $('theme').setAttribute('aria-pressed', isDark());
+  $('theme').onclick = () => {
+    const t = isDark() ? 'light' : 'dark';
+    document.documentElement.dataset.theme = t; store.set('z4sim-tema', t); syncTheme();
+  };
+  darkMq.addEventListener('change', syncTheme);
+  syncTheme();
 
   // estado da simulação
   let res = null, timer = null, lastRun = 0, lastN = 0;
