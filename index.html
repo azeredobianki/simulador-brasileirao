@@ -240,7 +240,7 @@ td.sc.wait { font-family: var(--font-body); font-weight: 400; font-size: 13px; c
 .toggle .sw::after { content: ""; position: absolute; top: 2px; left: 2px; width: 14px; height: 14px; border-radius: 50%; background: var(--surface); transition: transform .15s; }
 .toggle[aria-pressed="true"] .sw { background: var(--accent); }
 .toggle[aria-pressed="true"] .sw::after { transform: translateX(12px); }
-.blind .side, .blind .effect, .blind .chance, .blind #tab-res { display: none; }
+.blind .side, .blind .effect, .blind .chance { display: none; }
 .blind .main { grid-template-columns: minmax(0, 1fr); }
 /* rodadas uma por vez, com setas e deslize */
 .round-head .go { flex: none; width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font-size: 20px; line-height: 1; display: grid; place-items: center; }
@@ -614,7 +614,6 @@ onmessage = e => {
     blind = v; store.set(KEY + '-blind', v);
     document.body.classList.toggle('blind', v);
     $('blind').setAttribute('aria-pressed', v);
-    if (v && view === 'res') setView('sim');
     if (openTeam != null) updateTeam(openTeam);
   }
   $('blind').onclick = () => setBlind(!blind);
