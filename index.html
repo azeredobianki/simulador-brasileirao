@@ -921,6 +921,12 @@ onmessage = e => {
     if (b) openTeamPanel(+b.dataset.team);
   });
 
+  // a rodinha do mouse sobre um placar em foco rola a página em vez de mudar o número
+  document.addEventListener('wheel', e => {
+    const el = e.target;
+    if (el instanceof HTMLInputElement && el.type === 'number' && el === document.activeElement) el.blur();
+  }, { passive: true });
+
   setBlind(blind);
   setMetric(metric);
   setView(view === 'res' ? 'res' : 'sim');
