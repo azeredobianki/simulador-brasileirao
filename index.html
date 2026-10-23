@@ -749,10 +749,13 @@ onmessage = e => {
   // os números mudam várias vezes por segundo e a altura dos cards muda junto. Para nada se mexer
   // enquanto a pessoa digita: os cards de jogo só crescem (nunca encolhem) e, depois de cada
   // atualização, a página rola o necessário para o campo em foco (ou o primeiro jogo visível) ficar
-  // exatamente onde estava na tela.
+  // exatamente onde estava na tela. Um jogo com placar inserido não muda mais, então encolhe para o
+  // tamanho natural assim que a pessoa sai dele.
   function lockHeights() {
+    const a = document.activeElement;
     document.querySelectorAll('.round:not([hidden]) .game').forEach(g => {
       g.style.minHeight = '';
+      if (g.classList.contains('done') && !g.contains(a)) { delete g.dataset.h; return; }
       const h = Math.max(g.offsetHeight, +g.dataset.h || 0);
       g.dataset.h = h; g.style.minHeight = h + 'px';
     });
@@ -772,6 +775,12 @@ onmessage = e => {
     const d = el.getBoundingClientRect().top - top;
     if (Math.abs(d) >= 0.5) { if (box) box.scrollTop += d; else window.scrollBy(0, d); }
   }
+  const isScore = el => el instanceof HTMLInputElement && el.type === 'number';
+  // ao trocar de campo, as alturas travadas são liberadas (com a tela ancorada no campo novo)
+  document.addEventListener('focusin', e => { if (isScore(e.target)) steady(unlockHeights); });
+  document.addEventListener('focusout', e => {
+    if (isScore(e.target)) setTimeout(() => { if (!isScore(document.activeElement)) steady(unlockHeights); });
+  });
   let lastW = innerWidth;
   addEventListener('resize', () => { if (innerWidth !== lastW) { lastW = innerWidth; unlockHeights(); } });
 
