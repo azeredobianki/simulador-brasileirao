@@ -116,7 +116,7 @@ td.pts { font-family: var(--font-display); font-weight: 700; font-size: 17px; }
 .rounds-nav a { text-decoration: none; color: var(--ink); border: 1px solid var(--line); background: var(--surface); padding: 4px 10px; border-radius: 999px; font-size: 13px; font-weight: 600; }
 .rounds-nav a:hover { border-color: var(--accent); }
 .round { margin-bottom: 26px; scroll-margin-top: 12px; }
-.round-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; flex-wrap: wrap; padding-bottom: 6px; border-bottom: 2px solid var(--ink); margin-bottom: 8px; }
+.round-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; padding-bottom: 6px; border-bottom: 2px solid var(--ink); margin-bottom: 8px; }
 .round-head h3 { font-size: 26px; text-transform: uppercase; font-weight: 700; }
 .round-head span { font-size: 13px; color: var(--muted); }
 .game { display: grid; grid-template-columns: 116px minmax(0, 1fr) 150px 118px; gap: 6px 14px; align-items: center; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 9px 12px; margin-bottom: 6px; }
@@ -219,6 +219,35 @@ td.sel, th.sel { background: var(--accent-soft); }
 .cut-row .b { height: 10px; background: var(--surface-2); border: 1px solid var(--line); border-radius: 2px; overflow: hidden; }
 .cut-row .b i { display: block; height: 100%; background: var(--bar-a); }
 .cut-row.head { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 600; }
+/* modo sem classificação: esconde a tabela e as chances de vitória para não influenciar quem simula */
+.toggle { display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 6px 14px 6px 8px; font-size: 14px; font-weight: 600; }
+.toggle .sw { width: 30px; height: 18px; border-radius: 999px; background: var(--line); position: relative; flex: none; transition: background .15s; }
+.toggle .sw::after { content: ""; position: absolute; top: 2px; left: 2px; width: 14px; height: 14px; border-radius: 50%; background: var(--surface); transition: transform .15s; }
+.toggle[aria-pressed="true"] .sw { background: var(--accent); }
+.toggle[aria-pressed="true"] .sw::after { transform: translateX(12px); }
+.blind .side, .blind .probs, .blind .wp, .blind .exp { display: none; }
+.blind .main { grid-template-columns: minmax(0, 1fr); }
+.blind .game { grid-template-columns: 116px minmax(0, 1fr) 118px; }
+@media (max-width: 720px) { .blind .game { grid-template-columns: minmax(0, 1fr) auto; } .blind .imp { grid-column: 1 / -1; justify-self: start; display: flex; gap: 8px; align-items: center; } }
+/* rodadas uma por vez, com setas e deslize */
+.round-head .go { flex: none; width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font-size: 20px; line-height: 1; display: grid; place-items: center; }
+.round-head .go:disabled { opacity: .35; cursor: default; }
+.round-head .go:not(:disabled):hover { border-color: var(--accent); color: var(--accent); }
+.round-title { display: flex; align-items: center; gap: 10px; }
+.round-title > div { display: grid; }
+.rounds-nav { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: thin; padding-bottom: 4px; }
+.rounds-nav button { flex: none; color: var(--ink); border: 1px solid var(--line); background: var(--surface); padding: 4px 10px; border-radius: 999px; font-size: 13px; font-weight: 600; }
+.rounds-nav button:hover { border-color: var(--accent); }
+.rounds-nav button[aria-current="true"] { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+.pager { display: flex; justify-content: space-between; gap: 8px; margin-top: 6px; }
+.pager button[hidden] { display: none; }
+.pager .next { margin-left: auto; }
+#rounds { touch-action: pan-y; }
+.round.in-l { animation: inl .22s ease-out; } .round.in-r { animation: inr .22s ease-out; }
+@keyframes inl { from { opacity: 0; transform: translateX(-28px); } }
+@keyframes inr { from { opacity: 0; transform: translateX(28px); } }
+@media (prefers-reduced-motion: reduce) { .round.in-l, .round.in-r { animation: none; } .toggle .sw, .toggle .sw::after { transition: none; } }
+.game.flash { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-soft); }
 .src { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 10px; font-size: 13px; color: var(--muted); }
 </style>
 
@@ -245,6 +274,7 @@ td.sel, th.sel { background: var(--accent-soft); }
       <button type="button" role="tab" id="tab-sim" aria-selected="true" aria-controls="view-sim">Simulador</button>
       <button type="button" role="tab" id="tab-res" aria-selected="false" aria-controls="view-res">Simulações realizadas</button>
     </div>
+    <button class="toggle" id="blind" type="button" aria-pressed="false" title="Esconde a classificação e as chances de vitória de cada jogo, para simular sem influência"><span class="sw" aria-hidden="true"></span>Esconder classificação</button>
     <div class="seg-wrap">
       <span>Acompanhar</span>
       <div class="seg" id="metric" role="group" aria-label="Chance acompanhada">
@@ -271,6 +301,7 @@ td.sel, th.sel { background: var(--accent-soft); }
       <div>
         <nav class="rounds-nav" id="nav" aria-label="Rodadas"></nav>
         <div id="rounds"></div>
+        <div class="pager"><button class="btn prev" id="pg-prev" type="button"></button><button class="btn next" id="pg-next" type="button"></button></div>
       </div>
       <aside class="side">
         <div class="table-card">
@@ -508,11 +539,16 @@ onmessage = e => {
     + `pontos, vitórias, saldo, gols pró e confronto direto entre dois times; os demais critérios viram sorteio. Resultados até ${DATA.updated}; calendário da CBF.`;
   const roundLabel = r => r === 21 ? 'Jogo atrasado' : `${r}ª rodada`;
   const roundSub = r => r === 21 ? '21ª rodada · data a definir' : r <= 34 ? 'datas e horários da CBF (Brasília)' : (DATA.roundDates[r] + ' · horários a definir');
-  $('nav').innerHTML = order.map(r => `<a href="#r${r}">${r === 21 ? 'Atrasado' : r + 'ª'}</a>`).join('');
+  $('nav').innerHTML = order.map(r => `<button type="button" data-r="${r}">${r === 21 ? 'Atrasado' : r + 'ª'}</button>`).join('');
+  const shortLabel = r => r === 21 ? 'Jogo atrasado' : `${r}ª rodada`;
   const tl = i => `<button class="tlink" type="button" data-team="${i}">${TEAMS[i].n}</button>`;
   $('rounds').innerHTML = order.map(r => `
-    <section class="round" id="r${r}">
-      <div class="round-head"><h3>${roundLabel(r)}</h3><span>${roundSub(r)}</span></div>
+    <section class="round" id="r${r}" hidden>
+      <div class="round-head">
+        <button class="go" type="button" data-go="-1" aria-label="Rodada anterior">‹</button>
+        <div class="round-title"><div><h3>${roundLabel(r)}</h3><span>${roundSub(r)}</span></div></div>
+        <button class="go" type="button" data-go="1" aria-label="Próxima rodada">›</button>
+      </div>
       ${GAMES.filter(g => g.r === r).map(g => {
         const v = saved[g.id] || {};
         return `<div class="game" id="g-${g.id}">
@@ -530,6 +566,68 @@ onmessage = e => {
         </div>`;
       }).join('')}
     </section>`).join('');
+
+  // uma rodada por vez: setas, botões das rodadas e deslize para o lado no celular
+  let cur = store.get(KEY + '-round', null);
+  if (!order.includes(cur)) cur = order.find(r => GAMES.some(g => g.r === r && !(saved[g.id] && saved[g.id].h !== '' && saved[g.id].a !== '' && saved[g.id].h != null && saved[g.id].a != null))) ?? order[0];
+  function showRound(r, dir) {
+    if (!order.includes(r)) return;
+    cur = r; store.set(KEY + '-round', r);
+    const k = order.indexOf(r);
+    order.forEach(x => {
+      const el = $('r' + x); el.hidden = x !== r;
+      el.classList.remove('in-l', 'in-r');
+      if (x === r && dir) { void el.offsetWidth; el.classList.add(dir > 0 ? 'in-r' : 'in-l'); }
+    });
+    document.querySelectorAll('#r' + r + ' .go').forEach(b => { b.disabled = k + +b.dataset.go < 0 || k + +b.dataset.go >= order.length; });
+    document.querySelectorAll('#nav button').forEach(b => {
+      const on = +b.dataset.r === r; b.setAttribute('aria-current', on);
+      if (on && dir) b.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+    });
+    const prev = order[k - 1], next = order[k + 1];
+    $('pg-prev').hidden = prev == null; $('pg-next').hidden = next == null;
+    if (prev != null) $('pg-prev').textContent = '‹ ' + shortLabel(prev);
+    if (next != null) $('pg-next').textContent = shortLabel(next) + ' ›';
+  }
+  const step = (d, fromBottom) => {
+    const r = order[order.indexOf(cur) + d]; if (r == null) return;
+    showRound(r, d);
+    const top = $('nav').getBoundingClientRect().top;
+    if (fromBottom || top < 0) $('nav').scrollIntoView({ block: 'start' });
+  };
+  $('nav').addEventListener('click', e => { const b = e.target.closest('button'); if (b) showRound(+b.dataset.r, Math.sign(order.indexOf(+b.dataset.r) - order.indexOf(cur))); });
+  $('rounds').addEventListener('click', e => { const b = e.target.closest('.go'); if (b) step(+b.dataset.go); });
+  $('pg-prev').onclick = () => step(-1, true);
+  $('pg-next').onclick = () => step(1, true);
+  let touch = null;
+  $('rounds').addEventListener('touchstart', e => { touch = e.touches.length === 1 ? { x: e.touches[0].clientX, y: e.touches[0].clientY } : null; }, { passive: true });
+  $('rounds').addEventListener('touchend', e => {
+    if (!touch) return;
+    const t = e.changedTouches[0], dx = t.clientX - touch.x, dy = t.clientY - touch.y;
+    touch = null;
+    if (Math.abs(dx) > 60 && Math.abs(dx) > 1.5 * Math.abs(dy)) step(dx < 0 ? 1 : -1);
+  }, { passive: true });
+  // atalho dos "jogos mais decisivos": abre a rodada do jogo e destaca o card
+  $('hot').addEventListener('click', e => {
+    const a = e.target.closest('a[data-g]'); if (!a) return;
+    e.preventDefault();
+    const g = GAMES.find(x => x.id === a.dataset.g); if (!g) return;
+    showRound(g.r, Math.sign(order.indexOf(g.r) - order.indexOf(cur)));
+    const el = $('g-' + g.id);
+    el.scrollIntoView({ block: 'center', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+    el.classList.add('flash'); setTimeout(() => el.classList.remove('flash'), 1600);
+  });
+  showRound(cur);
+
+  // modo sem classificação
+  let blind = !!store.get(KEY + '-blind', false);
+  function setBlind(v) {
+    blind = v; store.set(KEY + '-blind', v);
+    document.body.classList.toggle('blind', v);
+    $('blind').setAttribute('aria-pressed', v);
+    if (openTeam != null) updateTeam(openTeam);
+  }
+  $('blind').onclick = () => setBlind(!blind);
 
   // estado da simulação
   let res = null, timer = null, lastRun = 0, lastN = 0;
@@ -678,7 +776,7 @@ onmessage = e => {
         $('pr-' + g.id).innerHTML = ''; $('im-' + g.id).innerHTML = '<span class="chip ok">Inserido</span>'; $('ef-' + g.id).innerHTML = '';
       });
       const top = infos.slice().sort((a, b) => b.lev - a.lev).slice(0, 6);
-      $('hot').innerHTML = top.length ? top.map(x => `<a class="hot-item" href="#g-${x.g.id}">
+      $('hot').innerHTML = top.length ? top.map(x => `<a class="hot-item" href="#g-${x.g.id}" data-g="${x.g.id}">
           <span class="m">${TEAMS[x.g.h].n} × ${TEAMS[x.g.a].n}</span>
           <span class="s">${roundLabel(x.g.r)} · ${x.g.when} · importância ${d1(x.lev)}</span></a>`).join('')
         : '<span class="s">Todos os jogos já têm placar.</span>';
@@ -735,7 +833,7 @@ onmessage = e => {
           <input id="tp-${g.id}-a" type="number" inputmode="numeric" min="0" max="20" aria-label="Gols ${TEAMS[g.a].n}" value="${v.a ?? ''}">
           <span class="tp-t">${nm(g.a)}</span>
         </div><span class="loc">${g.h === t ? 'em casa' : 'fora'}</span></td>
-        <td class="num" id="tp-${g.id}-p"></td><td id="tp-${g.id}-s"></td><td class="num" id="tp-${g.id}-c"></td>
+        <td class="num wp" id="tp-${g.id}-p"></td><td class="wp" id="tp-${g.id}-s"></td><td class="num" id="tp-${g.id}-c"></td>
       </tr>`;
     }).join('');
     $('team-name').textContent = TEAMS[t].n;
@@ -746,18 +844,18 @@ onmessage = e => {
         <div id="ts-lib"><span>Libertadores</span><b>…</b></div>
         <div><span>Pontos esperados</span><b id="ts-esp">…</b></div>
       </div>
-      <div class="sum">
+      <div class="sum exp">
         <div><span>Vitórias esperadas</span><b id="ts-v">…</b></div>
         <div><span>Empates esperados</span><b id="ts-e">…</b></div>
         <div><span>Derrotas esperadas</span><b id="ts-d">…</b></div>
       </div>
-      <div>
+      <div class="exp">
         <div class="vedbar" role="img" aria-label="Divisão esperada dos jogos restantes"><i id="tb-v"></i><i id="tb-e"></i><i id="tb-d"></i></div>
         <div class="vedleg"><span><i style="background:var(--bar-h)"></i>Vitórias <span id="tl-v"></span></span><span><i style="background:var(--bar-d)"></i>Empates <span id="tl-e"></span></span><span><i style="background:var(--z4)"></i>Derrotas <span id="tl-d"></span></span></div>
       </div>
       <p class="tp-hint">Digite os placares aqui ou na lista principal: os dois ficam sincronizados e a simulação recomeça.</p>
       <div class="tscroll"><table class="tg">
-        <thead><tr><th class="l">Rodada</th><th class="l">Jogo</th><th>Vence / Empata / Perde</th><th>Situação</th><th>${METRICS[metric].cond} V / E / D</th></tr></thead>
+        <thead><tr><th class="l">Rodada</th><th class="l">Jogo</th><th class="wp">Vence / Empata / Perde</th><th class="wp">Situação</th><th>${METRICS[metric].cond} V / E / D</th></tr></thead>
         <tbody>${rows}</tbody>
       </table></div>`;
     updateTeam(t);
@@ -791,7 +889,7 @@ onmessage = e => {
       Cc.innerHTML = P != null && (P < 0.0005 || P > 0.9995) ? '<span style="color:var(--muted)">já definido</span>' : `${p0(cW)} / ${p0(cE)} / ${p0(cL)}`;
     }
     const n = games.length || 1;
-    $('team-sub').textContent = `${pos + 1}º lugar · ${st.P} pontos em ${st.J} jogos · ${games.length} jogos restantes${nFix ? ` (${nFix} com placar inserido)` : ''}`;
+    $('team-sub').textContent = `${blind ? '' : `${pos + 1}º lugar · ${st.P} pontos em ${st.J} jogos · `}${games.length} jogos restantes${nFix ? ` (${nFix} com placar inserido)` : ''}`;
     for (const m of ['z4', 'title', 'lib']) {
       const v = probOf(m, t), el = $('ts-' + m);
       el.querySelector('b').textContent = v == null ? '…' : fmtProb(v);
@@ -820,6 +918,7 @@ onmessage = e => {
     if (b) openTeamPanel(+b.dataset.team);
   });
 
+  setBlind(blind);
   setMetric(metric);
   setView(view === 'res' ? 'res' : 'sim');
 })();
