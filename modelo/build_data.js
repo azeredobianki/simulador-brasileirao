@@ -63,6 +63,8 @@ const data = {
   ref: (() => { const r = JSON.parse(fs.readFileSync(refPath, 'utf8')); return { N: r.N, pos: r.posCount }; })(),
   teams: CODES.map((c, t) => ({ c, n: names[c], s: short[c], ...prep.base[t] })),
   games, roundDates,
+  // resultados reais, para comparar com os palpites salvos no navegador
+  results: prep.played.map(g => [`${g.hc}-${g.ac}`, g.r, g.x, g.y]),
   rho: r4(prep.full.rho),
   sets: prep.sets.map(p => [r4(p.mu), r4(p.home), ...p.att.map(r4), ...p.def.map(r4)]),
   h2h: Array.from(prep.h2h),
