@@ -214,6 +214,21 @@ dialog#team::backdrop { background: rgba(10, 18, 14, .55); }
 .cnt b { font-variant-numeric: tabular-nums; font-weight: 700; }
 .cnt small { color: var(--muted); font-size: 12px; }
 td.sel, th.sel { background: var(--accent-soft); }
+.mine-list { display: grid; gap: 16px; }
+.mine-round td.team { white-space: normal; }
+@media (max-width: 560px) {
+  .res-cards { grid-template-columns: 1fr 1fr; }
+  .res-cards b { font-size: 28px; }
+  .mine-round th, .mine-round td { padding-inline: 4px; }
+  .mine-round td.team { font-size: 13px; }
+}
+td.sc { text-align: center; font-family: var(--font-display); font-weight: 700; font-size: 17px; }
+td.sc.wait { font-family: var(--font-body); font-weight: 400; font-size: 13px; color: var(--muted); }
+.tag.hit { background: var(--accent); color: var(--accent-ink); }
+.tag.half { background: var(--accent-soft); color: var(--accent); }
+.tag.miss { background: var(--z4-soft); color: var(--z4); }
+.tag.wait { background: var(--surface-2); color: var(--muted); border: 1px solid var(--line); }
+.mine-empty { background: var(--surface); border: 1px dashed var(--line); border-radius: var(--r); padding: 22px 18px; color: var(--muted); }
 .cut { display: grid; gap: 4px; padding: 6px 14px 14px; }
 .cut-row { display: grid; grid-template-columns: 34px minmax(0, 1fr) 54px 64px; gap: 8px; align-items: center; font-size: 13px; font-variant-numeric: tabular-nums; }
 .cut-row .b { height: 10px; background: var(--surface-2); border: 1px solid var(--line); border-radius: 2px; overflow: hidden; }
@@ -322,36 +337,13 @@ td.sel, th.sel { background: var(--accent-soft); }
 
   <section id="view-res" role="tabpanel" aria-labelledby="tab-res" hidden>
     <div class="res-cards">
-      <div><span>Cenário atual</span><b id="rc-cur">0</b><small id="rc-cur-sub">simulações com os placares inseridos</small></div>
-      <div><span>Total neste navegador</span><b id="rc-total">0</b><small>temporadas simuladas desde a primeira visita</small></div>
-      <div><span>Referência</span><b id="rc-ref">0</b><small>simulações sem placares inseridos (rodada de referência)</small></div>
+      <div><span>Palpites feitos</span><b id="mc-n">0</b><small id="mc-n-sub">placares que você inseriu neste navegador</small></div>
+      <div><span>Jogos já disputados</span><b id="mc-done">0</b><small id="mc-done-sub">dos seus palpites</small></div>
+      <div><span>Acertou o resultado</span><b id="mc-hit">–</b><small id="mc-hit-sub">vitória, empate ou derrota certos</small></div>
+      <div><span>Placar exato</span><b id="mc-exact">–</b><small id="mc-exact-sub">acertou os gols dos dois times</small></div>
     </div>
-    <div class="src" role="group" aria-label="Fonte dos números">
-      <span>Mostrar:</span>
-      <div class="seg" id="src">
-        <button type="button" data-s="cur" aria-pressed="true">Cenário atual</button>
-        <button type="button" data-s="ref" aria-pressed="false">Referência</button>
-      </div>
-    </div>
-    <div class="res-grid">
-      <div class="table-card">
-        <header><h2>Em quantas simulações</h2><span id="res-sub"></span></header>
-        <div class="tscroll">
-          <table>
-            <thead><tr>
-              <th class="l">#</th><th class="l">Time</th><th>P</th><th data-c="z4">Rebaixado</th><th data-c="title">Campeão</th><th data-c="lib">Libertadores</th><th>Posição média</th>
-            </tr></thead>
-            <tbody id="res-body"></tbody>
-          </table>
-        </div>
-        <div class="foot">Libertadores = terminar entre os 5 primeiros (G4 vai à fase de grupos, 5º à fase preliminar). Vagas extras por Copa do Brasil ou Libertadores não estão incluídas. A ordem segue a chance acompanhada.</div>
-      </div>
-      <div class="table-card">
-        <header><h2>Linha de corte</h2><span>cenário atual</span></header>
-        <div class="cut" id="cut"></div>
-        <div class="foot">Pontos com que o 16º colocado (o último fora do Z4) termina e a chance de escapar terminando com cada pontuação.</div>
-      </div>
-    </div>
+    <div class="mine-list" id="mine"></div>
+    <p class="foot">Seus palpites ficam salvos só neste navegador. Quando um jogo é disputado, o placar real aparece ao lado do seu palpite.</p>
   </section>
 
   <p class="note" id="note"></p>
@@ -511,7 +503,6 @@ onmessage = e => {
   let metric = store.get(KEY + '-metric', 'z4');
   if (!METRICS[metric]) metric = 'z4';
   let view = store.get(KEY + '-view', 'sim');
-  let src = 'cur';
 
   // referência (servidor de análise, sem placares inseridos)
   const REF = DATA.ref;
@@ -673,8 +664,8 @@ onmessage = e => {
     $('clear').onclick = askClear;
   };
   const askClear = () => {
-    actions.innerHTML = `<span class="confirm">Apagar todos os placares? <button class="btn danger" id="yes" type="button">Apagar</button><button class="btn" id="no" type="button">Cancelar</button></span>`;
-    $('yes').onclick = () => { saved = {}; persist(); document.querySelectorAll('input[type=number]').forEach(i => i.value = ''); clearUI(); restart(); };
+    actions.innerHTML = `<span class="confirm">Apagar os placares dos jogos que faltam? <button class="btn danger" id="yes" type="button">Apagar</button><button class="btn" id="no" type="button">Cancelar</button></span>`;
+    $('yes').onclick = () => { for (const id of IDS) delete saved[id]; persist(); document.querySelectorAll('input[type=number]').forEach(i => i.value = ''); clearUI(); restart(); };
     $('no').onclick = () => { clearUI(); restart(); };
   };
   $('clear').onclick = askClear;
@@ -684,6 +675,7 @@ onmessage = e => {
     view = v; store.set(KEY + '-view', v);
     $('tab-sim').setAttribute('aria-selected', v === 'sim'); $('tab-res').setAttribute('aria-selected', v === 'res');
     $('view-sim').hidden = v !== 'sim'; $('view-res').hidden = v !== 'res';
+    if (v === 'res') renderResults();
     render();
   }
   $('tab-sim').onclick = () => setView('sim');
@@ -699,12 +691,6 @@ onmessage = e => {
     if (openTeam != null) buildTeam(openTeam);
   }
   $('metric').addEventListener('click', e => { const b = e.target.closest('button'); if (b) setMetric(b.dataset.m); });
-  $('src').addEventListener('click', e => {
-    const b = e.target.closest('button'); if (!b) return;
-    src = b.dataset.s;
-    document.querySelectorAll('#src button').forEach(x => x.setAttribute('aria-pressed', x.dataset.s === src));
-    renderResults();
-  });
 
   // probabilidades do cenário atual
   const probOf = (m, t) => { if (!res) return null; let s = 0; for (let p = 0; p < T; p++) if (METRICS[m].inPos(p)) s += res.posCount[t * T + p]; return s / res.n; };
@@ -780,40 +766,59 @@ onmessage = e => {
           <span class="m">${TEAMS[x.g.h].n} × ${TEAMS[x.g.a].n}</span>
           <span class="s">${roundLabel(x.g.r)} · ${x.g.when} · importância ${d1(x.lev)}</span></a>`).join('')
         : '<span class="s">Todos os jogos já têm placar.</span>';
-    } else renderResults();
+    }
     if (openTeam != null) updateTeam(openTeam);
   }
 
-  // página "Simulações realizadas"
+  // página "Simulações realizadas": os palpites deste navegador comparados com os resultados reais
+  const REAL = Object.fromEntries((DATA.results || []).map(([id, r, x, y]) => [id, { r, x, y }]));
+  const CODE = Object.fromEntries(TEAMS.map((t, i) => [t.c, i]));
+  const sign = (x, y) => Math.sign(x - y);
   function renderResults() {
-    const f = fixedScores(), k = Object.keys(f).length;
-    $('rc-cur').textContent = res ? fmtInt(res.n) : '…';
-    $('rc-cur-sub').textContent = k ? `simulações com ${k} ${k === 1 ? 'placar inserido' : 'placares inseridos'}` : 'simulações, sem placares inseridos';
-    $('rc-total').textContent = fmtInt(totalLocal);
-    $('rc-ref').textContent = fmtInt(REF.N);
-    const useRef = src === 'ref' || !res;
-    const N = useRef ? REF.N : res.n, pc = useRef ? REF.pos : res.posCount;
-    $('res-sub').textContent = useRef ? `referência · ${fmtInt(REF.N)} simulações` : `cenário atual · ${fmtInt(res.n)} simulações`;
-    document.querySelectorAll('#view-res th[data-c]').forEach(th => th.classList.toggle('sel', th.dataset.c === metric));
-    const st = standings(useRef ? {} : f), ptsOf = Object.fromEntries(st.map(x => [x.i, x.P]));
-    const rows = TEAMS.map((t, i) => {
-      const c = m => { let s = 0; for (let p = 0; p < T; p++) if (METRICS[m].inPos(p)) s += pc[i * T + p]; return s; };
-      let avg = 0; for (let p = 0; p < T; p++) avg += (p + 1) * pc[i * T + p];
-      return { i, z4: c('z4'), title: c('title'), lib: c('lib'), avg: avg / N };
-    }).sort((a, b) => b[metric] - a[metric] || (metric === 'z4' ? b.avg - a.avg : a.avg - b.avg));
-    const cell = (v, m) => `<td class="${m === metric ? 'sel' : ''}"><span class="cnt"><b>${fmtInt(v)}</b><small>${fmtProb(v / N)}</small></span></td>`;
-    $('res-body').innerHTML = rows.map((r, k) => `<tr><td class="l pos">${k + 1}</td><td class="l team">${tl(r.i)}</td><td class="pts">${ptsOf[r.i]}</td>
-      ${cell(r.z4, 'z4')}${cell(r.title, 'title')}${cell(r.lib, 'lib')}<td>${d1(r.avg)}º</td></tr>`).join('');
-    // linha de corte (cenário atual)
-    if (!res) { $('cut').innerHTML = '<span class="s">calculando…</span>'; return; }
-    const pts = []; for (let p = 0; p < 120; p++) if (res.hist16[p] / res.n >= 0.002 || (res.allAt[p] && res.safeAt[p] / res.allAt[p] > 0.01 && res.safeAt[p] / res.allAt[p] < 0.995)) pts.push(p);
-    const lo = Math.min(...pts), hi = Math.max(...pts), mx = Math.max(...res.hist16) / res.n;
-    let html = '<div class="cut-row head"><span>Pts</span><span>16º termina com</span><span></span><span>Escapa</span></div>';
-    for (let p = lo; p <= hi; p++) {
-      const h = res.hist16[p] / res.n, sf = res.allAt[p] ? res.safeAt[p] / res.allAt[p] : 0;
-      html += `<div class="cut-row"><b>${p}</b><span class="b"><i style="width:${100 * h / mx}%"></i></span><span>${pct(h)}</span><span>${res.allAt[p] ? pct(sf, 0) : '—'}</span></div>`;
+    const items = [];
+    for (const id in saved) {
+      const v = saved[id];
+      if (!v || v.h === '' || v.a === '' || v.h == null || v.a == null) continue;
+      const g = GAMES.find(x => x.id === id), real = REAL[id];
+      if (!g && !real) continue;
+      const [hc, ac] = id.split('-');
+      items.push({ id, r: g ? g.r : real.r, h: CODE[hc], a: CODE[ac], ph: +v.h, pa: +v.a, real: g ? null : real, k: g ? g.k : -1 });
     }
-    $('cut').innerHTML = html;
+    const done = items.filter(x => x.real);
+    const hit = done.filter(x => sign(x.ph, x.pa) === sign(x.real.x, x.real.y)).length;
+    const exact = done.filter(x => x.ph === x.real.x && x.pa === x.real.y).length;
+    $('mc-n').textContent = items.length;
+    $('mc-done').textContent = done.length;
+    $('mc-done-sub').textContent = items.length - done.length ? `${items.length - done.length} ainda por jogar` : 'dos seus palpites';
+    $('mc-hit').textContent = done.length ? hit : '–';
+    $('mc-hit-sub').textContent = done.length ? `de ${done.length} (${p0(hit / done.length)})` : 'aparece quando seus jogos forem disputados';
+    $('mc-exact').textContent = done.length ? exact : '–';
+    $('mc-exact-sub').textContent = done.length ? `de ${done.length} (${p0(exact / done.length)})` : 'acertou os gols dos dois times';
+    if (!items.length) {
+      $('mine').innerHTML = '<div class="mine-empty">Você ainda não inseriu nenhum placar. Digite palpites na aba <b>Simulador</b> e eles aparecem aqui; quando os jogos acontecerem, você vê o que acertou e o que errou.</div>';
+      return;
+    }
+    // rodadas já com resultado primeiro (a mais recente no topo), depois as que faltam, em ordem
+    const rounds = [...new Set(items.map(x => x.r))].sort((x, y) => {
+      const dx = items.some(i => i.r === x && i.real), dy = items.some(i => i.r === y && i.real);
+      return dx !== dy ? (dx ? -1 : 1) : dx ? y - x : order.indexOf(x) - order.indexOf(y);
+    });
+    $('mine').innerHTML = rounds.map(r => {
+      const its = items.filter(x => x.r === r).sort((x, y) => x.k - y.k || x.id.localeCompare(y.id));
+      const d = its.filter(x => x.real), ok = d.filter(x => sign(x.ph, x.pa) === sign(x.real.x, x.real.y)).length;
+      const rows = its.map(x => {
+        let real = '<td class="sc wait">a disputar</td>', tag = '<span class="tag wait">Aguardando</span>';
+        if (x.real) {
+          real = `<td class="sc">${x.real.x} × ${x.real.y}</td>`;
+          tag = x.ph === x.real.x && x.pa === x.real.y ? '<span class="tag hit">Placar exato</span>'
+            : sign(x.ph, x.pa) === sign(x.real.x, x.real.y) ? '<span class="tag half">Acertou o resultado</span>'
+            : '<span class="tag miss">Errou</span>';
+        }
+        return `<tr><td class="l team">${tl(x.h)} × ${tl(x.a)}</td><td class="sc">${x.ph} × ${x.pa}</td>${real}<td>${tag}</td></tr>`;
+      }).join('');
+      return `<div class="table-card mine-round"><header><h2>${roundLabel(r)}</h2><span>${d.length ? `acertou ${ok} de ${d.length}` : `${its.length} ${its.length === 1 ? 'palpite' : 'palpites'}`}</span></header>
+        <div class="tscroll"><table><thead><tr><th class="l">Jogo</th><th style="text-align:center">Seu palpite</th><th style="text-align:center">Placar real</th><th></th></tr></thead><tbody>${rows}</tbody></table></div></div>`;
+    }).join('');
   }
 
   // painel do time: todos os jogos restantes, com placares editáveis.
