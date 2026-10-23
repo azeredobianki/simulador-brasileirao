@@ -260,6 +260,8 @@ td.sc.wait { font-family: var(--font-body); font-weight: 400; font-size: 13px; c
 @keyframes inl { from { opacity: 0; transform: translateX(-28px); } }
 @keyframes inr { from { opacity: 0; transform: translateX(28px); } }
 @media (prefers-reduced-motion: reduce) { .round.in-l, .round.in-r { animation: none; } .toggle .sw, .toggle .sw::after { transition: none; } }
+html { overflow-anchor: none; } /* a página faz a própria ancoragem enquanto recalcula (ver steady) */
+.game { align-content: start; } /* com altura travada, o espaço que sobra fica embaixo e o placar não desce */
 .game.flash { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-soft); }
 .src { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 10px; font-size: 13px; color: var(--muted); }
 </style>
@@ -612,6 +614,7 @@ onmessage = e => {
   let blind = !!store.get(KEY + '-blind', false);
   function setBlind(v) {
     blind = v; store.set(KEY + '-blind', v);
+    unlockHeights();
     document.body.classList.toggle('blind', v);
     $('blind').setAttribute('aria-pressed', v);
     if (openTeam != null) updateTeam(openTeam);
@@ -624,9 +627,11 @@ onmessage = e => {
   const worker = new Worker(URL.createObjectURL(new Blob([document.getElementById('worker-src').textContent], { type: 'text/javascript' })));
   const restart = () => {
     const f = fixedScores(), k = Object.keys(f).length;
-    $('filled').textContent = `${k} ${k === 1 ? 'placar inserido' : 'placares inseridos'}`;
-    GAMES.forEach(g => document.getElementById('g-' + g.id).classList.toggle('done', !!f[g.id]));
-    renderTable(f);
+    steady(() => {
+      $('filled').textContent = `${k} ${k === 1 ? 'placar inserido' : 'placares inseridos'}`;
+      GAMES.forEach(g => document.getElementById('g-' + g.id).classList.toggle('done', !!f[g.id]));
+      renderTable(f);
+    });
     worker.postMessage({ type: 'run', fixed: f, target: TARGET });
   };
   worker.onmessage = e => {
@@ -679,6 +684,7 @@ onmessage = e => {
   $('tab-sim').onclick = () => setView('sim');
   $('tab-res').onclick = () => setView('res');
   function setMetric(m) {
+    unlockHeights();
     metric = m; store.set(KEY + '-metric', m);
     document.querySelectorAll('#metric button').forEach(b => b.setAttribute('aria-pressed', b.dataset.m === m));
     $('th-metric').textContent = METRICS[m].col;
@@ -740,7 +746,37 @@ onmessage = e => {
     });
   }
 
-  function render() {
+  // os números mudam várias vezes por segundo e a altura dos cards muda junto. Para nada se mexer
+  // enquanto a pessoa digita: os cards de jogo só crescem (nunca encolhem) e, depois de cada
+  // atualização, a página rola o necessário para o campo em foco (ou o primeiro jogo visível) ficar
+  // exatamente onde estava na tela.
+  function lockHeights() {
+    document.querySelectorAll('.round:not([hidden]) .game').forEach(g => {
+      g.style.minHeight = '';
+      const h = Math.max(g.offsetHeight, +g.dataset.h || 0);
+      g.dataset.h = h; g.style.minHeight = h + 'px';
+    });
+  }
+  function unlockHeights() {
+    document.querySelectorAll('.game').forEach(g => { delete g.dataset.h; g.style.minHeight = ''; });
+  }
+  function steady(fn) {
+    const a = document.activeElement;
+    let el = a instanceof HTMLInputElement && a.type === 'number' && a.offsetParent ? a : null;
+    const box = el && el.closest('dialog');
+    if (!el && !dlg.open) el = [...document.querySelectorAll('.round:not([hidden]) .game')].find(g => g.getBoundingClientRect().bottom > 0);
+    const top = el ? el.getBoundingClientRect().top : 0;
+    fn();
+    lockHeights();
+    if (!el) return;
+    const d = el.getBoundingClientRect().top - top;
+    if (Math.abs(d) >= 0.5) { if (box) box.scrollTop += d; else window.scrollBy(0, d); }
+  }
+  let lastW = innerWidth;
+  addEventListener('resize', () => { if (innerWidth !== lastW) { lastW = innerWidth; unlockHeights(); } });
+
+  const render = () => steady(renderNow);
+  function renderNow() {
     if (!res) return;
     const f = fixedScores();
     $('count').innerHTML = `${fmtInt(res.n)} <small>cenários simulados${res.n < res.target ? '…' : ''}</small>`;
