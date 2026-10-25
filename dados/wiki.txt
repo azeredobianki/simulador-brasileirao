@@ -1274,21 +1274,21 @@ Players who are [[Brazilian nationality law|Brazilian]] nationals but also hold 
 <!--Update team results here and then (if needed positions above). Don't forget to update the date above (update parameter)-->
 |win_CAP=15|draw_CAP=9 |loss_CAP=8 |gf_CAP=50|ga_CAP=38
 |win_CAM=14|draw_CAM=8 |loss_CAM=9 |gf_CAM=42|ga_CAM=35
-|win_BAH=13|draw_BAH=10|loss_BAH=8 |gf_BAH=44|ga_BAH=39
+|win_BAH=13|draw_BAH=11|loss_BAH=8 |gf_BAH=45|ga_BAH=40
 |win_BOT=10|draw_BOT=9 |loss_BOT=13|gf_BOT=44|ga_BOT=51
-|win_CHA=3 |draw_CHA=9 |loss_CHA=18|gf_CHA=30|ga_CHA=62
+|win_CHA=4 |draw_CHA=9 |loss_CHA=18|gf_CHA=32|ga_CHA=63
 |win_COR=8 |draw_COR=9 |loss_COR=15|gf_COR=34|ga_COR=42
 |win_CTB=10|draw_CTB=9 |loss_CTB=12|gf_CTB=38|ga_CTB=49
 |win_CRU=16|draw_CRU=6 |loss_CRU=10|gf_CRU=51|ga_CRU=46
 |win_FLA=20|draw_FLA=7 |loss_FLA=4 |gf_FLA=61|ga_FLA=25|status_FLA=X
-|win_FLU=14|draw_FLU=9 |loss_FLU=8 |gf_FLU=49|ga_FLU=39
+|win_FLU=14|draw_FLU=9 |loss_FLU=9 |gf_FLU=50|ga_FLU=41
 |win_GRE=7 |draw_GRE=10|loss_GRE=14|gf_GRE=34|ga_GRE=44
 |win_INT=8 |draw_INT=11|loss_INT=13|gf_INT=36|ga_INT=40
 |win_MIR=9 |draw_MIR=10|loss_MIR=13|gf_MIR=37|ga_MIR=45
 |win_PAL=20|draw_PAL=9 |loss_PAL=3 |gf_PAL=56|ga_PAL=22|status_PAL=X
 |win_RBB=11|draw_RBB=8 |loss_RBB=13|gf_RBB=39|ga_RBB=38
 |win_REM=5 |draw_REM=11|loss_REM=16|gf_REM=34|ga_REM=50
-|win_SAN=12|draw_SAN=9 |loss_SAN=10|gf_SAN=48|ga_SAN=46
+|win_SAN=12|draw_SAN=10|loss_SAN=10|gf_SAN=49|ga_SAN=47
 |win_SPA=12|draw_SPA=7 |loss_SPA=13|gf_SPA=37|ga_SPA=36
 |win_VAS=10|draw_VAS=8 |loss_VAS=13|gf_VAS=39|ga_VAS=45
 |win_VIT=10|draw_VIT=8 |loss_VIT=14|gf_VIT=35|ga_VIT=46
@@ -1426,7 +1426,7 @@ Players who are [[Brazilian nationality law|Brazilian]] nationals but also hold 
 |match_CHA_CTB=3–3
 |match_CHA_CRU=
 |match_CHA_FLA=0–4
-|match_CHA_FLU=
+|match_CHA_FLU=2–1
 |match_CHA_GRE=1–1
 |match_CHA_INT=1–2
 |match_CHA_MIR=
@@ -1660,7 +1660,7 @@ Players who are [[Brazilian nationality law|Brazilian]] nationals but also hold 
 
 |match_SAN_CAP=0–2
 |match_SAN_CAM=1–0
-|match_SAN_BAH=
+|match_SAN_BAH=1–1
 |match_SAN_BOT=
 |match_SAN_CHA=2–2
 |match_SAN_COR=[[Clássico Alvinegro|1–1]]
