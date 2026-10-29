@@ -1235,7 +1235,7 @@ Players who are [[Brazilian nationality law|Brazilian]] nationals but also hold 
 ==Standings==
 ===League table===
 <onlyinclude>{{#invoke:Sports table|main|style=WDL
-|update=24 October 2026
+|update=28 October 2026
 |source=[https://www.cbf.com.br/futebol-brasileiro/tabelas/campeonato-brasileiro/serie-a/2026 CBF]
 |show_limit=5
 
@@ -1273,23 +1273,23 @@ Players who are [[Brazilian nationality law|Brazilian]] nationals but also hold 
 
 <!--Update team results here and then (if needed positions above). Don't forget to update the date above (update parameter)-->
 |win_CAP=15|draw_CAP=9 |loss_CAP=8 |gf_CAP=50|ga_CAP=38
-|win_CAM=14|draw_CAM=8 |loss_CAM=9 |gf_CAM=42|ga_CAM=35
-|win_BAH=13|draw_BAH=11|loss_BAH=8 |gf_BAH=45|ga_BAH=40
-|win_BOT=10|draw_BOT=9 |loss_BOT=13|gf_BOT=44|ga_BOT=51
-|win_CHA=4 |draw_CHA=9 |loss_CHA=18|gf_CHA=32|ga_CHA=63
+|win_CAM=14|draw_CAM=8 |loss_CAM=10 |gf_CAM=44|ga_CAM=38
+|win_BAH=14|draw_BAH=11|loss_BAH=8 |gf_BAH=48|ga_BAH=42
+|win_BOT=10|draw_BOT=9 |loss_BOT=14|gf_BOT=45|ga_BOT=53
+|win_CHA=4 |draw_CHA=9 |loss_CHA=19|gf_CHA=32|ga_CHA=66
 |win_COR=8 |draw_COR=9 |loss_COR=15|gf_COR=34|ga_COR=42
-|win_CTB=10|draw_CTB=9 |loss_CTB=12|gf_CTB=38|ga_CTB=49
+|win_CTB=10|draw_CTB=9 |loss_CTB=13|gf_CTB=38|ga_CTB=50
 |win_CRU=16|draw_CRU=6 |loss_CRU=10|gf_CRU=51|ga_CRU=46
-|win_FLA=20|draw_FLA=7 |loss_FLA=4 |gf_FLA=61|ga_FLA=25|status_FLA=X
-|win_FLU=14|draw_FLU=9 |loss_FLU=9 |gf_FLU=50|ga_FLU=41
-|win_GRE=7 |draw_GRE=10|loss_GRE=14|gf_GRE=34|ga_GRE=44
-|win_INT=8 |draw_INT=11|loss_INT=13|gf_INT=36|ga_INT=40
+|win_FLA=21|draw_FLA=7 |loss_FLA=4 |gf_FLA=64|ga_FLA=27|status_FLA=X
+|win_FLU=15|draw_FLU=9 |loss_FLU=9 |gf_FLU=52|ga_FLU=42
+|win_GRE=8 |draw_GRE=10|loss_GRE=14|gf_GRE=35|ga_GRE=44
+|win_INT=8 |draw_INT=11|loss_INT=14|gf_INT=37|ga_INT=42
 |win_MIR=9 |draw_MIR=10|loss_MIR=13|gf_MIR=37|ga_MIR=45
-|win_PAL=20|draw_PAL=9 |loss_PAL=3 |gf_PAL=56|ga_PAL=22|status_PAL=X
-|win_RBB=11|draw_RBB=8 |loss_RBB=13|gf_RBB=39|ga_RBB=38
-|win_REM=5 |draw_REM=11|loss_REM=16|gf_REM=34|ga_REM=50
-|win_SAN=12|draw_SAN=10|loss_SAN=10|gf_SAN=49|ga_SAN=47
-|win_SPA=12|draw_SPA=7 |loss_SPA=13|gf_SPA=37|ga_SPA=36
+|win_PAL=20|draw_PAL=10 |loss_PAL=3 |gf_PAL=56|ga_PAL=22|status_PAL=X
+|win_RBB=12|draw_RBB=8 |loss_RBB=13|gf_RBB=42|ga_RBB=38
+|win_REM=6 |draw_REM=11|loss_REM=16|gf_REM=36|ga_REM=51
+|win_SAN=12|draw_SAN=11|loss_SAN=10|gf_SAN=49|ga_SAN=47
+|win_SPA=12|draw_SPA=7 |loss_SPA=14|gf_SPA=39|ga_SPA=39
 |win_VAS=10|draw_VAS=8 |loss_VAS=13|gf_VAS=39|ga_VAS=45
 |win_VIT=10|draw_VIT=8 |loss_VIT=14|gf_VIT=35|ga_VIT=46
 
@@ -1311,7 +1311,7 @@ Players who are [[Brazilian nationality law|Brazilian]] nationals but also hold 
 
 == Results ==
 {{#invoke:Sports results|main
-|update=24 October 2026
+|update=28 October 2026
 |source=[https://www.cbf.com.br/futebol-brasileiro/tabelas/campeonato-brasileiro/serie-a/2026 CBF]
 |matches_style=FBR
 
@@ -1394,7 +1394,7 @@ Players who are [[Brazilian nationality law|Brazilian]] nationals but also hold 
 |match_BAH_RBB=2–0
 |match_BAH_REM=2–1
 |match_BAH_SAN=2–2
-|match_BAH_SPA=
+|match_BAH_SPA=3–2
 |match_BAH_VAS=0–0
 |match_BAH_VIT=1–1
 
@@ -1467,7 +1467,7 @@ Players who are [[Brazilian nationality law|Brazilian]] nationals but also hold 
 |match_CTB_CRU=0–1
 |match_CTB_FLA=
 |match_CTB_FLU=1–1
-|match_CTB_GRE=
+|match_CTB_GRE=0–1
 |match_CTB_INT=2–2
 |match_CTB_MIR=1–2
 |match_CTB_PAL=1–3
@@ -1499,7 +1499,7 @@ Players who are [[Brazilian nationality law|Brazilian]] nationals but also hold 
 |match_CRU_VIT=3–0
 
 |match_FLA_CAP=
-|match_FLA_CAM=[[Clube de Regatas do Flamengo–Clube Atlético Mineiro rivalry|a]]
+|match_FLA_CAM=[[Clube de Regatas do Flamengo–Clube Atlético Mineiro rivalry|3–2]]
 |match_FLA_BAH=2–0
 |match_FLA_BOT=3–0
 |match_FLA_CHA=
@@ -1528,7 +1528,7 @@ Players who are [[Brazilian nationality law|Brazilian]] nationals but also hold 
 |match_FLU_CRU=
 |match_FLU_FLA=[[Fla–Flu|1–2]]
 |match_FLU_GRE=2–1
-|match_FLU_INT=
+|match_FLU_INT=2–1
 |match_FLU_MIR=
 |match_FLU_PAL=3–2
 |match_FLU_RBB=1–1
@@ -1622,7 +1622,7 @@ Players who are [[Brazilian nationality law|Brazilian]] nationals but also hold 
 |match_RBB_CAM=1–0
 |match_RBB_BAH=2–3
 |match_RBB_BOT=1–2
-|match_RBB_CHA=
+|match_RBB_CHA=3–0
 |match_RBB_COR=0–2
 |match_RBB_CTB=0–0
 |match_RBB_CRU=4–2
@@ -1641,7 +1641,7 @@ Players who are [[Brazilian nationality law|Brazilian]] nationals but also hold 
 |match_REM_CAP=1–2
 |match_REM_CAM=2–2
 |match_REM_BAH=4–1
-|match_REM_BOT=
+|match_REM_BOT=2–1
 |match_REM_CHA=
 |match_REM_COR=
 |match_REM_CTB=2–3
@@ -1671,7 +1671,7 @@ Players who are [[Brazilian nationality law|Brazilian]] nationals but also hold 
 |match_SAN_GRE=
 |match_SAN_INT=1–2
 |match_SAN_MIR=1–1
-|match_SAN_PAL=[[Clássico da Saudade|a]]
+|match_SAN_PAL=[[Clássico da Saudade|0–0]]
 |match_SAN_RBB=2–0
 |match_SAN_REM=2–0
 |match_SAN_SPA=[[San-São|1–1]]
