@@ -1235,7 +1235,7 @@ Players who are [[Brazilian nationality law|Brazilian]] nationals but also hold 
 ==Standings==
 ===League table===
 <onlyinclude>{{#invoke:Sports table|main|style=WDL
-|update=5 November 2026
+|update=6 November 2026
 |source=[https://www.cbf.com.br/futebol-brasileiro/tabelas/campeonato-brasileiro/serie-a/2026 CBF]
 |show_limit=5
 
@@ -1281,7 +1281,7 @@ Players who are [[Brazilian nationality law|Brazilian]] nationals but also hold 
 |win_CTB=11|draw_CTB=9 |loss_CTB=14|gf_CTB=40|ga_CTB=51
 |win_CRU=18|draw_CRU=6 |loss_CRU=10|gf_CRU=55|ga_CRU=48|status_CRU=X
 |win_FLA=23|draw_FLA=7 |loss_FLA=4 |gf_FLA=71|ga_FLA=29|status_FLA=Q
-|win_FLU=15|draw_FLU=9 |loss_FLU=9 |gf_FLU=52|ga_FLU=42
+|win_FLU=16|draw_FLU=9 |loss_FLU=9 |gf_FLU=55|ga_FLU=42
 |win_GRE=9 |draw_GRE=10|loss_GRE=15|gf_GRE=38|ga_GRE=47
 |win_INT=9 |draw_INT=11|loss_INT=14|gf_INT=38|ga_INT=42
 |win_MIR=10|draw_MIR=10|loss_MIR=14|gf_MIR=39|ga_MIR=48
@@ -1291,7 +1291,7 @@ Players who are [[Brazilian nationality law|Brazilian]] nationals but also hold 
 |win_SAN=12|draw_SAN=11|loss_SAN=11|gf_SAN=50|ga_SAN=49
 |win_SPA=12|draw_SPA=8 |loss_SPA=14|gf_SPA=39|ga_SPA=39
 |win_VAS=11|draw_VAS=8 |loss_VAS=14|gf_VAS=43|ga_VAS=50
-|win_VIT=10|draw_VIT=8 |loss_VIT=15|gf_VIT=35|ga_VIT=48
+|win_VIT=10|draw_VIT=8 |loss_VIT=16|gf_VIT=35|ga_VIT=51
 
 <!---Competition rules-->
 |class_rules=1) points; 2) wins; 3) goal difference; 4) goals scored; 5) head-to-head results (only between two teams); 6) fewest red cards; 7) fewest yellow cards; 8) drawing of lots.<ref>{{cite web|url=https://stcbfsiteprdimgbrs.blob.core.windows.net/img-site/cdn/REC_Brasileiro_SA_rie_A_2026_v15_12_2025_final_02692c1077.pdf |title=Regulamento Específico da Competição Brasileiro Série A 2026 |publisher=CBF |language=pt-br |date=15 December 2025}}</ref>
@@ -1311,7 +1311,7 @@ Players who are [[Brazilian nationality law|Brazilian]] nationals but also hold 
 
 == Results ==
 {{#invoke:Sports results|main
-|update=5 November 2026
+|update=6 November 2026
 |source=[https://www.cbf.com.br/futebol-brasileiro/tabelas/campeonato-brasileiro/serie-a/2026 CBF]
 |matches_style=FBR
 
@@ -1727,7 +1727,7 @@ Players who are [[Brazilian nationality law|Brazilian]] nationals but also hold 
 |match_VIT_CTB=4–1
 |match_VIT_CRU=1–3
 |match_VIT_FLA=1–2
-|match_VIT_FLU=
+|match_VIT_FLU=0–3
 |match_VIT_GRE=1–0
 |match_VIT_INT=2–0
 |match_VIT_MIR=1–0

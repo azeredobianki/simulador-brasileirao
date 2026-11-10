@@ -366,7 +366,8 @@ html { overflow-anchor: none; } /* a página faz a própria ancoragem enquanto r
 
 <script id="sim-data" type="application/json">/*DATA*/</script>
 <script id="worker-src" type="text/plain">
-let D, T, G, B, S = 121, cdf, run = 0;
+/*FATORES*/
+let D, T, G, B, S = 121, cdf, run = 0, FS, varCache;
 const MAXG = 10, lf = [0];
 for (let i = 1; i <= 40; i++) lf[i] = lf[i - 1] + Math.log(i);
 function matrix(lh, la, rho, out, off) {
@@ -394,6 +395,15 @@ function init(d) {
       matrix(lh, la, d.rho, cdf, (b * G + g) * S);
     }
   }
+  // finais, reservas, falta de objetivo e "entregas" (modelo/fatores.js)
+  FS = fatSetup(d.teams.map(t => t.c), d.games, { vagas: true, reservas: true, motivacao: true, entrega: true });
+  varCache = new Map();
+}
+function variant(g, net) {
+  const k = g * 1000 + Math.round(net * 100);
+  let v = varCache.get(k);
+  if (!v) { const gm = D.games[g]; v = new Float32Array(S); matrix(gm.lm[0] * Math.exp(-net / 2), gm.lm[1] * Math.exp(net / 2), D.rho, v, 0); varCache.set(k, v); }
+  return v;
 }
 function start(fixed, target) {
   const my = ++run;
@@ -402,25 +412,23 @@ function start(fixed, target) {
   const bp = new Int32Array(T), bw = new Int32Array(T), bgd = new Int32Array(T), bgf = new Int32Array(T);
   const h2h = Int32Array.from(D.h2h);
   D.teams.forEach((t, i) => { bp[i] = 3 * t.W + t.D; bw[i] = t.W; bgd[i] = t.GF - t.GA; bgf[i] = t.GF; });
-  const open = [];
+  const open = [], oidx = new Int32Array(G).fill(-1), fx = new Int32Array(G), fy = new Int32Array(G);
   D.games.forEach((g, i) => {
     const f = fixed[g.id];
-    if (!f) { open.push(i); return; }
+    if (!f) { oidx[i] = open.length; open.push(i); return; }
     const [x, y] = f, h = g.h, a = g.a;
-    bgd[h] += x - y; bgd[a] += y - x; bgf[h] += x; bgf[a] += y;
-    if (x > y) { bp[h] += 3; bw[h]++; h2h[h * T + a] += 3; }
-    else if (x < y) { bp[a] += 3; bw[a]++; h2h[a * T + h] += 3; }
-    else { bp[h]++; bp[a]++; h2h[h * T + a]++; h2h[a * T + h]++; }
+    fx[i] = x; fy[i] = y;
+    if (x > y) h2h[h * T + a] += 3; else if (x < y) h2h[a * T + h] += 3; else { h2h[h * T + a]++; h2h[a * T + h]++; }
   });
   const O = open.length, H = open.map(i => D.games[i].h), A = open.map(i => D.games[i].a);
   const pair = new Int32Array(T * T).fill(-1);
   open.forEach((gi, j) => pair[H[j] * T + A[j]] = j);
   const pts = new Int32Array(T), w = new Int32Array(T), gd = new Int32Array(T), gf = new Int32Array(T);
   const key = new Float64Array(T), kb = new Float64Array(T), oc = new Uint8Array(O), pos = new Int32Array(T);
-  const posCount = new Float64Array(T * T), ptsSum = new Float64Array(T), cnt = new Float64Array(O * 3);
+  const posCount = new Float64Array(T * T), ptsSum = new Float64Array(T), cnt = new Float64Array(O * 3), libCount = new Float64Array(T);
   const cz = new Float64Array(O * 3 * T), ct = new Float64Array(O * 3 * T), cl = new Float64Array(O * 3 * T);
   const hist16 = new Float64Array(120), allAt = new Float64Array(120), safeAt = new Float64Array(120);
-  const zl = new Int32Array(4), ll = new Int32Array(5);
+  const zl = new Int32Array(4), ll = new Int32Array(T), st = new Int32Array(T), fin = {}, byPos = new Int32Array(T);
   let n = 0;
   const step = () => {
     if (my !== run) return;
@@ -429,13 +437,24 @@ function start(fixed, target) {
       for (let s = 0; s < 250; s++) {
         const b = (rnd() * B) | 0;
         for (let t = 0; t < T; t++) { pts[t] = bp[t]; w[t] = bw[t]; gd[t] = bgd[t]; gf[t] = bgf[t]; }
-        for (let j = 0; j < O; j++) {
-          const off = (b * G + open[j]) * S, r = rnd();
-          let lo = 0, hi = S - 1;
-          while (lo < hi) { const m = (lo + hi) >> 1; if (cdf[off + m] < r) lo = m + 1; else hi = m; }
-          const x = (lo / 11) | 0, y = lo % 11, h = H[j], a = A[j];
+        fatFinals(FS, rnd, fin);
+        let curB = -1;
+        // jogos em ordem cronológica: a situação de cada time no início da rodada decide reservas, motivação e "entregas"
+        for (let q = 0; q < G; q++) {
+          const g = FS.order[q], gm = D.games[g], h = gm.h, a = gm.a, j = oidx[g];
+          let x, y;
+          if (FS.block[q] !== curB) { curB = FS.block[q]; fatState(FS, curB, pts, fin, FAT.ROUND_ORDER[curB] ?? 99, st); }
+          if (j < 0) { x = fx[g]; y = fy[g]; }
+          else {
+            const net = gm.mk ? 0 : fatShift(FS, g, h, a, st, rnd);
+            const arr = net ? variant(g, net) : cdf, off = net ? 0 : (b * G + g) * S, r = rnd();
+            let lo = 0, hi = S - 1;
+            while (lo < hi) { const m = (lo + hi) >> 1; if (arr[off + m] < r) lo = m + 1; else hi = m; }
+            x = (lo / 11) | 0; y = lo % 11;
+            oc[j] = x > y ? 0 : x < y ? 2 : 1;
+          }
           gd[h] += x - y; gd[a] += y - x; gf[h] += x; gf[a] += y;
-          if (x > y) { pts[h] += 3; w[h]++; oc[j] = 0; } else if (x < y) { pts[a] += 3; w[a]++; oc[j] = 2; } else { pts[h]++; pts[a]++; oc[j] = 1; }
+          if (x > y) { pts[h] += 3; w[h]++; } else if (x < y) { pts[a] += 3; w[a]++; } else { pts[h]++; pts[a]++; }
         }
         for (let t = 0; t < T; t++) { kb[t] = pts[t] * 1e8 + w[t] * 1e6 + (gd[t] + 300) * 1e3 + gf[t]; key[t] = kb[t] + rnd() * 0.5; }
         // confronto direto quando exatamente 2 times empatam em pontos, vitórias, saldo e gols pró
@@ -456,15 +475,16 @@ function start(fixed, target) {
         for (let t = 0; t < T; t++) {
           let better = 0;
           for (let q = 0; q < T; q++) if (key[q] > key[t]) better++;
-          pos[t] = better;
+          pos[t] = better; byPos[better] = t;
           posCount[t * T + better]++; ptsSum[t] += pts[t];
           allAt[pts[t]]++;
           if (better < 16) safeAt[pts[t]]++;
           if (better === 15) hist16[pts[t]]++;
           if (better >= 16) zl[nz++] = t;
-          if (better < 5) ll[nl++] = t;
           if (better === 0) champ = t;
         }
+        const lm = fatLib(FS, byPos, fin)[0];
+        for (let t = 0; t < T; t++) if (lm >> t & 1) { ll[nl++] = t; libCount[t]++; }
         for (let j = 0; j < O; j++) {
           const c = j * 3 + oc[j], base = c * T;
           cnt[c]++;
@@ -475,7 +495,7 @@ function start(fixed, target) {
         n++;
       }
     }
-    postMessage({ run: my, n, target, open, posCount, ptsSum, cnt, cond: { z4: cz, title: ct, lib: cl }, hist16, allAt, safeAt });
+    postMessage({ run: my, n, target, open, posCount, ptsSum, cnt, libCount, cond: { z4: cz, title: ct, lib: cl }, hist16, allAt, safeAt });
     if (n < target) setTimeout(step, 0);
   };
   step();
@@ -513,7 +533,7 @@ onmessage = e => {
 
   // referência (servidor de análise, sem placares inseridos)
   const REF = DATA.ref;
-  const refProb = (m, t) => { let s = 0; for (let p = 0; p < T; p++) if (METRICS[m].inPos(p)) s += REF.pos[t * T + p]; return s / REF.N; };
+  const refProb = (m, t) => { if (m === 'lib') return REF.lib[t] / REF.N; let s = 0; for (let p = 0; p < T; p++) if (METRICS[m].inPos(p)) s += REF.pos[t * T + p]; return s / REF.N; };
 
   // placares salvos (ignora jogos que já aconteceram de verdade)
   let saved = store.get(KEY, {}) || {};
@@ -528,15 +548,17 @@ onmessage = e => {
     return f;
   };
 
-  // rodadas em ordem cronológica (jogo atrasado ao fim)
+  // rodadas em ordem cronológica
   const order = [...new Set(GAMES.map(g => g.r))];
   const firstRound = Math.min(...order.filter(r => r !== 21));
   $('eyebrow').textContent = `Brasileirão Série A 2026 · ${firstRound}ª a 38ª rodada`;
   $('note').textContent = `Modelo: força de ataque e defesa de cada time ajustada aos ${DATA.played} jogos já disputados (Poisson com correção de Dixon-Coles), mando de campo, `
     + `incerteza das forças por reamostragem (200 versões do modelo) e ajuste pelas odds de mercado. Placares completos são sorteados, então saldo e gols pró contam no desempate: `
-    + `pontos, vitórias, saldo, gols pró e confronto direto entre dois times; os demais critérios viram sorteio. Resultados até ${DATA.updated}; calendário da CBF.`;
+    + `pontos, vitórias, saldo, gols pró e confronto direto entre dois times; os demais critérios viram sorteio. `
+    + `Libertadores: G4 e campeão da Copa do Brasil na fase de grupos, 5º e vice da Copa na preliminar; as finais da Libertadores (Palmeiras), da Sul-Americana (Atlético-MG) e da Copa do Brasil (Palmeiras x Grêmio) são sorteadas e a zona cresce de G6 até G9 quando a vaga passa adiante (rebaixado não joga a Libertadores). `
+    + `Nos jogos sem odds entram também a chance de Palmeiras, Atlético-MG e Grêmio pouparem titulares perto das finais, a queda de rendimento de quem não disputa mais nada e uma chance pequena de "corpo mole" de quem pode ajudar a rebaixar um rival. Resultados até ${DATA.updated}; calendário da CBF.`;
   const roundLabel = r => r === 21 ? 'Jogo atrasado' : `${r}ª rodada`;
-  const roundSub = r => r === 21 ? '21ª rodada · data a definir' : r <= 34 ? 'datas e horários da CBF (Brasília)' : (DATA.roundDates[r] + ' · horários a definir');
+  const roundSub = r => r === 21 ? '21ª rodada · data e horário da CBF (Brasília)' : (DATA.roundDates[r] ? DATA.roundDates[r] + ' · ' : '') + 'datas e horários da CBF (Brasília)';
   $('nav').innerHTML = order.map(r => `<button type="button" data-r="${r}">${r === 21 ? 'Atrasado' : r + 'ª'}</button>`).join('');
   const shortLabel = r => r === 21 ? 'Jogo atrasado' : `${r}ª rodada`;
   const tl = i => `<button class="tlink" type="button" data-team="${i}">${TEAMS[i].n}</button>`;
@@ -707,7 +729,7 @@ onmessage = e => {
     document.querySelectorAll('#metric button').forEach(b => b.setAttribute('aria-pressed', b.dataset.m === m));
     $('th-metric').textContent = METRICS[m].col;
     $('legend-imp').innerHTML = `<b>Importância</b> quanto o resultado move as chances de ${METRICS[m].word}, em pontos percentuais`;
-    $('hot-title').textContent = `Jogos mais decisivos para o ${METRICS[m].name === 'Libertadores' ? 'G5 (Libertadores)' : METRICS[m].name}`;
+    $('hot-title').textContent = `Jogos mais decisivos para ${m === 'lib' ? 'a Libertadores' : 'o ' + METRICS[m].name}`;
     renderTable(fixedScores());
     render();
     if (openTeam != null) buildTeam(openTeam);
@@ -715,7 +737,7 @@ onmessage = e => {
   $('metric').addEventListener('click', e => { const b = e.target.closest('button'); if (b) setMetric(b.dataset.m); });
 
   // probabilidades do cenário atual
-  const probOf = (m, t) => { if (!res) return null; let s = 0; for (let p = 0; p < T; p++) if (METRICS[m].inPos(p)) s += res.posCount[t * T + p]; return s / res.n; };
+  const probOf = (m, t) => { if (!res) return null; if (m === 'lib') return res.libCount[t] / res.n; let s = 0; for (let p = 0; p < T; p++) if (METRICS[m].inPos(p)) s += res.posCount[t * T + p]; return s / res.n; };
   const fmtProb = v => v < 0.0005 ? '0%' : v > 0.9995 ? '100%' : pct(v);
 
   function standings(f) {

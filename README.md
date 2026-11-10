@@ -13,7 +13,13 @@ O site é um arquivo só: [`index.html`](index.html). Não precisa de servidor n
   - As odds também ajustam levemente a força dos times para os jogos seguintes.
 - **Placares completos** são sorteados. Por isso o desempate oficial funciona: pontos, vitórias, saldo, gols pró e confronto direto entre dois times. Os demais critérios viram sorteio.
 - **Validação:** o modelo foi testado prevendo cada rodada só com os jogos anteriores. Teve log-loss de 1,020, contra 1,099 do "1/3 para cada resultado" e 1,058 da simples frequência de mandante, empate e visitante.
-- **Libertadores** = terminar entre os 5 primeiros: G4 na fase de grupos e o 5º na fase preliminar. Vagas extras por Copa do Brasil não entram.
+- **Libertadores 2027** (regras da CBF e da Conmebol): G4 e campeão da Copa do Brasil na fase de grupos; 5º colocado e vice da Copa na preliminar. Os campeões da Libertadores e da Sul-Americana ganham vaga extra na fase de grupos. Quando um classificado já tem vaga, ela passa para o próximo da tabela (se o campeão da Copa já está no G4, o vice sobe para a fase de grupos). Rebaixado não disputa a Libertadores. Cada simulação sorteia as finais (Palmeiras x Estudiantes, Atlético-MG x Boca Juniors, Palmeiras x Grêmio na Copa do Brasil), então a zona do Brasileirão varia de G6 a G9.
+- **Fatores extras** (`modelo/fatores.js`, só nos jogos sem odds, porque as odds já embutem a escalação esperada):
+  - *Reservas perto das finais:* Palmeiras, Atlético-MG e Grêmio têm uma chance, jogo a jogo, de poupar titulares (maior quando não disputam mais nada no Brasileirão). Time reserva vale cerca de 10 p.p. a menos de vitória num jogo equilibrado.
+  - *Sem objetivo:* quem já não pode cair, ser campeão nem pegar vaga rende um pouco menos (cerca de 3 p.p.) contra quem ainda disputa algo.
+  - *"Entrega":* time sem objetivo que enfrenta o adversário direto do seu rival clássico na briga contra a queda tem 20% de chance de fazer "corpo mole" (mesmo efeito de um time reserva).
+  - A situação de cada time é recalculada no início de cada rodada de cada simulação, com os pontos sorteados até ali.
+  - As chances das finais (Palmeiras 62% na Libertadores, Atlético-MG 50% na Sul-Americana, Palmeiras 66% na Copa do Brasil) e as chances de reservas são estimativas, não odds; troque em `FAT` quando houver mercado.
 
 ## Publicar no GitHub Pages
 
@@ -45,6 +51,7 @@ O script:
 | `index.html` | o site pronto |
 | `modelo/model.js` | modelo de gols (ajuste, matriz de placares) |
 | `modelo/market.js` | conversão das odds e ajuste ao mercado |
+| `modelo/fatores.js` | vagas pelas finais, reservas, falta de objetivo e "entregas" (usado pela simulação e pela página) |
 | `modelo/realistic.js` | simulação de referência em várias threads |
 | `modelo/build_data.js`, `montar_pagina.js` | geram os dados embutidos e o `index.html` |
 | `modelo/page_template.html` | página (HTML, CSS e o simulador que roda no navegador) |
