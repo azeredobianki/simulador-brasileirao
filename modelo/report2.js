@@ -44,3 +44,17 @@ for (const r of [...new Set(rows.map(x => x.r))]) {
   rows.filter(x => x.r === r).sort((a, b) => b.lev - a.lev).forEach(x => console.log(fmtRow(x)));
 }
 fs.writeFileSync(process.argv[6], JSON.stringify({ teams, rows: rows.map(x => ({ r: x.r, h: x.h, a: x.a, dec: x.dec, lev: x.lev, po: x.po, C: x.C.map(v => Object.fromEntries(atRisk.map(t => [t.c, v[t.t]]))) })) }));
+
+// Libertadores com as vagas que dependem das finais (modelo/fatores.js)
+if (R.libTot) {
+  console.log('\n=== Libertadores 2027 (vaga em qualquer fase / fase de grupos) ===');
+  codes.map((c, t) => ({ c, l: R.libTot[t] / N, g: R.libG[t] / N })).filter(x => x.l > 0.0005).sort((a, b) => b.l - a.l)
+    .forEach(x => console.log(`${nm[x.c].padEnd(13)} ${pc(x.l).padStart(6)} | grupos ${pc(x.g).padStart(6)}`));
+  console.log('tamanho da zona pelo Brasileirão:', R.zoneHist.map((v, i) => v ? `G${i} ${pc(v / N)}` : '').filter(Boolean).join(' · '));
+  const CB = codes.indexOf('GRE');
+  for (const [lab, f] of [['Grêmio rebaixado', s => s & 8], ['Grêmio fica', s => !(s & 8)]]) {
+    let n = 0; const lib = new Array(T).fill(0);
+    for (let s = 0; s < 16; s++) if (f(s)) { n += R.scenN[s]; for (let t = 0; t < T; t++) lib[t] += R.scenLib[s * T + t]; }
+    console.log(`${lab} (${pc(n / N)}):`, codes.map((c, t) => ({ c, v: lib[t] / n })).filter(x => x.v > 0.01 && x.v < 0.999 && x.c !== 'GRE').map(x => `${nm[x.c]} ${pc(x.v)}`).join(' · '));
+  }
+}

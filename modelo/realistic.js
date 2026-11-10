@@ -5,6 +5,7 @@ const { Worker, isMainThread, parentPort, workerData } = require('worker_threads
 const fs = require('fs');
 const os = require('os');
 const Mdl = require('./model.js');
+const Fat = require('./fatores.js');
 const { T, MAXG, CODES } = Mdl;
 const S = (MAXG + 1) * (MAXG + 1);
 const LAM = 10, B = 200;
@@ -52,11 +53,34 @@ function prepare(wikiPath, turnoPath, oddsPath, oddsW = 30) {
   }
   const marketLam = {};
   if (market) for (const k in market) marketLam[k] = [market[k].lh, market[k].la];
-  return { played, pending, base, full: fullAdj, sets, cdf, hdaAvg, h2h, marketLam };
+  // gols esperados de cada jogo pelo modelo completo (ou pelo mercado): base das variantes com reservas/motivação
+  const lam = pending.map(g => { const mk = marketLam[`${g.hc}-${g.ac}`]; if (mk) return mk; const r = Mdl.scoreMatrix(fullAdj, g.h, g.a); return [r.lh, r.la]; });
+  const hasOdds = pending.map(g => !!marketLam[`${g.hc}-${g.ac}`]);
+  return { played, pending, base, full: fullAdj, sets, cdf, hdaAvg, h2h, marketLam, lam, hasOdds };
 }
 
-function run({ N, seed0, base, pending, cdf, h2h }) {
+// CDF de placares Dixon-Coles para λ dados
+function dcCdf(lh, la, rho) {
+  const q = { mu: 0, home: 0, att: [Math.log(lh), Math.log(la)], def: [0, 0], rho };
+  const M = Mdl.scoreMatrix(q, 0, 1).M, out = new Float64Array(S);
+  let c = 0; for (let k = 0; k < S; k++) { c += M[k]; out[k] = c; }
+  out[S - 1] = 1; return out;
+}
+const parseOn = str => { const o = {}; for (const k of ['vagas', 'reservas', 'motivacao', 'entrega']) o[k] = str === 'todos' || str.split(',').includes(k); return o; };
+
+function run({ N, seed0, base, pending, cdf, h2h, lam, hasOdds, rho, fatores }) {
   const G = pending.length;
+  // fatores extras só nos jogos sem odds (as odds já embutem escalações esperadas)
+  const fs = Fat.fatSetup(CODES, pending, parseOn(fatores));
+  const needState = fs.on.reservas || fs.on.motivacao || fs.on.entrega;
+  const varCache = new Map();
+  const variant = (g, net) => { const k = g * 1000 + Math.round(net * 100); let v = varCache.get(k); if (!v) { v = dcCdf(lam[g][0] * Math.exp(-net / 2), lam[g][1] * Math.exp(net / 2), rho); varCache.set(k, v); } return v; };
+  const st = new Int32Array(T), fin = {}, byPos = new Int32Array(T);
+  const garr = new Array(G), goff = new Int32Array(G);
+  const libTot = new Float64Array(T), libG = new Float64Array(T), zoneHist = new Float64Array(T + 1);
+  // cenários: bit0 Palmeiras campeão da Libertadores, bit1 Atlético-MG da Sul-Americana, bit2 Grêmio da Copa do Brasil, bit3 Grêmio rebaixado
+  const scenN = new Float64Array(16), scenLib = new Float64Array(16 * T), scenRel = new Float64Array(16 * T);
+  const shiftSum = new Float64Array(G), shiftN = new Float64Array(G);
   const H = Int32Array.from(pending, g => g.h), A = Int32Array.from(pending, g => g.a);
   const pgame = new Int32Array(T * T).fill(-1);
   pending.forEach((g, i) => pgame[g.h * T + g.a] = i);
@@ -68,9 +92,9 @@ function run({ N, seed0, base, pending, cdf, h2h }) {
   let h2hUsed = 0;
   let seed = seed0 >>> 0 || 1;
   const rnd = () => { seed ^= seed << 13; seed ^= seed >>> 17; seed ^= seed << 5; return (seed >>> 0) / 4294967296; };
-  const draw = off => { // busca binária na CDF
+  const draw = (arr, off) => { // busca binária na CDF
     const r = rnd(); let lo = 0, hi = S - 1;
-    while (lo < hi) { const m = (lo + hi) >> 1; if (cdf[off + m] < r) lo = m + 1; else hi = m; }
+    while (lo < hi) { const m = (lo + hi) >> 1; if (arr[off + m] < r) lo = m + 1; else hi = m; }
     return lo;
   };
   const baseKey = (p, ww, g, f) => p * 1e8 + ww * 1e6 + (g + 300) * 1e3 + f;
@@ -96,8 +120,14 @@ function run({ N, seed0, base, pending, cdf, h2h }) {
   for (let s = 0; s < N; s++) {
     const b = Math.floor(rnd() * B);
     for (let t = 0; t < T; t++) { const q = base[t]; pts[t] = 3 * q.W + q.D; w[t] = q.W; gd[t] = q.GF - q.GA; gf[t] = q.GF; u[t] = rnd() * 0.5; }
-    for (let g = 0; g < G; g++) {
-      const k = draw((b * G + g) * S), x = (k / (MAXG + 1)) | 0, y = k % (MAXG + 1), h = H[g], a = A[g];
+    Fat.fatFinals(fs, rnd, fin);
+    let curB = -1;
+    for (let j = 0; j < G; j++) {
+      const g = fs.order[j], h = H[g], a = A[g];
+      if (needState && fs.block[j] !== curB) { curB = fs.block[j]; Fat.fatState(fs, curB, pts, fin, Fat.FAT.ROUND_ORDER[curB] ?? 99, st); }
+      const net = needState && !hasOdds[g] ? Fat.fatShift(fs, g, h, a, st, rnd) : 0;
+      if (net) { garr[g] = variant(g, net); goff[g] = 0; shiftSum[g] += net; shiftN[g]++; } else { garr[g] = cdf; goff[g] = (b * G + g) * S; }
+      const k = draw(garr[g], goff[g]), x = (k / (MAXG + 1)) | 0, y = k % (MAXG + 1);
       sx[g] = x; sy[g] = y; oc[g] = x > y ? 0 : x === y ? 1 : 2;
       gd[h] += x - y; gd[a] += y - x; gf[h] += x; gf[a] += y;
       if (x > y) { pts[h] += 3; w[h]++; } else if (x < y) { pts[a] += 3; w[a]++; } else { pts[h]++; pts[a]++; }
@@ -117,14 +147,22 @@ function run({ N, seed0, base, pending, cdf, h2h }) {
     for (let t = 0; t < T; t++) {
       if (m0 >> t & 1) relTot[t]++;
       let better = 0; for (let j = 0; j < T; j++) if (key[j] > key[t]) better++;
-      posCount[t * T + better]++;
+      posCount[t * T + better]++; byPos[better] = t;
+    }
+    const [lm, lg, zone] = Fat.fatLib(fs, byPos, fin);
+    const sc = (fin.L ? 1 : 0) | (fin.S ? 2 : 0) | (fin.C === fs.CB ? 4 : 0) | (m0 >> fs.CB & 1 ? 8 : 0);
+    scenN[sc]++; zoneHist[zone]++;
+    for (let t = 0; t < T; t++) {
+      if (lm >> t & 1) { libTot[t]++; scenLib[sc * T + t]++; }
+      if (lg >> t & 1) libG[t]++;
+      if (m0 >> t & 1) scenRel[sc * T + t]++;
     }
     for (let g = 0; g < G; g++) {
       const c = g * 3 + oc[g], h = H[g], a = A[g];
       cnt[c]++;
       for (let t = 0; t < T; t++) if (m0 >> t & 1) rel[c * T + t]++;
       // contrafactual: sorteia de novo só este placar (mesma força dos times), mantém o resto
-      const k = draw((b * G + g) * S), x = (k / (MAXG + 1)) | 0, y = k % (MAXG + 1);
+      const k = draw(garr[g], goff[g]), x = (k / (MAXG + 1)) | 0, y = k % (MAXG + 1);
       if (x === sx[g] && y === sy[g]) continue;
       const kh = key[h], ka = key[a];
       const dp = (xx, yy) => xx > yy ? [3, 1, 0] : xx === yy ? [1, 0, 1] : [0, 0, 3];
@@ -137,7 +175,7 @@ function run({ N, seed0, base, pending, cdf, h2h }) {
       if (ch) { decisive[g]++; for (let t = 0; t < T; t++) if (ch >> t & 1) flip[g * T + t]++; }
     }
   }
-  return { cnt, rel, decisive, flip, relTot, ptsSum, posCount, h2hUsed };
+  return { cnt, rel, decisive, flip, relTot, ptsSum, posCount, h2hUsed, libTot, libG, zoneHist, scenN, scenLib, scenRel, shiftSum, shiftN };
 }
 
 module.exports = { prepare };
@@ -150,7 +188,8 @@ if (isMainThread && require.main === module) {
   let done = 0; const parts = [];
   for (let i = 0; i < P; i++) {
     const n = Math.floor(N / P) + (i < N % P ? 1 : 0);
-    const wk = new Worker(__filename, { workerData: { N: n, seed0: 0x2545f491 ^ (i * 104729 + 7), base: prep.base, pending: prep.pending, cdf: prep.cdf, h2h: prep.h2h } });
+    const wk = new Worker(__filename, { workerData: { N: n, seed0: 0x2545f491 ^ (i * 104729 + 7), base: prep.base, pending: prep.pending, cdf: prep.cdf, h2h: prep.h2h,
+      lam: prep.lam, hasOdds: prep.hasOdds, rho: prep.full.rho, fatores: process.env.FATORES || 'todos' } });
     wk.on('message', m => {
       parts.push(m);
       if (++done < P) return;
@@ -159,6 +198,8 @@ if (isMainThread && require.main === module) {
         N, codes: CODES, base: prep.base, games: prep.pending.map(g => ({ r: g.r, h: g.hc, a: g.ac })), hda: prep.hdaAvg,
         strength: CODES.map((c, t) => ({ c, att: prep.full.att[t], def: prep.full.def[t] })), mu: prep.full.mu, home: prep.full.home, rho: prep.full.rho,
         cnt: sum('cnt'), rel: sum('rel'), decisive: sum('decisive'), flip: sum('flip'), relTot: sum('relTot'), ptsSum: sum('ptsSum'), posCount: sum('posCount'),
+        libTot: sum('libTot'), libG: sum('libG'), zoneHist: sum('zoneHist'), scenN: sum('scenN'), scenLib: sum('scenLib'), scenRel: sum('scenRel'),
+        shiftSum: sum('shiftSum'), shiftN: sum('shiftN'), fatores: process.env.FATORES || 'todos',
         h2hUsed: parts.reduce((s, p) => s + p.h2hUsed, 0),
       }));
       console.log(`ok: ${N} simulações em ${P} threads, ${((Date.now() - t0) / 1000).toFixed(0)}s`);
