@@ -1235,12 +1235,12 @@ Players who are [[Brazilian nationality law|Brazilian]] nationals but also hold 
 ==Standings==
 ===League table===
 <onlyinclude>{{#invoke:Sports table|main|style=WDL
-|update=6 November 2026
+|update=14 November 2026
 |source=[https://www.cbf.com.br/futebol-brasileiro/tabelas/campeonato-brasileiro/serie-a/2026 CBF]
 |show_limit=5
 
 <!--Update team positions here-->
-|team_order=FLA, PAL, CRU, FLU, CAP, BAH, CAM, RBB, SAN, SPA, BOT, CTB, VAS, MIR, VIT, INT, COR, GRE, REM, CHA
+|team_order=FLA, PAL, CRU, FLU, CAP, BAH, CAM, RBB, SAN, SPA, VAS, BOT, CTB, MIR, VIT, INT, COR, GRE, REM, CHA
 
 <!--Team definitions (wikilinks in table)-->
 |name_CAP=[[Club Athletico Paranaense|Athletico Paranaense]]
@@ -1273,10 +1273,10 @@ Players who are [[Brazilian nationality law|Brazilian]] nationals but also hold 
 
 <!--Update team results here and then (if needed positions above). Don't forget to update the date above (update parameter)-->
 |win_CAP=15|draw_CAP=9 |loss_CAP=10|gf_CAP=51|ga_CAP=43
-|win_CAM=14|draw_CAM=8 |loss_CAM=12|gf_CAM=44|ga_CAM=40
+|win_CAM=14|draw_CAM=9 |loss_CAM=12|gf_CAM=44|ga_CAM=40
 |win_BAH=14|draw_BAH=11|loss_BAH=9 |gf_BAH=50|ga_BAH=45
 |win_BOT=11|draw_BOT=9 |loss_BOT=14|gf_BOT=46|ga_BOT=53
-|win_CHA=4 |draw_CHA=9 |loss_CHA=20|gf_CHA=33|ga_CHA=68|status_CHA=R
+|win_CHA=4 |draw_CHA=9 |loss_CHA=21|gf_CHA=33|ga_CHA=70|status_CHA=R
 |win_COR=9 |draw_COR=10|loss_COR=15|gf_COR=36|ga_COR=42
 |win_CTB=11|draw_CTB=9 |loss_CTB=14|gf_CTB=40|ga_CTB=51
 |win_CRU=18|draw_CRU=6 |loss_CRU=10|gf_CRU=55|ga_CRU=48|status_CRU=X
@@ -1284,13 +1284,13 @@ Players who are [[Brazilian nationality law|Brazilian]] nationals but also hold 
 |win_FLU=16|draw_FLU=9 |loss_FLU=9 |gf_FLU=55|ga_FLU=42
 |win_GRE=9 |draw_GRE=10|loss_GRE=15|gf_GRE=38|ga_GRE=47
 |win_INT=9 |draw_INT=11|loss_INT=14|gf_INT=38|ga_INT=42
-|win_MIR=10|draw_MIR=10|loss_MIR=14|gf_MIR=39|ga_MIR=48
+|win_MIR=10|draw_MIR=11|loss_MIR=14|gf_MIR=39|ga_MIR=48
 |win_PAL=21|draw_PAL=10|loss_PAL=3 |gf_PAL=62|ga_PAL=23|status_PAL=Q
 |win_RBB=13|draw_RBB=8 |loss_RBB=13|gf_RBB=44|ga_RBB=39
 |win_REM=6 |draw_REM=11|loss_REM=17|gf_REM=37|ga_REM=57
 |win_SAN=12|draw_SAN=11|loss_SAN=11|gf_SAN=50|ga_SAN=49
 |win_SPA=12|draw_SPA=8 |loss_SPA=14|gf_SPA=39|ga_SPA=39
-|win_VAS=11|draw_VAS=8 |loss_VAS=14|gf_VAS=43|ga_VAS=50
+|win_VAS=12|draw_VAS=8 |loss_VAS=14|gf_VAS=45|ga_VAS=50
 |win_VIT=10|draw_VIT=8 |loss_VIT=16|gf_VIT=35|ga_VIT=51
 
 <!---Competition rules-->
@@ -1311,7 +1311,7 @@ Players who are [[Brazilian nationality law|Brazilian]] nationals but also hold 
 
 == Results ==
 {{#invoke:Sports results|main
-|update=6 November 2026
+|update=14 November 2026
 |source=[https://www.cbf.com.br/futebol-brasileiro/tabelas/campeonato-brasileiro/serie-a/2026 CBF]
 |matches_style=FBR
 
@@ -1435,7 +1435,7 @@ Players who are [[Brazilian nationality law|Brazilian]] nationals but also hold 
 |match_CHA_REM=2–3
 |match_CHA_SAN=4–2
 |match_CHA_SPA=1–0
-|match_CHA_VAS=
+|match_CHA_VAS=0–2
 |match_CHA_VIT=1–1
 
 |match_COR_CAP=0–0
@@ -1579,7 +1579,7 @@ Players who are [[Brazilian nationality law|Brazilian]] nationals but also hold 
 |match_INT_VIT=
 
 |match_MIR_CAP=
-|match_MIR_CAM=
+|match_MIR_CAM=0–0
 |match_MIR_BAH=1–2
 |match_MIR_BOT=2–0
 |match_MIR_CHA=1–1
